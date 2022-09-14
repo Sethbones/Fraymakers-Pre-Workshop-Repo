@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "b2f152b6-7a30-4843-85c0-ac7cd478c825",
+  "id": "TemplateObjectStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

@@ -1,0 +1,56 @@
+{
+  "resourceId": "Template",
+  "content": [{
+    "id": "Template",
+    "name": "Template",
+    "description": "I am Speed",
+    "type": "character",
+    "objectStatsId": "TemplateObjectStats",
+    "animationStatsId": "TemplateAnimationStats",
+    "hitboxStatsId": "TemplateHitboxStats",
+    "scriptId": "TemplateScriptt",
+    "costumesId": "TemplateCostumes",
+    "metadata": {
+      "ui":{
+        "entityId":"menu",
+        "render":{
+          "animation":"character_full"
+        },
+        "hud":{
+          "animation":"character_hud"
+        },
+        "hud hurt":{
+          "animation":"character_hud"
+        },
+        "hurt hut":{
+          "animation":"character_hud"
+        },
+        "hud_hurt":{
+          "animation":"character_hud"
+        },
+        "hud ko":{
+          "animation":"character_hud"
+        },
+        "ko hud":{
+          "animation":"character_hud"
+        },
+        "hud_ko":{
+          "animation":"character_hud"
+        },
+        "css":{
+          "info": {
+            "game":"Chair(Wikipedia)",
+            "description":"A chair is a type of seat, typically designed for one person and consisting of one or more legs, a flat seat and a back-rest. They may be made of wood, metal, or synthetic materials, and may be padded or upholstered in various colors and fabrics.    Chairs vary in design. An armchair has armrests fixed to the seat a recliner is upholstered and features a mechanism that lowers the chair's back and raises into place a footrest a rocking chair has legs fixed to two long curved slats; and a wheelchair has wheels fixed to an axis under the seat."
+          }
+        }
+      }
+    }
+  },{
+    "id": "TemplateProjectile",
+    "type": "projectile",
+    "objectStatsId": "TemplateProjectileObjectStats",
+    "animationStatsId": "TemplateProjectileAnimationStats",
+    "hitboxStatsId": "TemplateProjectileHitboxStats",
+    "scriptId": "TemplateProjectileScript"
+  }]
+}

@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "146efb17-1d4d-4b70-8a9f-d674754f2fd1",
+  "id": "TemplateProjectileAnimationStats",
+  "language": "",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.0"
+    }
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}
