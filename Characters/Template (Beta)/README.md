@@ -1,8 +1,8 @@
 Name: Template
 
-description: a template for making characters
+Description: a Template for making characters
 
-version: 0.4
+Version: 0.4
 
 Created by: BoneManSeth#5582 
 
