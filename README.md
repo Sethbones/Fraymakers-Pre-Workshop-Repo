@@ -1,6 +1,6 @@
 # Fraymakers-Pre-Workshop-Repo 
 
-//reminder to write better tutorials
+bare in mind this very much a W.I.P
 
 Usage instructions
 
