@@ -15,7 +15,7 @@ and submit a pull request
 if its still confusing use google till i can write a better tutorial
 
 
-don't want to make a github account? no problem, message BoneManSeth#5582 on discord with the files and i'll add it as soon as i can
-or ping me with the files to add to the repo
+don't want to mess with github? no problem, message BoneManSeth#5582 on discord or ping me with the files to add to the repo and i'll add it as soon as i can
 
-when uploading a character make sure it has an md file following this template:
+
+when uploading a character make sure it has a README.md in its folder file following this template:
