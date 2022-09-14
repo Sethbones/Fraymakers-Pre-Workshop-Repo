@@ -1,6 +1,6 @@
 # Fraymakers-Pre-Workshop-Repo 
 
-![logo]"/simple%20logo.png?raw=true"
+![logo](/simple%20logo.png)
 
 bare in mind this very much a W.I.P
 
