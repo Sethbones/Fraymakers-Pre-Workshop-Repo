@@ -1,8 +1,8 @@
 Name: Stage Template
 
-Description: a Template for making characters
+Description: a Template for making Stages
 
-Version: 0.4
+Version: 1
 
 Created By: Fraymakers dev team
 
