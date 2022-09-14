@@ -1,5 +1,7 @@
 # Fraymakers-Pre-Workshop-Repo 
 
+*insert fancy logo here
+
 bare in mind this very much a W.I.P
 
 Usage instructions
