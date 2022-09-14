@@ -27,7 +27,7 @@ Description: description
 
 Version: 1
 
-Created by: *discord username 
+Created by: *discord username*
 
 Preview Image:
 
