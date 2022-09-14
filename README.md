@@ -1,6 +1,6 @@
 # Fraymakers-Pre-Workshop-Repo 
 
-*insert fancy logo here
+![logo]"/simple%20logo.png?raw=true"
 
 bare in mind this very much a W.I.P
 
