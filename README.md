@@ -1,5 +1,7 @@
 # Fraymakers-Pre-Workshop-Repo 
 
+//reminder to write better tutorials
+
 Usage instructions
 
 fork the repo
