@@ -1,4 +1,4 @@
-Name: Template
+Name: Stage Template
 
 Description: a Template for making characters
 
