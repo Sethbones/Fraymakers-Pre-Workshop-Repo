@@ -4,7 +4,7 @@ description: a template for making characters
 
 version: 0.4
 
-Created by: insert Discord username 
+Created by: BoneManSeth#5582 
 
 Preview Image:
 
