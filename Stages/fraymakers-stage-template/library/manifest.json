@@ -1,0 +1,42 @@
+{
+  "resourceId": "stagetemplate",
+  "content": [{
+    "id": "stagetemplate",
+    "name": "Stage Template",
+    "description": "An example stage for Fraymakers.",
+    "type": "stage",
+    "objectStatsId": "stagetemplateStageStats",
+    "scriptId": "stagetemplateScript",
+    "music": [{ "namespace": "public", "resourceId": "bgm_welkinwonderland", "contentId": "bgm_welkinwonderland" },{"namespace": "public", "resourceId": "bgm_impetusremix", "contentId": "bgm_impetusremix" },{"namespace": "public", "resourceId": "bgm_superfunk", "contentId": "bgm_superfunk" }],
+    "metadata": {
+      "stage":{
+        "hazardVariation": "local::stagetemplate.stagetemplatehazards"
+      },
+      "ui":{
+        "entityId":"menu",
+        "render":{
+          "animation":"full",
+          "animation_hazard":"full_hazard"
+        },
+        "css":{
+          "animation":"css",
+          "animation_hazard":"css_hazard"
+        }
+      }
+    }
+  },{
+    "id": "stagetemplatehazards",
+    "name": "Stage Template",
+    "description": "An example stage for Fraymakers.",
+    "type": "stage",
+    "objectStatsId": "stagetemplateStageStats",
+    "scriptId": "stagetemplateScript",
+    "music": [{ "namespace": "public", "resourceId": "bgm_welkinwonderland", "contentId": "bgm_welkinwonderland" },{"namespace": "public", "resourceId": "bgm_impetusremix", "contentId": "bgm_impetusremix" },{"namespace": "public", "resourceId": "bgm_superfunk", "contentId": "bgm_superfunk" }]
+  },
+  {
+    "id": "stagetemplateMovingPlatform",
+    "type": "structure",
+    "objectStatsId": "stagetemplateMovingPlatformStats",
+    "scriptId": "stagetemplateMovingPlatformScript"
+  }]
+}

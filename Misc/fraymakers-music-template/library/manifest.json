@@ -1,0 +1,12 @@
+{
+  "resourceId": "musictemplate",
+  "content": [{
+    "id": "bgm_bitsforbreakfast",
+    "title": "Bits for Breakfast",
+    "artist": "Greg McLeod (Cleod 9)",
+    "description": "Fraymakers music example",
+    "type": "music",
+    "audioId": "bgm_bitsforbreakfast",
+    "loopPoint": 1364
+  }]
+}
