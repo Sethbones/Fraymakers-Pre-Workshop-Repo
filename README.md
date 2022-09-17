@@ -2,7 +2,7 @@
 
 ![logo](/simple%20logo.png)
 
-Note: Everything that was published here will be uploaded to the actual workshop when that happens. 
+Note: Everything that is published here will be uploaded to the actual workshop when that happens. 
 
 bare in mind this very much a W.I.P but will also like always stay a work in progress
 
