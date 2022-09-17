@@ -40,3 +40,6 @@ path to preview image
 Screenshots:
 
 path to screenshot
+
+Patch Notes:
+
