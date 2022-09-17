@@ -33,6 +33,8 @@ Version: 1
 
 Created by: *discord username*
 
+type: character\assist\stage\misc
+
 Preview Image:
 
 path to preview image
