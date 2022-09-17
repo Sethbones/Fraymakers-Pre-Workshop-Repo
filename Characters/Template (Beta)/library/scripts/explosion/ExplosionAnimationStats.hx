@@ -1,0 +1,3 @@
+{
+	projectile: {endType:AnimationEndType.NONE}
+}

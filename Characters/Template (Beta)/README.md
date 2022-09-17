@@ -2,7 +2,7 @@ Name: Template
 
 Description: a Template for making characters
 
-Version: 0.4
+Version: 0.7
 
 Created by: BoneManSeth#5582 
 

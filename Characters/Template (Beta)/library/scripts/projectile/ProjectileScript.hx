@@ -3,7 +3,7 @@
 
 var LIFE_TIMER = 60 * 4; // max life of projectile
 var PROJECTILE_SPEED = 0; //starts at 0
-var MAX_SPEED = 15;
+var MAX_SPEED = 25;
 
 var life = self.makeInt(LIFE_TIMER);
 var projectile_speed = self.makeInt(PROJECTILE_SPEED);
@@ -36,10 +36,11 @@ function update() {
 		// Give some horizontal speed
 		
 		self.setXSpeed(projectile_speed.get());
+		//Engine.log(projectile_speed.get());
 
 		// Subtract 1 from life counter
 		life.dec();
-		projectile_speed.inc(0.1);
+		projectile_speed.inc(0.1); //supposed to increase speed by 0.1 but it doesn't work
 
 		//if (projectile_speed.get() >= max_speed.get()) {
 			//projectile_speed.set(max_speed);

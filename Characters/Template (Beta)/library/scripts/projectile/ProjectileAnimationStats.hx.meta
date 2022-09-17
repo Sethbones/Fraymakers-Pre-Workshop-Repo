@@ -2,7 +2,7 @@
   "export": true,
   "guid": "146efb17-1d4d-4b70-8a9f-d674754f2fd1",
   "id": "TemplateProjectileAnimationStats",
-  "language": "",
+  "language": "hscript",
   "pluginMetadata": {
     "com.fraymakers.FraymakersMetadata": {
       "version": "0.1.0"

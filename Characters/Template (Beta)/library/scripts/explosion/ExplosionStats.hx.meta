@@ -1,7 +1,7 @@
 {
   "export": true,
-  "guid": "e2418b6f-8f9f-4a46-b491-92986433c64c",
-  "id": "TemplateProjectileHitboxStats",
+  "guid": "5afda313-e8c0-4724-bcef-ad6a931a2704",
+  "id": "ExplosionObjectStats",
   "language": "hscript",
   "pluginMetadata": {
   },

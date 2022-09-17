@@ -1,7 +1,7 @@
 {
   "export": true,
-  "guid": "eea63987-8b9e-4682-b47f-74d03a9605f1",
-  "id": "TemplateProjectileObjectStats",
+  "guid": "5f0bbcda-c497-4f96-86a0-d4ce0e98a746",
+  "id": "ExplosionScript",
   "language": "hscript",
   "pluginMetadata": {
     "com.fraymakers.FraymakersMetadata": {
@@ -10,6 +10,7 @@
     }
   },
   "plugins": [
+    "com.fraymakers.FraymakersMetadata"
   ],
   "tags": [
   ],

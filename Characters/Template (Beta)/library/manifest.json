@@ -8,7 +8,7 @@
     "objectStatsId": "TemplateObjectStats",
     "animationStatsId": "TemplateAnimationStats",
     "hitboxStatsId": "TemplateHitboxStats",
-    "scriptId": "TemplateScriptt",
+    "scriptId": "TemplateScript",
     "costumesId": "TemplateCostumes",
     "metadata": {
       "ui":{
@@ -52,5 +52,19 @@
     "animationStatsId": "TemplateProjectileAnimationStats",
     "hitboxStatsId": "TemplateProjectileHitboxStats",
     "scriptId": "TemplateProjectileScript"
+  },{
+    "id": "Explosion",
+    "type": "projectile",
+    "objectStatsId": "ExplosionObjectStats",
+    "animationStatsId": "ExplosionAnimationStats",
+    "hitboxStatsId": "ExplosionHitboxStats",
+    "scriptId": "ExplosionScript"
+  },{
+    "id": "Aura",
+    "type": "projectile",
+    "objectStatsId": "AuraObjectStats",
+    "animationStatsId": "AuraAnimationStats",
+    "hitboxStatsId": "AuraHitboxStats",
+    "scriptId": "AuraScript"
   }]
 }

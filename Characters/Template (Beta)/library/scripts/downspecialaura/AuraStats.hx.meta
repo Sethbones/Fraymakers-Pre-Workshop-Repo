@@ -1,8 +1,8 @@
 {
   "export": true,
-  "guid": "eea63987-8b9e-4682-b47f-74d03a9605f1",
-  "id": "TemplateProjectileObjectStats",
-  "language": "hscript",
+  "guid": "69fded61-17a9-4448-8ef5-b21d8ec4d28f",
+  "id": "AuraObjectStats",
+  "language": "",
   "pluginMetadata": {
     "com.fraymakers.FraymakersMetadata": {
       "objectType": "PROJECTILE",

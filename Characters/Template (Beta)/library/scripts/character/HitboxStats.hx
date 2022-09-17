@@ -1,24 +1,24 @@
 {
 	aerial_back: {
-		hitbox0: { damage: 12, angle: 10, baseKnockback: 30, knockbackGrowth: 50, hitstop: 10, limb: AttackLimb.BODY } //the hitbox angle is reversed for back attacks
+		hitbox0: { damage: 12, angle: 10, baseKnockback: 30, knockbackGrowth: 50, hitstop: 15, limb: AttackLimb.BODY } //the hitbox angle is reversed for back attacks
 	},
 	aerial_down: {
 		hitbox0: { damage: 14, angle: 270, baseKnockback: 30, knockbackGrowth: 40, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	aerial_forward: {
-		hitbox0: { damage: 8, angle: 25, baseKnockback: 30, knockbackGrowth: 35, hitstop: 10, limb: AttackLimb.BODY }
+		hitbox0: { damage: 8, angle: 25, baseKnockback: 30, knockbackGrowth: 55, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	aerial_neutral: {
 		hitbox0: { damage: 4, angle: 30, baseKnockback: 25, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	aerial_up: {
-		hitbox0: { damage: 6, angle: 90, baseKnockback: 30, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
+		hitbox0: { damage: 6, angle: 90, baseKnockback: 40, knockbackGrowth: 35, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	dash_attack: {
-		hitbox0: { damage: 12, angle: 15, baseKnockback: 30, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
+		hitbox0: { damage: 12, angle: 15, baseKnockback: 40, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	jab1: {
-		hitbox0: { damage: 4, angle: 60, baseKnockback: 30, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY }
+		hitbox0: { damage: 4, angle: 60, baseKnockback: 30, knockbackGrowth: 40, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	strong_down_attack: {
 		hitbox0: { damage: 20, angle: 25, baseKnockback: 40, knockbackGrowth: 50, hitstop: 20, limb: AttackLimb.BODY } //needs direction based/two hitboxes i.e TODO
@@ -38,6 +38,12 @@
 	},
 	tilt_up: {
 		hitbox0: { damage: 9, angle: 90, baseKnockback: 30, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
+	},
+	special_side: {
+		hitbox0: { damage: 12, angle: 270, baseKnockback: 40, knockbackGrowth: 10, hitstop: 5, limb: AttackLimb.BODY }
+	},
+	special_side_air: {
+		hitbox0: { damage: 12, angle: 270, baseKnockback: 40, knockbackGrowth: 10, hitstop: 5, limb: AttackLimb.BODY }
 	}
 }
 //example

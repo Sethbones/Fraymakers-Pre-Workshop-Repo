@@ -2,7 +2,7 @@
   "export": true,
   "guid": "76d6a182-93e2-4222-ad19-52b7ab54ede9",
   "id": "TemplateProjectileScript",
-  "language": "",
+  "language": "hscript",
   "pluginMetadata": {
     "com.fraymakers.FraymakersMetadata": {
       "objectType": "PROJECTILE",
@@ -13,6 +13,7 @@
     "com.fraymakers.FraymakersMetadata"
   ],
   "tags": [
+    "auraact"
   ],
   "version": 1
 }

@@ -1,7 +1,7 @@
 {
   "export": true,
-  "guid": "eea63987-8b9e-4682-b47f-74d03a9605f1",
-  "id": "TemplateProjectileObjectStats",
+  "guid": "e359d8ce-55d1-4a3a-a526-0adb19650ed4",
+  "id": "AuraScript",
   "language": "hscript",
   "pluginMetadata": {
     "com.fraymakers.FraymakersMetadata": {
@@ -10,8 +10,10 @@
     }
   },
   "plugins": [
+    "com.fraymakers.FraymakersMetadata"
   ],
   "tags": [
+    "auraact"
   ],
   "version": 1
 }

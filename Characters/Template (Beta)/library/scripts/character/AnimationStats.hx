@@ -11,7 +11,11 @@
 	run_turn: { influenceMultiplier: 1 },
 	tilt_forward: { allowTurn: true, chargeFramesMax: 560, shadows: false }, //chrageframes doesn't work //108-TILT_FORWARD
 	walk_loop:{ influenceMultiplier: 1 },
-	ledge_jump:{ influenceMultiplier: 1, interruptable: true, leaveGroundCancel: true }
+	ledge_jump:{ influenceMultiplier: 1, interruptable: true, leaveGroundCancel: true },
+	special_side_air: { nextAnimation: "fall_special" },
+	special_up_air: { singleUse: true },
+	special_down: { singleUse: true },
+	special_down_air: { singleUse: true }
 }
 
 //TODO Documentation
