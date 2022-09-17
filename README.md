@@ -2,7 +2,7 @@
 
 ![logo](/simple%20logo.png)
 
-bare in mind this very much a W.I.P
+bare in mind this very much a W.I.P but will also like always stay a work in progress
 
 Usage instructions
 
@@ -18,6 +18,9 @@ if its still confusing use google till i can write a better tutorial
 
 
 don't want to mess with github? no problem, message BoneManSeth#5582 on discord or ping me with the files to add to the repo and i'll add it as soon as i can
+
+note: everything that was published here will be uploaded to the actual workshop when that happens. 
+
 
 
 when uploading a character make sure it has a README.md in its folder following this template:
