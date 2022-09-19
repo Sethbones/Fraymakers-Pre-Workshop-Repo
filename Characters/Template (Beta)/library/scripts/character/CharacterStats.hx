@@ -51,8 +51,8 @@
 	//jumpSpeedForwardInitialXSpeed: 0, //Horizontal speed initially given if holding forward when jump startup ends. Set to less than or equal to 0 to disable.
 	//koVoiceIds: null, //List of KO blast voice content ids. Calls to playKoVoice() will choose one of these audio clips at random.
 	//koVoiceSilenceRate: 0.5, //The rate at which calls to playKoVoice() should result in silence.
-	ledgeJumpXSpeed: -20.5, //2.5 //Horizontal speed boost the character gets when performing a ledge jump
-	ledgeJumpYSpeed: -10, // -10 //Vertical speed boost the character gets when performing a ledge jump
+	ledgeJumpXSpeed: 2.5, //2.5 //Horizontal speed boost the character gets when performing a ledge jump //until ledge jumps are figured out this does nothing
+	ledgeJumpYSpeed: -10, // -10 //Vertical speed boost the character gets when performing a ledge jump //until ledge jumps are figured out this does nothing
 	ledgeRollSpeed: 10, //Speed the character’s ledge roll begins at.
 	ledgeRollSpeedLength: 1, //How many frames of speed are applied during ledge roll.
 	ledgeRollSpeedStartFrame: 1, //Frame that ledge roll speed begins to be applied on.
@@ -122,7 +122,7 @@
 
 	//floorHipYOffset: 0, //Vertically displaces the wall collision detection area on the object relative to the foot when the object is grounded. At zero, the hip is placed vertically halfway between the object’s head and foot. This is the base value which is used when no collision body data is available. Game Objects can override this value on specific animation frames by containing an ECB baked into the animation.
 
-	//ghost: FALSE,	//Whether or not to enable structure collisions.
+	//ghost: false,	//Whether or not to enable structure collisions.
 
 	//groundSpeedCap: 15, //Max horizontal speed when in the air. //typo in the official docs, funny
 

@@ -44,6 +44,21 @@
 	},
 	special_side_air: {
 		hitbox0: { damage: 12, angle: 270, baseKnockback: 40, knockbackGrowth: 10, hitstop: 5, limb: AttackLimb.BODY }
+	},
+	grab_pummel:{
+		hitbox0: { damage: 2, flinch: false, limb: AttackLimb.BODY }
+	},
+	throw_forward:{
+		hitbox0: { damage: 5, angle: 0, baseKnockback: 65, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY }
+	},
+	throw_back:{
+		hitbox0: { damage: 7, angle: 0, baseKnockback: 75, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
+	},
+	throw_down:{
+		hitbox0: { damage: 6, angle: 270, baseKnockback: 75, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY } // it would make more sense for balance reasons to make it throw up instead and be comboable from it, but i'm not good with balance so this is fine
+	},
+	throw_up:{
+		hitbox0: { damage: 4, angle: 90, baseKnockback: 75, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY }
 	}
 }
 //example
@@ -52,6 +67,8 @@
 //}
 //---------Angle Referance---------\\
 //for hitbox angles here's a referance
+//things to note:
+// if an attack has the character turn around (specifically Back air and Back throw) then the hitbox angles are reversed (180 becoming 0, and vice versa)
 //
 //                        90
 //                -----------------
@@ -75,29 +92,6 @@
 //                -----------------
 //                       270
 //
-//
-//
-//                        90
-//                -----------------
-//             /          |          \
-//          /             |             \
-//        |\              |               |
-//      |    \            |                 |
-//     |        \         |                  |
-//    |            \      |                   |
-//   |                \   |                    |
-//   |                   \|/                   |
-//180|--------------------|--------------------| 0
-//   |                   /|\                   |
-//   |                    |                    |
-//    |                   |                   |
-//     |                  |                  |
-//      |                 |                 |
-//        |               |               |
-//          \             |             /
-//             \          |          /
-//                -----------------
-//                       270
 //
 //
 //---------Hitbox Variables--------\\
@@ -131,7 +125,7 @@
 
 //disabled: Bool	FALSE	If true, the hitbox will behave as though it did not exist (it will not interact with other boxes).
 
-//element: Int	null	What element the attack is			@see AttackElement
+//element: Int	null	What element the attack is			@see AttackElement //TODO
 
 //flinch: Bool	TRUE	Setting to false will make the move not break grabs nor send the foe into the hurt animation.
 
