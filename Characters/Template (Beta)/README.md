@@ -15,6 +15,9 @@ Soon
 
 patch notes:
 
+0.76 - the ledge jump update
+ledge jumps work now without a silly workaround
+
 0.75 - movement changes, hacky ledge jump, and grabs:
 
 until ledge jumps are figured out, i made a hacky workaround
