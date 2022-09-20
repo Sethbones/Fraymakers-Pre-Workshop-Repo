@@ -2,7 +2,7 @@ Name: Template
 
 Description: a Template for making characters
 
-Version: 0.75
+Version: 0.76
 
 Created by: BoneManSeth#5582 
 
@@ -16,6 +16,7 @@ Soon
 patch notes:
 
 0.76 - the ledge jump update
+
 ledge jumps work now without a silly workaround
 
 0.75 - movement changes, hacky ledge jump, and grabs:
