@@ -2,7 +2,7 @@ Name: Bloxxy, the unofficial character template
 
 Description: a Template for making characters
 
-Version: 0.76
+Version: 0.77
 
 Created by: BoneManSeth#5582 
 
