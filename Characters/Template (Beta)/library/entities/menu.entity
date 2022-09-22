@@ -83,7 +83,7 @@
     },
     {
       "$id": "9e09b4ae-6a97-40e8-8de2-4e4626856918",
-      "length": 35,
+      "length": 1,
       "pluginMetadata": {
       },
       "symbol": "8713ae64-d08f-4ad9-8dc1-47dacc25252a",
@@ -161,16 +161,16 @@
       "$id": "8334cc56-79a5-4a78-8b30-d8ef74f54c3d",
       "alpha": 1,
       "imageAsset": "7dc6d1eb-ed75-4038-b90c-e6e40c3598bb",
-      "pivotX": 250,
-      "pivotY": 250,
+      "pivotX": 175,
+      "pivotY": 175,
       "pluginMetadata": {
       },
       "rotation": 0,
       "scaleX": 1,
       "scaleY": 1,
       "type": "IMAGE",
-      "x": -375,
-      "y": -177
+      "x": -189,
+      "y": -126
     },
     {
       "$id": "8e4aa0ed-cf68-4558-938a-1d65dfd909a7",

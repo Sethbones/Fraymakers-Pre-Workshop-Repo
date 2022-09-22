@@ -88,7 +88,8 @@
         "8c466689-50dd-4791-a444-9c4ab22eebb6",
         "aacfb15f-195a-4a65-904a-63fc4de1c4db",
         "29b6c481-e722-4373-80f2-19536baec64f",
-        "9f893daf-fc3e-4dc9-9e65-b07e7ad515f6"
+        "9f893daf-fc3e-4dc9-9e65-b07e7ad515f6",
+        "bf9db801-666b-4166-a222-f82a7e294239"
       ],
       "name": "dash",
       "pluginMetadata": {
@@ -11805,14 +11806,6 @@
       "type": "FRAME_SCRIPT"
     },
     {
-      "$id": "6a93414e-2cf5-464f-8797-735fbf6e0da0",
-      "code": "AudioClip.play(\"StockExplode\", { volume: 1 });",
-      "length": 1,
-      "pluginMetadata": {
-      },
-      "type": "FRAME_SCRIPT"
-    },
-    {
       "$id": "cdda1f5a-69ec-4f1a-ae62-df4ceb9eb720",
       "code": null,
       "length": 1,
@@ -12257,6 +12250,30 @@
       "tweenType": "LINEAR",
       "tweened": false,
       "type": "COLLISION_BODY"
+    },
+    {
+      "$id": "5028b200-60aa-4563-81d4-407e2c9af796",
+      "code": "",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "7513667e-8c19-4e22-b927-5aa9e7b4f3ca",
+      "code": "",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "180e100a-0a07-4e9c-9fbd-b7e20af26112",
+      "code": "AudioClip.play(\"StockExplode\", { volume: 0.5 });",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
     }
   ],
   "layers": [
@@ -21257,7 +21274,8 @@
       "$id": "3e54c4cc-95f6-4003-8b26-2e35650464b1",
       "hidden": false,
       "keyframes": [
-        "6a93414e-2cf5-464f-8797-735fbf6e0da0"
+        "7513667e-8c19-4e22-b927-5aa9e7b4f3ca",
+        "180e100a-0a07-4e9c-9fbd-b7e20af26112"
       ],
       "language": "hscript",
       "locked": false,
@@ -21614,6 +21632,19 @@
       "pluginMetadata": {
       },
       "type": "COLLISION_BODY"
+    },
+    {
+      "$id": "bf9db801-666b-4166-a222-f82a7e294239",
+      "hidden": false,
+      "keyframes": [
+        "5028b200-60aa-4563-81d4-407e2c9af796"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "Frame Script Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
     }
   ],
   "paletteMap": {

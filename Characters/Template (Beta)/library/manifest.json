@@ -2,14 +2,36 @@
   "resourceId": "Template",
   "content": [{
     "id": "Template",
-    "name": "Template",
-    "description": "I am Speed",
+    "name": "Bloxxy",
+    "description": "bloxxy also refered to as the unofficial character template, is a character that was made before an official character template was released, but now that it did its time to for it to become more of an ''advanced'' character template. this character template is specifically designed to use as many things fraytools can allow as possible showing the player anything that can possibly be done with any given scenario (from hacky to less), also has built in documentation and pointers for every needed scenario",
     "type": "character",
     "objectStatsId": "TemplateObjectStats",
     "animationStatsId": "TemplateAnimationStats",
     "hitboxStatsId": "TemplateHitboxStats",
     "scriptId": "TemplateScript",
     "costumesId": "TemplateCostumes",
+    "vfxId": "TemplateVfx",
+    "effectsId": "TemplateVfx",
+    "fxId": "TemplateVfx",
+    "FXId": "most of these are most definitely wrong but there's no way to tell or if there even is a vfxId of sorts",
+    "effectId": "TemplateVfx",
+    "visualFXId": "TemplateVfx",
+    "vFXId": "TemplateVfx",
+    "VFXId": "TemplateVfx",
+    "VFXid": "TemplateVfx",
+    "vfxid": "TemplateVfx",
+    "visualId": "TemplateVfx",
+    "visualEffectsId": "TemplateVfx",
+    "visualEffectId": "TemplateVfx",
+    "veId": "TemplateVfx",
+    "visualeffectsId": "TemplateVfx",
+    "vEffectsId": "TemplateVfx",
+    "effecksId": "TemplateVfx",
+    "attackVFXId": "TemplateVfx",
+    "objectEffectId": "TemplateVfx",
+    "objectEffectsId": "TemplateVfx",
+    "vfxStatId": "TemplateVfx",
+    "vfxStatsId": "TemplateVfx",
     "metadata": {
       "ui":{
         "entityId":"menu",
@@ -19,28 +41,28 @@
         "hud":{
           "animation":"character_hud"
         },
-        "hud hurt":{
-          "animation":"character_hud"
+        "hudHurt":{
+          "animation":"character_hud_hurt"
         },
-        "hurt hut":{
-          "animation":"character_hud"
+        "hurtHud":{
+          "animation":"character_hud_hurt"
         },
-        "hud_hurt":{
-          "animation":"character_hud"
+        "hud_Hurt":{
+          "animation":"character_hud_hurt"
         },
-        "hud ko":{
-          "animation":"character_hud"
+        "hudKo":{
+          "animation":"character_hud_hurt"
         },
-        "ko hud":{
-          "animation":"character_hud"
+        "koHud":{
+          "animation":"character_hud_hurt"
         },
-        "hud_ko":{
-          "animation":"character_hud"
+        "hud_Ko":{
+          "animation":"character_hud_hurt"
         },
         "css":{
           "info": {
-            "game":"Chair(Wikipedia)",
-            "description":"A chair is a type of seat, typically designed for one person and consisting of one or more legs, a flat seat and a back-rest. They may be made of wood, metal, or synthetic materials, and may be padded or upholstered in various colors and fabrics.    Chairs vary in design. An armchair has armrests fixed to the seat a recliner is upholstered and features a mechanism that lowers the chair's back and raises into place a footrest a rocking chair has legs fixed to two long curved slats; and a wheelchair has wheels fixed to an axis under the seat."
+            "game":"Fraymakers (Unofficial)",
+            "description":"Bloxxy the unofficial character template, is a character that was made before an official character template released, as it now did its time to for it to become more of an ''advanced'' character template. this character template is designed to use as many things fraytools can do as possible showing the player as much as possible with any given scenario (from hacky to less), has built in documentation and pointers for every needed scenario."
           }
         }
       }

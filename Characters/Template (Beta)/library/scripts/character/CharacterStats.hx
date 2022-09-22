@@ -1,7 +1,7 @@
 {
 	//---------Important Stats---------\\
 	spriteContent: self.getResource().getContent("Template"), //Content id path of the sprite to load for this Character id derived from manifest
-	name: "TempBox", //The unique name of the character. Used for finding the object.
+	name: "Bloxxy", //The unique name of the character. Used for finding the object.
 
 	//---------Character Stats---------\\
 	//the following mess needs organizing
@@ -110,7 +110,7 @@
 
 	//damageRatio: 1, //Multiplier that is applied to received knockback. This is similar to attackRatio but is instead applied to incoming attacks. This is especially useful for scaling up difficulty during single player matches.
 
-	//deathBoundsDestroy: TRUE, //Whether or not to destroy the object when it touches a stage’s death bounds
+	//deathBoundsDestroy: TRUE, //Whether or not to destroy the object when it touches a stage’s death bounds //good for non character objects like cursors
 
 	//floorFootPosition: 0, //Foot collision point based on the relative vertical distance from the object’s origin when the object is grounded. Note that positive numbers will have their signed flipped automatically since the foot position can never be beneath the object’s origin point, so you may use positive numbers as a shorthand. Game Objects can override this value on specific animation frames by containing an ECB baked into the animation.
 

@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "e16f8bd0-3b92-49c7-b6d1-8f3a4c2c4368",
+  "id": "TemplateVfx",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.0"
+    }
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

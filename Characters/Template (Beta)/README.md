@@ -15,6 +15,12 @@ Soon
 
 patch notes:
 
+0.77 - documentation update
+
+hitboxstats and animationstats have their part done
+its a great reminder that you should never be writing things while tired, as good lord its a mess
+also new portrait
+
 0.76 - the ledge jump update
 
 ledge jumps work now without a silly workaround

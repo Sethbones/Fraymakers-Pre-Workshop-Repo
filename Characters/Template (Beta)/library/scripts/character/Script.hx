@@ -1,4 +1,3 @@
-//i have a feeling this entire chunk of code is useless
 //this is basically a worse version of shaggy's netural special from multiversus
 var AURACOOLDOWN = 0;
 var CANACTIVATEAURA = true;
@@ -24,7 +23,7 @@ function update() {
             //Engine.log("fuckign");
             match.createProjectile("Aura", self);
             //match.createProjectile("TemplateProjectile", self());
-            //match.createProjectile("Aura", self()); //what the fuck you worked 3 seconds ago
+            //match.createProjectile("Aura", self()); //note to self, do not code at 2 am, i typed self with () without noticing
             auracooldown.set(1500);
         }
     }
