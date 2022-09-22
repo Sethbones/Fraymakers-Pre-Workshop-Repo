@@ -1,4 +1,4 @@
-Name: Template
+Name: Bloxxy, the unofficial character template
 
 Description: a Template for making characters
 
