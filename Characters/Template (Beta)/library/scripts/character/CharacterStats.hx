@@ -1,7 +1,9 @@
 {
 	//---------Important Stats---------\\
-	spriteContent: self.getResource().getContent("Template"), //Content id path of the sprite to load for this Character id derived from manifest
-	name: "Bloxxy", //The unique name of the character. Used for finding the object.
+	spriteContent: self.getResource().getContent("Template"), //Content id path of the sprite to load for this. Character id derived from manifest
+	name: "Bloxxy", //The unique name of the character. Used for finding the object. //not sure if required yet, untested
+	//initialState: CState.STAND, //The initial state the object should be set to. //either CSTATE.STAND or CSTATE.INTRO, use other CStates with caution //this is all a lie hold on
+
 
 	//---------Character Stats---------\\
 	//the following mess needs organizing
@@ -24,7 +26,7 @@
 	//airdashTrailEffect: null, //The ID of the trail effect that you want airdashes to spawn //TODO
 	//attackVoiceIds: null, //List of attack voice content ids. Calls to playAttackVoice() will choose one of these audio clips at random. //TODO
 	//attackVoiceSilenceRate: 0.5, //The rate at which calls to playAttackVoice() should result in silence.
-	//crawlSpeed: 0, //Character’s crawl speed. Set to a value above 1 to enable crawling.
+	//crawlSpeed: 0, //Character’s crawl speed. Set to a value above 1 to enable crawling. //however since no base roster character uses this its not finished and buggy as hell do not enable for now
 	dashSpeed: 8, //Character’s initial run speed.
 	//dodgeRollSpeed: 10, //Speed the character’s dodge roll begins at.
 	//dodgeRollSpeedLength: 1, //How many frames of speed are applied during dodge roll.
@@ -254,8 +256,8 @@
 		//CState.WALL_CLING => { animation: "wall_cling"}, //crashes game
 		//CState.WALL_JUMP => { animation: "wall_jump"} //crashes game
 	//],
-
-	//initialState: CState.STAND, //The initial state the object should be set to. //either CSTATE.STAND or CSTATE.INTRO, use other CStates with caution
+	//initialState state maps:
+	//TODO
 
 	weight: 100 //Used to determine how hard the ground shakes when the Entity lands or hits a wall, also used to determine how light the Entity is for knockback velocity purposes.
 	//the reason why its so low is because its very heavy and also because i have no idea what to with this so this works for now.

@@ -59,6 +59,30 @@
         "hud_Ko":{
           "animation":"character_hud_hurt"
         },
+        "hurt":{
+          "animation":"character_hud_hurt"
+        },
+        "ko":{
+          "animation":"character_hud_hurt"
+        },
+        "damaged":{
+          "animation":"character_hud_hurt"
+        },
+        "kil":{
+          "animation":"character_hud_hurt"
+        },
+        "dead":{
+          "animation":"character_hud_hurt"
+        },
+        "emotional damage":{
+          "animation":"character_hud_hurt"
+        },
+        "hurtLight":{
+          "animation":"character_hud_hurt"
+        },
+        "hurtHeavy":{
+          "animation":"character_hud_hurt"
+        },
         "css":{
           "info": {
             "game":"Fraymakers (Unofficial)",

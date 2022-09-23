@@ -17,6 +17,7 @@
 	special_down_air: { singleUse: true },
 	ledge_jump_in: { influenceMultiplier: 1 },
 	ledge_jump: { influenceMultiplier: 1, nextState: 15 } //required for ledge jumps to work
+	//jab1: { nextState: 116 }
 }
 
 //example of a stat with everything
@@ -82,123 +83,125 @@
 
 //nextState (type:Int, default:-1) Used in conjunction with AnimationEndType.AUTO. If provided, when the animation ends, the entity’s state will be changed to this value
 //nextstate maps: //TODO //116 states total
-	//0
-	//1
-	//2
-	//3
-	//4
-	//5
-	//6
-	//7
-	//8
-	//9
-	//10
-	//11
-	//12
-	//13
-	//14
+	//-1 - gets next state automatically
+	//0 - does nothing
+	//1 - ??? //causes character to freeze 
+	//2 - STAND
+	//3 - STAND_TURN
+	//4 - INTRO //causes character to freeze without setting the intro animation with { nextstate: 2 }
+	//5 - REVIVAL
+	//6 - WALK_IN
+	//7 - WALK_LOOP
+	//8 - WALK_OUT
+	//9 - DASH
+	//10 - STAND_TURN again?, plays stand_trun for a single frame but does nothing and goes to stand. probably some legacy thing that was just stuck in the game, wouldn't be the first
+	//11 - RUN
+	//12 - RUN_TURN
+	//13 - SKID
+	//14 - JUMP_SQUAT
 	//15 - JUMP_IN
 	//16 - JUMP_LOOP
-	//17
-	//18
-	//19
-	//20
-	//21
-	//22
-	//23
-	//24
-	//25
-	//26
-	//27
-	//28
-	//29
-	//30
-	//31
+	//17 - JUMP_OUT?
+	//18 - FALL_IN? 
+	//19 - FALL_LOOP
+	//20 - FALL_SPECIAL
+	//21 = LAND
+	//22 - CROUCH_IN
+	//23 - CROUCH_LOOP
+	//24 - CROUCH_OUT
+	//25 - CRAWL_FORWARD
+	//26 - CRAWL_BACK
+	//27 - LEDGE_IN
+	//28 - LEDGE_LOOP
+	//29 - LEDGE_CLIMB
+	//30 - LEDGE_ROLL_IN
+	//31 - LEDGE_ROLL
 	//32 - LEDGE_JUMP_IN
 	//33 - LEDGE_JUMP
-	//34
-	//35
-	//36
-	//37
-	//38
-	//39
-	//40
-	//41
-	//42
-	//43
-	//44
-	//45
-	//46
-	//47
-	//48
-	//49
+	//34 - LEDGE_ATTACK_IN
+	//35 - LEDGE_ATTACK
+	//36 - SHIELD_IN
+	//37 - SHIELD_LOOP
+	//38 - SHIELD_OUT
+	//39 - SHIELD_BREAK
+	//40 - SHIELD_HURT
+	//41 - SHIELD_AIR //Legacy from what i've been told, does nothing as far as i can tell
+	//42 - ROLL
+	//43 - SPOT_DODGE
+	//44 - TECH
+	//45 - TECH_ROLL
+	//46 - TECH_WALL
+	//47 - TECH_CEILING //while writing this part i misspelt it like 5 times like i wrote CIELING CEIELING, like brain go to sleep already, let me use monkey brain
+	//48 - PARRY_IN
+	//49 - PARRY_FAIL
 	//50 - PARRY_SUCCESS
-	//51 - FALL?//either that or nothing?// could also be STAND
-	//52 - CRASH_LOOP //or some sort of crash animation //probably hurt_light
+	//51 - ??? //okay this one is complicated, despite appearing to do nothing it cancels some air animations to fall, and causes ground attacks to have their hitboxes reactivated. judging by its placement its probably just HURT_LIGHT but its the only one that acts so broken
+	//52 - HURT_MEDIUM
 	//53 - HURT_HEAVY
-	//54 - HURT_MEDIUM //for some reason goes to hurt heavy immediately afterwards
-	//55 - LEDGE_JUMP?
+	//54 - HURT_MEDIUM? // bugged HURT_MEDIUM that for some reason goes to HURT_HEAVY immediately afterwards and has its offsets completely broken for a frame
+	//55 - LEDGE_JUMP? // bugged state, causes character to freeze
 	//56 - CRASH_BOUNCE
-	//57
-	//58
-	//59
-	//60
-	//61
-	//62
-	//63
-	//64
-	//65
-	//66
-	//67
-	//68
-	//69
-	//70
-	//71
-	//72
-	//73
-	//74
-	//75
-	//76
-	//77
-	//78
-	//79
-	//80
-	//81
-	//82
-	//83
-	//84
-	//85
-	//86
-	//87
-	//88
-	//89
-	//90
-	//91
-	//92
-	//93
-	//94
-	//95
-	//96
-	//97
-	//98
-	//99
-	//100
-	//101
-	//102
-	//103
-	//104
-	//105
-	//106
-	//107
-	//108
-	//109
-	//110
-	//111
-	//112
-	//113
-	//114
-	//115
-	//116
+	//57 - CRASH_BOUNCE // these are probably different in the air but as for now i couldn't be assed
+	//58 - CRASH_LOOP
+	//59 - CRASH_ATTACK
+	//60 - CRASH_ROLL
+	//61 - CRASH_GET_UP
+	//62 - JAB
+	//63 - DASH_ATTACK
+	//64 - TILT_FORWARD
+	//65 - TILT_UP
+	//66 - TILT_DOWN
+	//67 - STRONG_FORWARD_IN
+	//68 - STRONG_FORWARD_CHARGE
+	//69 - STRONG_FORWARD_ATTACK
+	//70 - STRONG_UP_IN
+	//71 - STRONG_UP_CHARGE
+	//72 - STRONG_UP_ATTACK
+	//73 - STRONG_DOWN_IN
+	//74 - STRONG_DOWN_CHARGE
+	//75 - STRONG_DOWN_ATTACK
+	//76 - AERIAL_NEUTRAL
+	//77 - AERIAL_FORWARD
+	//78 - AERIAL_BACK
+	//79 - AERIAL_UP
+	//80 - AERIAL_DOWN
+	//81 - SPECIAL_NEUTRAL
+	//82 - SPECIAL_FORWARD
+	//83 - SPECIAL_UP
+	//84 - SPECIAL_DOWN
+	//85 - THROW_UP
+	//86 - THROW_DOWN
+	//87 - THROW_FORWARD
+	//88 - THROW_BACK
+	//89 - ACTION //legacy
+	//90 - GRAB
+	//91 - GRAB_HOLD
+	//92 - GRAB_PUMMEL
+	//93 - RELEASED //most likely, shows no animation but pushes the character backwards
+	//94 - KO //most likely
+	//95 - EMOTE
+	//96 - ??? //freezes character
+	//97 - ??? //freezes character
+	//98 - ??? //freezes character
+	//99 - ??? //freezes character
+	//100 - ??? //freezes character
+	//101 - ??? //freezes character
+	//102 - ??? //freezes character
+	//103 - ??? //freezes character
+	//104 - ??? //freezes character
+	//105 - ??? //freezes character
+	//106 - ??? //freezes character
+	//107 - ??? //freezes character
+	//108 - ??? //freezes character
+	//109 - AIRDASH_LAND
+	//110 - AIRDASH related animation
+	//111 - AIRDASH related animation
+	//112 - AIRDASH related animation
+	//113 - AIRDASH related animation
+	//114 - AIRDASH related animation
+	//115 - ASSIST_CALL
+	//116 - ??? //freezes character
+	//117 - there's only 116 states so anything beyond this point either does nothing or freezes the character
 //pause (type:Bool, default:false) When set to true, animation playback is halted on the current frame.
 
 //resetId (type:Bool, default:true) When true, the current AnimationStats attackId will be reset on the first frame.
