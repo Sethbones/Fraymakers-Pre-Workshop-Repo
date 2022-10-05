@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "f18b11a8-8ad2-4b77-991c-eec2517b2f41",
+  "id": "sparkleScript",
+  "language": "",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "PROJECTILE",
+      "version": "0.1.0"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

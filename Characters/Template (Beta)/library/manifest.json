@@ -10,28 +10,6 @@
     "hitboxStatsId": "TemplateHitboxStats",
     "scriptId": "TemplateScript",
     "costumesId": "TemplateCostumes",
-    "vfxId": "TemplateVfx",
-    "effectsId": "TemplateVfx",
-    "fxId": "TemplateVfx",
-    "FXId": "most of these are most definitely wrong but there's no way to tell or if there even is a vfxId of sorts",
-    "effectId": "TemplateVfx",
-    "visualFXId": "TemplateVfx",
-    "vFXId": "TemplateVfx",
-    "VFXId": "TemplateVfx",
-    "VFXid": "TemplateVfx",
-    "vfxid": "TemplateVfx",
-    "visualId": "TemplateVfx",
-    "visualEffectsId": "TemplateVfx",
-    "visualEffectId": "TemplateVfx",
-    "veId": "TemplateVfx",
-    "visualeffectsId": "TemplateVfx",
-    "vEffectsId": "TemplateVfx",
-    "effecksId": "TemplateVfx",
-    "attackVFXId": "TemplateVfx",
-    "objectEffectId": "TemplateVfx",
-    "objectEffectsId": "TemplateVfx",
-    "vfxStatId": "TemplateVfx",
-    "vfxStatsId": "TemplateVfx",
     "metadata": {
       "ui":{
         "entityId":"menu",
@@ -40,48 +18,6 @@
         },
         "hud":{
           "animation":"character_hud"
-        },
-        "hudHurt":{
-          "animation":"character_hud_hurt"
-        },
-        "hurtHud":{
-          "animation":"character_hud_hurt"
-        },
-        "hud_Hurt":{
-          "animation":"character_hud_hurt"
-        },
-        "hudKo":{
-          "animation":"character_hud_hurt"
-        },
-        "koHud":{
-          "animation":"character_hud_hurt"
-        },
-        "hud_Ko":{
-          "animation":"character_hud_hurt"
-        },
-        "hurt":{
-          "animation":"character_hud_hurt"
-        },
-        "ko":{
-          "animation":"character_hud_hurt"
-        },
-        "damaged":{
-          "animation":"character_hud_hurt"
-        },
-        "kil":{
-          "animation":"character_hud_hurt"
-        },
-        "dead":{
-          "animation":"character_hud_hurt"
-        },
-        "emotional damage":{
-          "animation":"character_hud_hurt"
-        },
-        "hurtLight":{
-          "animation":"character_hud_hurt"
-        },
-        "hurtHeavy":{
-          "animation":"character_hud_hurt"
         },
         "css":{
           "info": {
@@ -112,5 +48,19 @@
     "animationStatsId": "AuraAnimationStats",
     "hitboxStatsId": "AuraHitboxStats",
     "scriptId": "AuraScript"
+  },{
+    "id": "koEffect",
+    "type": "projectile",
+    "objectStatsId": "KoObjectStats",
+    "animationStatsId": "KoAnimationStats",
+    "hitboxStatsId": "KoHitboxStats",
+    "scriptId": "KoScript"
+  },{
+    "id": "goldpSparkles",
+    "type": "projectile",
+    "objectStatsId": "sparkleObjectStats",
+    "animationStatsId": "sparkleAnimationStats",
+    "hitboxStatsId": "sparkleHitboxStats",
+    "scriptId": "sparkleScript"
   }]
 }

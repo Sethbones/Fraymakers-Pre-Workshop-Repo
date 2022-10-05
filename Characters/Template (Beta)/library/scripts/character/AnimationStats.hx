@@ -15,6 +15,7 @@
 	special_up_air: { singleUse: true },
 	special_down: { singleUse: true },
 	special_down_air: { singleUse: true },
+	//strong_forward_attack: { leaveGroundCancel: false },
 	ledge_jump_in: { influenceMultiplier: 1 },
 	ledge_jump: { influenceMultiplier: 1, nextState: 15 } //required for ledge jumps to work
 	//jab1: { nextState: 116 }
@@ -83,7 +84,7 @@
 
 //nextState (type:Int, default:-1) Used in conjunction with AnimationEndType.AUTO. If provided, when the animation ends, the entity’s state will be changed to this value
 //nextstate maps: //TODO //116 states total
-	//-1 - gets next state automatically
+	//-1 - goes to stand
 	//0 - does nothing
 	//1 - ??? //causes character to freeze 
 	//2 - STAND

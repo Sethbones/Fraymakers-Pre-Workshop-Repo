@@ -20,6 +20,20 @@
       "name": "Bright",
       "pluginMetadata": {
       }
+    },
+    {
+      "$id": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+      "color": "0xFF00FF1D",
+      "name": "Color Alt A",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+      "color": "0xFF003AFF",
+      "name": "Color Alt B",
+      "pluginMetadata": {
+      }
     }
   ],
   "export": true,
@@ -41,6 +55,14 @@
         {
           "paletteColorId": "2fd0f0e1-b8fc-4dcb-b420-4d105da279d8",
           "targetColor": "0xFF343434"
+        },
+        {
+          "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+          "targetColor": "0xFF00FF1D"
+        },
+        {
+          "paletteColorId": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+          "targetColor": "0xFF003AFF"
         }
       ],
       "name": "Default",
@@ -65,6 +87,14 @@
         {
           "paletteColorId": "190b6f1f-94d1-487e-94e0-a0a7d43760f6",
           "targetColor": "0xFFAD0000"
+        },
+        {
+          "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+          "targetColor": "0xFF00FF1D"
+        },
+        {
+          "paletteColorId": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+          "targetColor": "0xFF003AFF"
         }
       ],
       "name": "Vomit red",
@@ -88,6 +118,14 @@
         {
           "paletteColorId": "190b6f1f-94d1-487e-94e0-a0a7d43760f6",
           "targetColor": "0xFF00B510"
+        },
+        {
+          "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+          "targetColor": "0xFF00FF1D"
+        },
+        {
+          "paletteColorId": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+          "targetColor": "0xFF003AFF"
         }
       ],
       "name": "Green i think",
@@ -111,6 +149,14 @@
         {
           "paletteColorId": "190b6f1f-94d1-487e-94e0-a0a7d43760f6",
           "targetColor": "0xFF0968A3"
+        },
+        {
+          "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+          "targetColor": "0xFF00FF1D"
+        },
+        {
+          "paletteColorId": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+          "targetColor": "0xFF003AFF"
         }
       ],
       "name": "Blueulb",
@@ -134,6 +180,14 @@
         {
           "paletteColorId": "190b6f1f-94d1-487e-94e0-a0a7d43760f6",
           "targetColor": "0xFF343434"
+        },
+        {
+          "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+          "targetColor": "0xFF00FF1D"
+        },
+        {
+          "paletteColorId": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+          "targetColor": "0xFF003AFF"
         }
       ],
       "name": "Inverted",
@@ -154,6 +208,14 @@
         {
           "paletteColorId": "190b6f1f-94d1-487e-94e0-a0a7d43760f6",
           "targetColor": "0xFFFFE4C2"
+        },
+        {
+          "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+          "targetColor": "0xFF00FF1D"
+        },
+        {
+          "paletteColorId": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+          "targetColor": "0xFF003AFF"
         }
       ],
       "name": "Bread",
@@ -174,6 +236,14 @@
         {
           "paletteColorId": "190b6f1f-94d1-487e-94e0-a0a7d43760f6",
           "targetColor": "0xFFDCA456"
+        },
+        {
+          "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+          "targetColor": "0xFF00FF1D"
+        },
+        {
+          "paletteColorId": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+          "targetColor": "0xFF003AFF"
         }
       ],
       "name": "Toast",
@@ -194,6 +264,14 @@
         {
           "paletteColorId": "190b6f1f-94d1-487e-94e0-a0a7d43760f6",
           "targetColor": "0xFFFF4900"
+        },
+        {
+          "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+          "targetColor": "0xFF00FF1D"
+        },
+        {
+          "paletteColorId": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+          "targetColor": "0xFF003AFF"
         }
       ],
       "name": "Orang",
@@ -214,9 +292,45 @@
         {
           "paletteColorId": "190b6f1f-94d1-487e-94e0-a0a7d43760f6",
           "targetColor": "0xFFF8F8F8"
+        },
+        {
+          "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+          "targetColor": "0xFF00FF1D"
+        },
+        {
+          "paletteColorId": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+          "targetColor": "0xFF003AFF"
         }
       ],
       "name": "White",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "73cf6fe3-9d08-4ac3-9681-1ca37f16a9de",
+      "colors": [
+        {
+          "paletteColorId": "2fd0f0e1-b8fc-4dcb-b420-4d105da279d8",
+          "targetColor": "0xFFD56406"
+        },
+        {
+          "paletteColorId": "7d6c9d67-b224-4018-89b6-75e24b2e52af",
+          "targetColor": "0xFFEA9A2E"
+        },
+        {
+          "paletteColorId": "190b6f1f-94d1-487e-94e0-a0a7d43760f6",
+          "targetColor": "0xFFF5CA4F"
+        },
+        {
+          "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
+          "targetColor": "0xFFFAE87C"
+        },
+        {
+          "paletteColorId": "decdff87-c3dd-4fe6-8640-ab3ac3dd5a33",
+          "targetColor": "0xFFEA9A2E"
+        }
+      ],
+      "name": "Gold",
       "pluginMetadata": {
       }
     }

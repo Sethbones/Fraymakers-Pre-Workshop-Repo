@@ -24,5 +24,7 @@
 	aerialHipWidth: 25,
 	aerialHipXOffset: 0,
 	aerialHipYOffset: 0,
-	aerialFootPosition: 0
+	aerialFootPosition: 0,
+	inheritPalette: true,
+	resizable: true
 }

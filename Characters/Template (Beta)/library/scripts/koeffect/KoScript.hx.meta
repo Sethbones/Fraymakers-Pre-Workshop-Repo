@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "88224ef0-a4ec-4014-a5e0-4ebcaac8dfe7",
+  "id": "KoScript",
+  "language": "",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "PROJECTILE",
+      "version": "0.1.0"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

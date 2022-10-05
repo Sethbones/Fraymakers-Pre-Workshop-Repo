@@ -59,6 +59,9 @@
 	},
 	throw_up:{
 		hitbox0: { damage: 4, angle: 90, baseKnockback: 75, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY }
+	},
+	crash_attack:{
+		hitbox0:{ damage: 12, angle: 30, baseKnockback: 55, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
 	}
 }
 //example
@@ -109,13 +112,8 @@
 
 //attackRatio: (type:Float, default:0) A multiplier that is applied to knockback after the final knockback calculation has been done.
 
-//attackStrength: (type:Int, default:null))  Use this alongside the element to determine the hit sound and hit effect. //takes an integer for some reason because yes this makes sense could've been attackStrength.AUTO but fuckukcuf you i guess
+//attackStrength: (type:Int, default:null))  Use this alongside the element to determine the hit sound and hit effect. to use do attackStrength.AUTO
 //AttackStrength Options: //TODO 
-//0
-//1
-//2
-//3
-//4
 //AUTO - chooses automatically based on damage dealt (Untested)
 //FATAL
 //HEAVY
@@ -134,7 +132,7 @@
 
 //disabled: (type:Bool, default:false) If true, the hitbox will behave as though it did not exist (it will not interact with other boxes).
 
-//element: (type:Int, default:null) What element the attack is  //in the current version of the game these elements are not implemented yet so this part does nothing, you can use it if you're curious but the only thing you'll see is a bunch of debug text. also again with the integer thing my god WHY? whats wrong with Element.FIRE
+//element: (type:Int, default:null) What element the attack is  //in the current version of the game these elements are not implemented yet so this part does nothing, you can use it if you're curious but the only thing you'll see is a bunch of debug text. //but if you have to use it do attackElement.FIRE
 //ELECTRIC
 //FIRE
 //ICE
@@ -170,7 +168,7 @@
 
 
 
-//limb: (type:Int, default:null) What the attacker is attacking with. //integer are fun arent they?
+//limb: (type:Int, default:null) What the attacker is attacking with. //integers are fun arent they? //or you can just attackLimb.BODY
 //limb options: TODO
 //BATTERING
 //BODY
@@ -178,7 +176,7 @@
 //FOOT
 //HEAD
 //SWORD
-//UNDEFINED //uh yes my favorite limb, i̸̢̯̩͓̹͌̈̌͘l̴̖̑̌̉̀̈̀̚l̷̘̮̔͆̓̅̿̍̏͠e̴̛̙̦̙͈͂̐̍̋̉̉̓̌̉̓̕͠g̷̡̛̪̝͍̟̭̈́̇̋̽͌͑̃̈́̄̽́͗̚ͅä̵̹̬̫́̒̓̏̍̏͗͑̔̌͜ļ̴̧͕͓̯̳̟̫͔͍̬̲̬͌̈́̓̒ͅ
+//UNDEFINED //uh yes my favorite limb //Since there's no null here i'm gonna have to assume null 
 
 //maxChargeDamageMultiplier: (type:Float, default:null) Multiplier used for maximum charge if the move is chargeable
 

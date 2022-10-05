@@ -1,0 +1,3 @@
+{
+	sparkles: {endType:AnimationEndType.LOOP}
+}

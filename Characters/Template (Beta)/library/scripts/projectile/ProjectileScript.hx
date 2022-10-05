@@ -9,7 +9,7 @@ var life = self.makeInt(LIFE_TIMER);
 var projectile_speed = self.makeInt(PROJECTILE_SPEED);
 var max_speed = self.makeInt(MAX_SPEED);
 
-function initialize(){
+function initialize(){ //on projectile spawn
 	// Set up wall hit event
 	self.addEventListener(EntityEvent.COLLIDE_WALL, onWallHit, { persistent: true });
 
@@ -31,7 +31,7 @@ function onhit(event) {
 
 }
 
-function update() {
+function update() {//check every frame after it has spawned
 	if (self.inState(PState.ACTIVE)) {
 		// Give some horizontal speed
 		
@@ -52,5 +52,5 @@ function update() {
 		}
 	}
 }
-function onTeardown(){
+function onTeardown(){//when the projectile dissapears
 }

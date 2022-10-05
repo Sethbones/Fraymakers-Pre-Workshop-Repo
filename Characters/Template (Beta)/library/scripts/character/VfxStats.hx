@@ -1,3 +1,5 @@
+//this is dumb, ignore this, if you need vfx wait for the official character template so this gets updated
+
 //testcase 1 build it ike its AnimationStats //doesn't really make sense with spritecontent being a thing
 //{
    //airdash_forward: { timeout: 0 } //this doesn't work but imagine if it did
@@ -10,8 +12,7 @@
 //successful but didn't get anywhere
 //testcase 4 combine to first 2 //didn't work
 {
-    spriteContent: self.getResource().getContent("Template"),
-    airdash_forward: { animation: "dtexplode" }
+    airdash_forward: {spriteContent: self.getResource().getContent("Template"), animation: "dtexplode" }
 }
 
 

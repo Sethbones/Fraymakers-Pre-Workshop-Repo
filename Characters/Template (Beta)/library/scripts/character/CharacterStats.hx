@@ -2,7 +2,7 @@
 	//---------Important Stats---------\\
 	spriteContent: self.getResource().getContent("Template"), //Content id path of the sprite to load for this. Character id derived from manifest
 	name: "Bloxxy", //The unique name of the character. Used for finding the object. //not sure if required yet, untested
-	//initialState: CState.STAND, //The initial state the object should be set to. //either CSTATE.STAND or CSTATE.INTRO, use other CStates with caution //this is all a lie hold on
+	initialState: CState.INTRO, //The initial state the object should be set to. //either CState.STAND or CState.INTRO, use other CStates with caution //doesn't work for some reason
 
 
 	//---------Character Stats---------\\
