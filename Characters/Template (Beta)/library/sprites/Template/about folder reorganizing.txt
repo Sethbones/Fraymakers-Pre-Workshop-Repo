@@ -1,0 +1,1 @@
+renaming a folder removes its files in fraytools, so uh, folder organizing will not be untill ver 1.0 

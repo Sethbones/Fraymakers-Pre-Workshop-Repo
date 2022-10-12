@@ -15,6 +15,31 @@ Soon still
 
 patch notes:
 
+0.9 final pre-character template
+
+general code cleanup
+
+minor balance changes (it's now cracked, but not nearly as cracked as before)
+
+resprite has been fully finished and animations have been touched up a bit more
+
+all movement animations frame timings now match with commander video
+
+hud expressions now work as they should
+
+the final block is vfx for which i will not do, everything here took long enough to manually document as is
+
+this is the final update the character will get till the official character template is out.
+i made it my goal to make a fully functional character before the official template is out, i succeeded, and i can now rest.
+
+and note to any aspiring game developer who plans on making a game based around creation:
+do not launch the game in any game in capacity if the main hook is not ready yet, this game should've launched with character creation as a minimum, but it didn't.
+
+i applaud the community for all the work they have done to kick off fraymakers custom content and lay the groundwork for when the game comes out to early access.
+this project would not have been possible had the community not have grown as quickly as it did.
+
+So basically, I'm on break now, see ya again when the official character template is out 
+
 0.79.9 resprite prerelease
 
 i'm tired so actual 0.8 release tommorow hopefully

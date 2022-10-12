@@ -1,20 +1,8 @@
-//this is dumb, ignore this, if you need vfx wait for the official character template so this gets updated
+//ignore this file, if you need vfx wait for the official character template so this gets updated
+//things here are just here for them to be there untill it's actually done
 
-//testcase 1 build it ike its AnimationStats //doesn't really make sense with spritecontent being a thing
-//{
-   //airdash_forward: { timeout: 0 } //this doesn't work but imagine if it did
-//}
-//testcase 2 build it like its character stats //doesn't make much sense like where do you go from here
-//{
-    //spriteContent: self.getResource().getContent("Template")
-//}
-//testcase 3 cry in the corner of the room
-//successful but didn't get anywhere
-//testcase 4 combine to first 2 //didn't work
-{
-    airdash_forward: {spriteContent: self.getResource().getContent("Template"), animation: "dtexplode" }
-}
-
+//supposed usage instruction wil all things
+//match.createVfx( {animation: null, chain: null, fadeOut: false, flipWith: true, forceVisible: false, layer: "front", loop: false, physics: false, relativeWith: true, resizeWith: true, rotation: 0, scaleX: 1, scaleY: 1, shrink: false, smoothing: false, spriteContent: null, timeout: -1, x: 0, y: 0 } , self);
 
 //supposed documentation, as vfx ccurrently does not work and will probably keep not working untill the official character template is out
 //

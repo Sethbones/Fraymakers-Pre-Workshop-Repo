@@ -17,11 +17,15 @@
           "animation":"character_full"
         },
         "hud":{
-          "animation":"character_hud"
+          "animation":"character_hud",
+          "animation_happy":"character_hud_happy",
+          "animation_sad":"character_hud_sad",
+          "animation_hurt":"character_hud_hurt",
+          "animation_angry":"character_hud_angry"
         },
         "css":{
           "info": {
-            "game":"Fraymakers (Unofficial)",
+            "game":"Fraymakers (Unofficial) | v0.8",
             "description":"Bloxxy the unofficial character template, is a character that was made before an official character template released, as it now did its time to for it to become more of an ''advanced'' character template. this character template is designed to use as many things fraytools can do as possible showing the player as much as possible with any given scenario (from hacky to less), has built in documentation and pointers for every needed scenario."
           }
         }

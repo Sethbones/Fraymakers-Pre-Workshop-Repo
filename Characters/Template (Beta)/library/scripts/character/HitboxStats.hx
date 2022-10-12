@@ -1,12 +1,12 @@
 {
 	aerial_back: {
-		hitbox0: { damage: 12, angle: 10, baseKnockback: 30, knockbackGrowth: 50, hitstop: 15, limb: AttackLimb.BODY } //the hitbox angle is reversed for back attacks
+		hitbox0: { damage: 12, rawAngle: 10, baseKnockback: 30, knockbackGrowth: 50, hitstop: 15, limb: AttackLimb.BODY } //the hitbox angle is reversed for back attacks
 	},
 	aerial_down: {
 		hitbox0: { damage: 14, angle: 270, baseKnockback: 30, knockbackGrowth: 40, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	aerial_forward: {
-		hitbox0: { damage: 8, angle: 25, baseKnockback: 30, knockbackGrowth: 55, hitstop: 10, limb: AttackLimb.BODY }
+		hitbox0: { damage: 8, rawAngle: 25, baseKnockback: 30, knockbackGrowth: 55, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	aerial_neutral: {
 		hitbox0: { damage: 4, angle: 30, baseKnockback: 25, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY }
@@ -46,28 +46,24 @@
 		hitbox0: { damage: 12, angle: 270, baseKnockback: 40, knockbackGrowth: 10, hitstop: 5, limb: AttackLimb.BODY }
 	},
 	grab_pummel:{
-		hitbox0: { damage: 2, flinch: false, limb: AttackLimb.BODY }
+		hitbox0: { damage: 2, flinch: false, limb: AttackLimb.BODY } //set flinch to true for hilarity to ensue 
 	},
 	throw_forward:{
-		hitbox0: { damage: 5, angle: 0, baseKnockback: 65, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY }
+		hitbox0: { damage: 5, angle: 45, baseKnockback: 65, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	throw_back:{
-		hitbox0: { damage: 7, angle: 0, baseKnockback: 75, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
+		hitbox0: { damage: 7, angle: 55, baseKnockback: 75, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	throw_down:{
-		hitbox0: { damage: 6, angle: 270, baseKnockback: 75, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY } // it would make more sense for balance reasons to make it throw up instead and be comboable from it, but i'm not good with balance so this is fine
+		hitbox0: { damage: 6, angle: 90, baseKnockback: 45, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY } // it would make more sense for balance reasons to make it throw up instead and be comboable from it, but i'm not good with balance so this is fine
 	},
 	throw_up:{
-		hitbox0: { damage: 4, angle: 90, baseKnockback: 75, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY }
+		hitbox0: { damage: 4, angle: 80, baseKnockback: 75, knockbackGrowth: 25, hitstop: 10, limb: AttackLimb.BODY }
 	},
 	crash_attack:{
 		hitbox0:{ damage: 12, angle: 30, baseKnockback: 55, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
 	}
 }
-//example
-//animationname: {
-//	hitboxnumber: { damage: 5, angle: 10, baseKnockback: 10, knockbackGrowth: 15, hitstop: 10, limb: AttackLimb.BODY }
-//}
 //---------Angle Referance---------\\
 //for hitbox angles here's a referance
 //things to note:

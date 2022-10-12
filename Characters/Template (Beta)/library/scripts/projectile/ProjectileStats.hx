@@ -25,6 +25,6 @@
 	aerialHipXOffset: 0,
 	aerialHipYOffset: 0,
 	aerialFootPosition: 0,
-	inheritPalette: true, //this is supposed to work but it doesn't, probably bugged or its somehow not being used correctly. no way to know
+	inheritPalette: true, //this is supposed to work but it doesn't, probably bugged or its somehow not being used correctly. no way to know //its supposed to get the palette of its owner but it doesn't for some reason 
 	resizable: true
 }

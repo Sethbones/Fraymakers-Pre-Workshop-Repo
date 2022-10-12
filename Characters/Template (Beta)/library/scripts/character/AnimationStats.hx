@@ -9,20 +9,24 @@
 	jump_out: { influenceMultiplier: 1 },
 	run: { influenceMultiplier: 1 },
 	run_turn: { influenceMultiplier: 1 },
-	tilt_forward: { allowTurn: true, chargeFramesMax: 560, shadows: false }, //chrageframes doesn't work //the shadows thing is here for now to test if the script is broken or not
+	//tilt_forward: { allowTurn: true, chargeFramesMax: 560, shadows: false }, //chrageframes doesn't work for tilts, probably not using it right //the shadows thing is here for now to test if something here broke, that's what happens when there's no logs
 	walk_loop:{ influenceMultiplier: 1 },
-	special_side_air: { nextAnimation: "fall_special" }, //transitions move to special fall //on the realization that it needs to be nextstate not nextanimation as it does nothing
+	special_side_air: { nextState: CState.FALL_SPECIAL }, //transitions move to special fall
 	special_up_air: { singleUse: true },
 	special_down: { singleUse: true },
 	special_down_air: { singleUse: true },
 	//strong_forward_attack: { leaveGroundCancel: false },
 	ledge_jump_in: { influenceMultiplier: 1 },
-	ledge_jump: { influenceMultiplier: 1, nextState: 15 } //required for ledge jumps to work
-	//jab1: { nextState: 116 }
+	ledge_jump: { influenceMultiplier: 1, nextState: CState.JUMP_IN }, //required for ledge jumps to work
+	aerial_neutral: { landAnimation:"aerial_neutral_land" },
+	aerial_forward: { landAnimation:"aerial_forward_land" },
+	aerial_back: { landAnimation:"aerial_back_land" },
+	aerial_down: { landAnimation:"aerial_down_land" },
+	aerial_up: { landAnimation:"aerial_up_land" }
 }
 
 //example of a stat with everything
-//statname: { attackId: 0, autoRotate: false, BodyStatus.NONE, bodyStatusStrength: 0, chargeFramesMax: 0, chargeFramesTotal: 0, AnimationEndType.AUTO, grabLimit: 1, gravityMultiplier: 1, immovable:false, interruptable:false, landAnimation:"landanimationname", LandType.NORMAL, leaveGroundCancel: false, metadata: the fuck is a dynamic, name:"uniqueanimname", nextAnimation: null, nextState: -1, pause: false, resetId: true, resetRotation: n/a, rotationspeed: n/a, shadows: true, slideOff: false, solid: true, storedChargePercent: 0, xSpeedConservation: 1, ySpeedConservation: 1, allowFastFall: false, allowJump, false, allowTurn: false, allowTurnOnFirstFrame: false, autocancel: false, doubleJumpCancel: false, grabLedgeBehind: true, influenceMultiplier: 0, singleUse: false }
+//statname: { attackId: 0, autoRotate: false, BodyStatus.NONE, bodyStatusStrength: 0, chargeFramesMax: 0, chargeFramesTotal: 0, AnimationEndType.AUTO, grabLimit: 1, gravityMultiplier: 1, immovable:false, interruptable:false, landAnimation:"landanimationname", LandType.NORMAL, leaveGroundCancel: false, metadata: the fuck is a dynamic, name:"uniqueanimname", nextAnimation: null, nextState: Cstate.STAND, pause: false, resetId: true, resetRotation: n/a, rotationspeed: n/a, shadows: true, slideOff: false, solid: true, storedChargePercent: 0, xSpeedConservation: 1, ySpeedConservation: 1, allowFastFall: false, allowJump, false, allowTurn: false, allowTurnOnFirstFrame: false, autocancel: false, doubleJumpCancel: false, grabLedgeBehind: true, influenceMultiplier: 0, singleUse: false }
 
 //TODO Documentation
 //------General Animation Stats------\\
@@ -78,12 +82,13 @@
 
 //metadata (type:Dynamic, default:null) Metadata passed into the attack
 
-//name (type:String, default:null) The name of the attack animation.
+//name (type:String, default:null) The name of the attack animation. //huh?? why?, i guess that's handy but okay
 
 //nextAnimation (type:String, default:null) Used in conjunction with AnimationEndType.AUTO. If provided, when the animation ends, the entity’s animation will be changed to this value
 
-//nextState (type:Int, default:-1) Used in conjunction with AnimationEndType.AUTO. If provided, when the animation ends, the entity’s state will be changed to this value
-//nextstate maps: //TODO //116 states total
+//nextState (type:Int/Cstate, default:-1/-1) Used in conjunction with AnimationEndType.AUTO. If provided, when the animation ends, the entity’s state will be changed to this value
+// you can use integers and CStates, use whatever you think makes more sense
+//nextstate integer maps: //TODO //116 states total //this is here because the docs don't have these
 	//-1 - goes to stand
 	//0 - does nothing
 	//1 - ??? //causes character to freeze 
@@ -102,7 +107,7 @@
 	//14 - JUMP_SQUAT
 	//15 - JUMP_IN
 	//16 - JUMP_LOOP
-	//17 - JUMP_OUT?
+	//17 - JUMP_OUT
 	//18 - FALL_IN? 
 	//19 - FALL_LOOP
 	//20 - FALL_SPECIAL
