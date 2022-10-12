@@ -11,7 +11,8 @@ Preview Image:
 ![TemplatePreview](/Characters/Template%20(Beta)/library/sprites/Template/997-CSS/CHARACTER_FULL.png)
 
 Screenshots:
-Soon still
+
+![Templatescreenshot](https://github.com/Sethbones/Fraymakers-Pre-Workshop-Repo/blob/main/Characters/Template%20(Beta)/golden.gif)
 
 patch notes:
 
