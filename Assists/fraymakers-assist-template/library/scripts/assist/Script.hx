@@ -18,10 +18,10 @@ function initialize(){
 	}
 	
 	// Reposition relative to the user
-	repositionToEntityEcb(self.getOwner(), self.flipX(SPAWN_X_DISTANCE), -SPAWN_HEIGHT);
+	Common.repositionToEntityEcb(self.getOwner(), self.flipX(SPAWN_X_DISTANCE), -SPAWN_HEIGHT);
 
 	// Add fade in effect
-	startFadeIn();
+	Common.startFadeIn();
 }
 
 function update(){
@@ -53,10 +53,10 @@ function update(){
 		if (self.finalFramePlayed()) {
 			// Move to outro state and start fading away
 			self.toState(STATE_OUTRO); 
-			startFadeOut();
+			Common.startFadeOut();
 		}
 	} else if (self.inState(STATE_OUTRO)) {
-		if (fadeOutComplete() && self.finalFramePlayed()) {
+		if (Common.fadeOutComplete() && self.finalFramePlayed()) {
 			// Destroy
 			self.destroy();
 		}

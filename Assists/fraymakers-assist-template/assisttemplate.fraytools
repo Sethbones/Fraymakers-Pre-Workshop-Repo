@@ -27,6 +27,6 @@
   "snapToPixel": true,
   "templateDescription": "Sample assist project for Fraymakers.",
   "templateName": "Fraymakers Assist Template",
-  "templateVersion": "0.1.0",
+  "templateVersion": "0.1.1",
   "version": 12
 }

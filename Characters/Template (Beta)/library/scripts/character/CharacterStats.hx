@@ -144,6 +144,8 @@
 
 	shortHopSpeed: 10, //The speed of a short-hop.
 
+	shieldCrossupThreshold: 10, //controls how far a character must be past your character’s center to be able to cross up your shield
+
 	//techRollSpeed: 10, //Speed the character’s tech roll begins at.
 
 	//techRollSpeedLength: 1, //How many frames of speed are applied during tech roll.

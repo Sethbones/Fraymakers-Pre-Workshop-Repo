@@ -26,7 +26,7 @@
 }
 
 //example of a stat with everything
-//statname: { attackId: 0, autoRotate: false, BodyStatus.NONE, bodyStatusStrength: 0, chargeFramesMax: 0, chargeFramesTotal: 0, AnimationEndType.AUTO, grabLimit: 1, gravityMultiplier: 1, immovable:false, interruptable:false, landAnimation:"landanimationname", LandType.NORMAL, leaveGroundCancel: false, metadata: the fuck is a dynamic, name:"uniqueanimname", nextAnimation: null, nextState: Cstate.STAND, pause: false, resetId: true, resetRotation: n/a, rotationspeed: n/a, shadows: true, slideOff: false, solid: true, storedChargePercent: 0, xSpeedConservation: 1, ySpeedConservation: 1, allowFastFall: false, allowJump, false, allowTurn: false, allowTurnOnFirstFrame: false, autocancel: false, doubleJumpCancel: false, grabLedgeBehind: true, influenceMultiplier: 0, singleUse: false }
+//statname: { attackId: 0, autoRotate: false, BodyStatus.NONE, bodyStatusStrength: 0, chargeFramesMax: 0, chargeFramesTotal: 0, AnimationEndType.AUTO, grabLimit: 1, gravityMultiplier: 1, immovable:false, interruptible:false, landAnimation:"landanimationname", LandType.NORMAL, leaveGroundCancel: false, metadata: the fuck is a dynamic, name:"uniqueanimname", nextAnimation: null, nextState: Cstate.STAND, pause: false, resetId: true, resetRotation: n/a, rotationspeed: n/a, shadows: true, slideOff: false, solid: true, storedChargePercent: 0, xSpeedConservation: 1, ySpeedConservation: 1, allowFastFall: false, allowJump, false, allowTurn: false, allowTurnOnFirstFrame: false, autocancel: false, doubleJumpCancel: false, grabLedgeBehind: true, influenceMultiplier: 0, singleUse: false }
 
 //TODO Documentation
 //------General Animation Stats------\\
@@ -66,7 +66,7 @@
 
 //immovable (type:Bool, default:false) Immovable animations do not take knockback from windboxes and cannot be pushed by other solid objects, but may still push other movable solid objects.
 
-//interruptable (type:Bool, default:false) Not to be set directly - call self.allow(type:Interrupt() in the timeline. Allows the animation to be counted as a free state.
+//interruptible (type:Bool, default:false) Not to be set directly - call self.allow(type:Interrupt() in the timeline. Allows the animation to be counted as a free state.
 
 //landAnimation (type:String, default:null) If non-null, the name of the animation that will be jumped to when the object transitions from air to ground, regardless of landType. If null, the engine will use a land animation based on the landType
 

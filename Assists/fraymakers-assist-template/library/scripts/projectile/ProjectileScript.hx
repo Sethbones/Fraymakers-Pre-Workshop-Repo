@@ -9,7 +9,7 @@ function initialize(){
 	self.addEventListener(EntityEvent.COLLIDE_WALL, onWallHit, { persistent: true });
 
 	// Set up horizontal reflection
-	enableReflectionListener({ mode: "X", replaceOwner: true });
+	Common.enableReflectionListener({ mode: "X", replaceOwner: true });
 }
 
 function onWallHit(event) {
