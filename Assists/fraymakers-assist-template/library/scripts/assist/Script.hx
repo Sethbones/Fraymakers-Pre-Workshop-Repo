@@ -8,7 +8,7 @@ STATE_SLAM = 3;
 STATE_OUTRO = 4;
 
 var SPAWN_X_DISTANCE = 0; // How far in front of player to spawn
-var SPAWN_HEIGHT = 0; // How hight up from player to spawn
+var SPAWN_HEIGHT = 0; // How high up from player to spawn
 
 // Runs on object init
 function initialize(){
@@ -44,8 +44,8 @@ function update(){
 		// Wait until assist lands
 		if (self.isOnFloor()) {
 			// Fire two projectiles and switch to slam state
-			var proj1 = match.createProjectile("assisttemplateProjectile", self);
-			var proj2 = match.createProjectile("assisttemplateProjectile", self);
+			var proj1 = match.createProjectile(self.getResource().getContent("assisttemplateProjectile"), self);
+			var proj2 = match.createProjectile(self.getResource().getContent("assisttemplateProjectile"), self);
 			proj2.flip(); // Flip the other projectile the opposite way
 			self.toState(STATE_SLAM); 
 		}

@@ -7667,7 +7667,7 @@
     },
     {
       "$id": "2e97bf60-7cca-4457-9b1a-e3bed83567fe",
-      "code": "match.createProjectile(\"TemplateProjectile\", self);\r\nself.setXSpeed(-5);",
+      "code": "match.createProjectile(self.getResource().getContent(\"TemplateProjectile\"), self);\r\nself.setXSpeed(-5);",
       "length": 1,
       "pluginMetadata": {
       },
@@ -7675,7 +7675,7 @@
     },
     {
       "$id": "d97eb641-ba2f-4f49-ab46-abfaac28ca2a",
-      "code": "match.createProjectile(\"TemplateProjectile\", self);\r\nself.setXSpeed(-5);",
+      "code": "match.createProjectile(self.getResource().getContent(\"TemplateProjectile\"), self);\r\nself.setXSpeed(-5);",
       "length": 1,
       "pluginMetadata": {
       },
@@ -24093,7 +24093,7 @@
     "com.fraymakers.FraymakersMetadata": {
       "objectType": "CHARACTER",
       "spritesheetGroup": "",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   },
   "plugins": [

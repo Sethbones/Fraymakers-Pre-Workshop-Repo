@@ -14,7 +14,8 @@
       "ui":{
         "entityId":"menu",
         "render":{
-          "animation":"character_full"
+          "animation":"character_full",
+          "animation_icon_no_palette":"character_css"
         },
         "hud":{
           "animation":"character_hud",

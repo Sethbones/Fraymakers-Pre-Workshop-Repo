@@ -14,7 +14,8 @@
       "ui":{
         "entityId":"menu",
         "render":{
-          "animation":"assist_full"
+          "animation":"assist_full",
+          "animation_icon_no_palette":"assist_css"
         },
         "hud":{
           "animation":"assist_hud"

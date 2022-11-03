@@ -19,7 +19,7 @@ function initialize(){//on match start
 
     //check for costume and spawn the sparkles
     if (self.getCostumeIndex() == 9){
-        match.createProjectile("goldpSparkles", self);
+        match.createProjectile(self.getResource().getContent("goldpSparkles"), self);
     }
     //self.addEventListener(GameObjectEvent.HIT_DEALT, jabswitch, { persistent: true});
 }
@@ -45,7 +45,7 @@ function update() {//every frame after match start
             //Engine.log("fuckign");
             //match.createProjectile("TemplateProjectile", self());
             //match.createProjectile("Aura", self()); //note to self, do not code at 2 am, i typed self with () without noticing
-            match.createProjectile("Aura", self);
+            match.createProjectile(self.getResource().getContent("Aura"), self);
             auracooldown.set(1500); ////60 frames = 1 second //lasts for 25 seconds
         }
     }
