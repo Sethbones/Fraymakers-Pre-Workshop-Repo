@@ -13,9 +13,9 @@
     {
       "$id": "c2d74df4-ffe1-480e-adf4-f9545c149225",
       "layers": [
-        "15b7ec38-6b13-4053-8185-3f9c86db9ddd",
         "26aad4b7-16dd-4c29-bec8-907273c80a8e",
         "e227b7f5-4eb6-4889-9c19-0c4225bb8a7e",
+        "15b7ec38-6b13-4053-8185-3f9c86db9ddd",
         "ef3c2105-58c9-417d-abd0-c15c95c8dd2b",
         "8d53ba73-cfb8-4576-b62d-0471f1ad55f6"
       ],
@@ -264,6 +264,7 @@
         "7a96fb2c-a2be-4594-abaf-52fb9c6b7b53",
         "f62fec7d-606e-4c6b-bef2-67f4346fff80",
         "78360114-4b6a-4acc-8fa4-08dfa3d3b708",
+        "e66ed17f-bee5-4ba1-a4f5-54981dfa4acd",
         "f871ec66-5a04-4d7b-9e96-36d53a0e5484",
         "f3012e24-713c-4e1c-87a3-7e8411740a55"
       ],
@@ -341,6 +342,7 @@
         "482f764e-becc-466c-a928-2c1539202579",
         "8fb9c5fd-d8c5-4a40-a439-6976ac193d2b",
         "61e962ec-33f5-4954-9948-1ba2ee7f139d",
+        "a7879b38-5639-4f97-8bed-cd7276015001",
         "2aef4983-cffe-497a-976a-98bdc934270a"
       ],
       "name": "land_light",
@@ -354,6 +356,7 @@
         "e2243552-5b48-4d54-b89a-e330dd21668a",
         "4aca4bfc-c127-43fe-82be-321d09d168e9",
         "c9c0beb7-df2c-4a01-a4da-e105ce4f5f4f",
+        "e470c4f9-b13e-4bec-92d5-fb5172eecfeb",
         "f26c85e2-9970-4637-aac2-9a04f02de7ac"
       ],
       "name": "land_heavy",
@@ -366,6 +369,7 @@
         "898f37c0-8a04-4583-a99c-bf30c7f42719",
         "768e19fc-a181-4399-8a58-5bb1e030f121",
         "d0936ccb-c18a-47ef-b784-06e1cb826eee",
+        "0b068e97-05f7-41b1-bfac-e5680250ac00",
         "08801b0c-eb23-4823-bc06-6a2910bea940"
       ],
       "name": "airdash_land",
@@ -378,6 +382,7 @@
         "26f08670-8c99-4b3c-84d1-549f5f39c142",
         "c8f777e9-203e-44e7-ad62-381f0dfbce2f",
         "45d7e59c-c0cc-4b17-90e0-3d799cd741ea",
+        "c40331bd-3eac-421c-ad5a-9d5c1257bfb8",
         "ddce6c0a-3321-4d4d-b9af-38c2668056ea"
       ],
       "name": "airdash_land_uncanceled",
@@ -390,6 +395,7 @@
         "a7c4f209-7b69-4fa7-a448-bdb40cfd7f6f",
         "161dae14-cb28-47be-8949-5e02997b08cf",
         "871b2c1f-9ee4-4a52-ada0-87c613528f70",
+        "39373a9f-5ebc-4e86-87e9-5550ccd218a8",
         "4907ca4e-bd3d-4093-b7ce-a91b3ecf41d5"
       ],
       "name": "airdash_land_whiff",
@@ -429,6 +435,7 @@
         "1bde8a59-5e4b-4cec-b927-ceaa55a5fc1d",
         "914f8457-aad8-45df-b9bc-50249686bba2",
         "a2685896-ead8-4349-ae38-6363dbb44249",
+        "ff2882d6-76db-4d43-beba-675f8ee1390c",
         "3be5a914-a285-4896-93b4-6f07b92e0938"
       ],
       "name": "airdash_forward",
@@ -442,6 +449,7 @@
         "1d53b2e4-46fc-4cbe-bcdc-96958c0d171f",
         "70c259bd-e444-43a8-81c1-1a9c31ba9e45",
         "4535678a-226b-4d42-b0f9-8f936f0f445a",
+        "f7fb7846-e2d4-4b94-b0fe-63990069ff1c",
         "b3330a3b-1fbf-4790-bdb8-64de1aa313c0"
       ],
       "name": "airdash_forward_down",
@@ -455,6 +463,7 @@
         "47284e73-343c-4854-a673-df75f4d83817",
         "7059dca9-9d8d-41ce-8ab8-183a1efa422e",
         "bf2982f4-0307-4018-a0e6-d9b375c9fff9",
+        "62895c3f-f780-4509-87ed-f93a1e5c1a2a",
         "1396884b-e50b-4a19-988e-f3c5109ba66f"
       ],
       "name": "airdash_forward_up",
@@ -468,6 +477,7 @@
         "18c55bea-054d-40db-92fa-e83a79e888eb",
         "6f7011a1-198a-401f-a0c8-17d1781e05f2",
         "5915f038-50b3-498d-8b2d-fe37ca53184a",
+        "877b410a-9dc5-4d44-ae6e-3bb5fc3e6fe6",
         "6b47132d-270c-48e8-b52b-4372b9c051f5"
       ],
       "name": "airdash_back",
@@ -481,6 +491,7 @@
         "2432605b-c9b3-426a-9998-182cc0323ed3",
         "257f4f1f-d99b-4a37-ab62-f401bbd9fd51",
         "a81f08aa-b802-4656-b8a2-9d1ea1079deb",
+        "93bccca7-f802-471f-a9af-53545c07ef89",
         "dd53b983-e918-4f90-9706-076ad55826d0"
       ],
       "name": "airdash_back_down",
@@ -494,6 +505,7 @@
         "351898fd-48bb-4d60-a981-3cecf39d8cbc",
         "2a7ef4de-605c-402e-a465-a8650b008396",
         "9c43d46b-645f-4163-9f03-6e940be40205",
+        "23bea52a-1b23-4a6c-af2d-8cbb9ee10a80",
         "db3362a1-0d1a-4109-a504-750b063f0f69"
       ],
       "name": "airdash_back_up",
@@ -507,6 +519,7 @@
         "691a826a-28b2-4fc6-81fe-cc01775ad4dc",
         "e3b40ce3-f827-4b63-9054-f42223b36b34",
         "b8acfc3e-3b1a-46e8-ae99-924d07a1ce5b",
+        "66ede45e-5f9d-49b7-ba45-667dff740bf1",
         "6847b165-20b5-4f60-93d9-14cb66dd2eed"
       ],
       "name": "airdash_down",
@@ -520,6 +533,7 @@
         "dce39d73-5b55-4a01-a21b-960364314cf9",
         "0cea4fce-4ac5-4c63-affd-d52489b6fc8a",
         "6e6c7fc2-a756-4556-b48f-ce8342dca4fb",
+        "f8f4750d-5e87-4c76-b946-279d724ce8bb",
         "7aad1d43-1112-4529-b66a-73f0ecd0472a"
       ],
       "name": "airdash_up",
@@ -568,6 +582,7 @@
         "fb3bc3f6-6f48-4ee8-8859-b9bbb02f9391",
         "e798dae8-b952-4699-8df0-5e3f5d3e7b1f",
         "39dd2dc7-8c2a-493f-99c7-f89c71d38a2f",
+        "12af6d60-65c4-415c-b7e5-92820dbc6f90",
         "62a3c269-bf0b-49fc-871e-75fad64eecf9"
       ],
       "name": "ledge_roll",
@@ -717,6 +732,7 @@
         "9bfdcd06-af6e-48db-9fa9-03893506e566",
         "896931d3-ece4-428c-bba9-b5de854eedf7",
         "23ef9133-d261-43ad-b539-a91be820ff34",
+        "3beccdb5-e79b-4b5b-9623-2acceed1a54d",
         "bd1bd227-6269-4064-b8f2-9a54b83c58a0"
       ],
       "name": "roll",
@@ -729,6 +745,7 @@
         "8c4a006d-607e-4f7e-9a3c-a4ecdf5b81b7",
         "c4d4e5ac-fa94-4c6c-9d0f-f55143fceb1c",
         "871a0434-3c63-4154-a57c-36c2e0d01676",
+        "fa357c32-b312-4d5a-92c2-369948dd291a",
         "7ebe8b05-2570-4c57-a678-b1ffac6e40c0"
       ],
       "name": "spot_dodge",
@@ -981,6 +998,7 @@
         "9956993d-3850-4a4b-9aab-af8c7aca0a11",
         "5145ff7a-ebca-49e6-a115-aeb3f5e77a80",
         "20fa9910-2c14-4814-a51f-017e91c7b7f9",
+        "5ae5d60b-910f-4baa-ac48-87b2c26afcf9",
         "950ace96-c363-4910-a582-9dc76dad0bc7"
       ],
       "name": "crash_roll",
@@ -994,6 +1012,7 @@
         "c021ec56-811e-4816-a5bc-ad5b7f387e10",
         "7e8b9f01-24c4-40e7-987e-34809e9509b6",
         "51a98f24-aa92-42b9-85ac-9829dd4cf4b4",
+        "cb074328-f19e-46fc-ab0d-033b99c7c8f3",
         "4a0f2d34-ae9f-4817-a052-c7b76f1e5636"
       ],
       "name": "crash_attack",
@@ -1098,6 +1117,7 @@
         "3818666d-dfe0-4fd9-a5cf-8627ba6f4384",
         "983c7e5e-1949-4286-be85-dcc93bc7e49a",
         "ec993c05-46f6-4aaa-91c6-be662748e27f",
+        "b42a5444-4876-493b-be67-4192e7478ecc",
         "b1ee0583-8856-4b29-b762-c51b90f58117"
       ],
       "name": "jab1",
@@ -1149,6 +1169,7 @@
         "7baeb28f-e92d-4e4f-a978-998f074b8a2b",
         "64f8a428-3277-4452-bb89-a1ed0adae074",
         "bbc6fadd-d5ee-4ec0-bf0c-7d6df03008c9",
+        "7b6aea41-90c7-47ac-9cbe-ef42377efe01",
         "a74c1b0d-37e7-45bc-acea-012f3e70b571",
         "60f0c5c2-b882-47b6-8d99-24fd89207841",
         "8d0033d5-c7c0-45e8-ba6c-48e105cf20d0"
@@ -1163,6 +1184,7 @@
         "3859a551-8852-471c-b4c9-868c64cf4acf",
         "c48d64e4-8603-448f-9588-218f10a6a46f",
         "4088df8e-2ab2-4b19-8d03-ed78eb28cbfa",
+        "3a5a4ef8-2352-454f-a128-b32f5d67e1f1",
         "6ba09de8-2357-4da6-9d36-0089414b5ba1",
         "f601012e-72b5-4bfd-9dec-fd487e549f28"
       ],
@@ -1176,6 +1198,7 @@
         "94a55619-f004-4c7e-ad2a-4b47be27b1aa",
         "001b326c-1276-4e5a-b86e-ecf4242597c5",
         "87e12ffd-3a0d-410d-ae53-195fb528d471",
+        "bc77427e-a253-45ae-baab-073c66d57728",
         "29e864ca-b9bd-49a8-ab5a-fbd37f097f1c",
         "7a881246-4acf-47b6-bafc-ef6ba98b8643"
       ],
@@ -1190,6 +1213,7 @@
         "0d17dcd4-29c5-4856-b4cc-ef36a7adf379",
         "6f63346c-5839-4727-becd-a2c45a2a9739",
         "eb6ebc86-9149-4060-8712-abb85839b586",
+        "bb590a20-cb88-4061-8567-f484476543b5",
         "f23f168f-b916-44a5-b282-2b82f8a6005c",
         "517f71b1-27b3-4047-b380-c9359ab82baf"
       ],
@@ -1227,6 +1251,7 @@
         "0a20d5a8-839e-4192-8ac6-3371584a2221",
         "e23d53f9-35ff-4f47-9e93-109039e22b9e",
         "173d7e36-86d9-44ca-a64a-a98ddfeac8b1",
+        "21052bdb-d704-464e-81da-2cc61305e1dd",
         "0c4f597b-4d6a-4060-8553-bf417bb541c1",
         "8c8b8461-ab57-4bd3-9327-2339ef883a0c",
         "25140d48-1568-425b-91bc-7b147ced5475",
@@ -1265,6 +1290,7 @@
       "layers": [
         "bead67da-3366-4184-aea8-12c76aa3f483",
         "81b183ba-565e-467d-8eb0-79780db27782",
+        "d0653e45-63a7-44ff-8243-684387dff4ac",
         "0a275cdc-959d-4b12-95c6-cfd47bf3a254",
         "6d7f9b18-96d4-44fc-805f-a1fbe56e16d1",
         "a8c3f158-39e7-4e6a-b324-62970996991d"
@@ -1303,6 +1329,7 @@
         "0505508c-bb50-4960-9657-79d4f55f8877",
         "0ee0cf46-b049-4414-af99-bce98f25c49b",
         "e9f69893-1b31-44c9-a97f-77af711b0b5e",
+        "8e1981bc-db4d-42ef-a85d-09aa5e692449",
         "22cefb67-5bd0-4d9e-ac5f-4c402a3f6522",
         "45fa2fba-79a6-4a3d-baf7-cd66ba5f3e1a"
       ],
@@ -1316,6 +1343,7 @@
         "32ebf18c-9283-4066-b872-5684ca93a206",
         "e62f093d-b95e-404d-b1d9-0fe4ba340ce8",
         "94d0f95b-54bd-43f4-80d6-b395453b76bf",
+        "040ceba7-c899-49ed-bf2b-377c5d77c3bf",
         "3701317b-dbd1-4178-9675-d5e9f38a2847",
         "15330c6b-3f3d-4959-be07-caa6da747039",
         "844bac4f-bc1a-4c23-a5c1-728d3cb87113"
@@ -1343,6 +1371,7 @@
         "12b760d9-612f-427c-8303-588cb8720e73",
         "77606f35-3245-45cd-afd2-28aa84ef760c",
         "3e642655-9db0-4c99-bdb5-ed91d04545f6",
+        "5ed67e8f-41e4-4196-acac-edee7a03bd2c",
         "a216555d-90cf-4496-a9fb-5715ce6885d9",
         "35245bd8-f575-46b8-88ce-c0e68adc8d1a"
       ],
@@ -1368,6 +1397,7 @@
         "a44cf719-dbc1-4492-ad6f-09626123a1dd",
         "13b6b9e2-54ac-45ec-b61d-50286035eec7",
         "515b0c50-84d9-4783-9f32-5f540332f499",
+        "4faa3972-374f-4d66-9880-61250feb3dec",
         "e8f4f159-7530-41c9-8f64-5295c37a5607",
         "d160cc7f-8733-4f60-93ae-856de2509963"
       ],
@@ -1393,6 +1423,7 @@
         "13a597d9-6361-43dd-83ff-93d288b85f82",
         "6b7c3028-827c-4cc4-9680-bf8114ef8fbb",
         "18a3b366-a845-4eb1-b025-4851626c337d",
+        "cf18ce08-f22e-472d-a234-0d6436978b3b",
         "40aca5fe-a0d0-405e-84ff-6ba5f8befe7c",
         "dd06bb0d-305c-4b53-9a17-8f2014b03adf"
       ],
@@ -1418,6 +1449,7 @@
         "8eaecff5-8856-495a-b589-ac8e0123cac7",
         "b302bbb9-ece5-4dc3-8434-6976b3640de7",
         "86f35ecc-34ad-47c7-9fc5-d2fc3b5ee925",
+        "d82c660a-0bd8-4bdd-a5f4-971a62249604",
         "da2241ae-4101-4b64-8dee-46db326ac69b",
         "31aa4263-4c95-4e0a-bf81-e2be2a2197d9"
       ],
@@ -1471,6 +1503,7 @@
         "a84fbeda-dd2e-4b38-9715-ef38dc76d04f",
         "bb76828a-4ce7-4e62-9a44-e0aedf9950a9",
         "1cb4fbf7-e99d-4831-874e-6d7219561c79",
+        "86717bd5-ec62-4bf9-acf8-27e9a87a25df",
         "e8802f6e-4c98-48e4-9189-5d32947db42d",
         "6c1770ab-fb6f-4fea-b750-1c47543b68d9"
       ],
@@ -1486,6 +1519,7 @@
         "2c982da7-7ac1-40ee-8ec9-2df4fccdc3d6",
         "19381804-2801-4b55-86e0-61d6b549fe0a",
         "d468bf51-19a8-40ff-a9ac-876491fce161",
+        "6150ff16-bf93-4397-a656-9f34daceefd5",
         "df606b3c-d38f-4184-9a3f-b1540532f258",
         "1ffa0cbf-8023-40f9-ad6d-f5e825e77157"
       ],
@@ -2465,7 +2499,7 @@
     },
     {
       "$id": "60cba217-69ae-4d2f-adbc-4d2928fe8d5a",
-      "length": 33,
+      "length": 45,
       "pluginMetadata": {
       },
       "symbol": "2a5b1fe7-16e5-4c75-b75f-3b315fa0fe6b",
@@ -2875,7 +2909,7 @@
     },
     {
       "$id": "2370a01a-ebe9-4035-998c-d225a4e7d04d",
-      "length": 3,
+      "length": 4,
       "pluginMetadata": {
       },
       "symbol": "13eb8c56-8e12-4b15-aa1d-58003ccf485b",
@@ -4223,7 +4257,7 @@
     },
     {
       "$id": "761726c6-8585-4d0e-9d89-5c4d55905d16",
-      "length": 2,
+      "length": 8,
       "pluginMetadata": {
       },
       "symbol": "3f0f463d-dd70-448a-bdf6-c5ee354024b5",
@@ -4263,7 +4297,7 @@
     },
     {
       "$id": "493236d7-64e3-4e17-b910-c2b6538e6db5",
-      "length": 2,
+      "length": 8,
       "pluginMetadata": {
       },
       "symbol": "d530a91c-a2cd-4b06-b145-552e1d1f7e8e",
@@ -5323,7 +5357,7 @@
     },
     {
       "$id": "502f0721-f0da-4fb2-a396-394069ad97f5",
-      "length": 3,
+      "length": 4,
       "pluginMetadata": {
       },
       "symbol": "f2bd6d8d-b216-4fb0-af40-99f8b5e18dae",
@@ -5333,7 +5367,7 @@
     },
     {
       "$id": "5f8f7868-3cf1-4896-937a-a0d55e029b06",
-      "length": 3,
+      "length": 4,
       "pluginMetadata": {
       },
       "symbol": "d150b74d-46c9-4694-b948-dc79bbee493d",
@@ -7255,7 +7289,7 @@
     },
     {
       "$id": "d998bd87-fe23-4609-b6c7-a0d61288c4c9",
-      "length": 7,
+      "length": 13,
       "pluginMetadata": {
       },
       "symbol": "5d636e85-1d16-4364-978f-75afefbcdb7c",
@@ -7355,7 +7389,7 @@
     },
     {
       "$id": "26295c42-4ae7-42cd-b733-76fb5b1f3721",
-      "length": 3,
+      "length": 4,
       "pluginMetadata": {
       },
       "symbol": "5f764ab2-7f33-40b0-8eed-3db650a2dc52",
@@ -7365,7 +7399,7 @@
     },
     {
       "$id": "6fc5d5aa-4a56-4139-ae6c-21c10f59cdd6",
-      "length": 3,
+      "length": 4,
       "pluginMetadata": {
       },
       "symbol": "b358b958-4afb-458f-bd9e-37a791772ec1",
@@ -7375,7 +7409,7 @@
     },
     {
       "$id": "07d23599-b0f4-452f-b900-5c394670c97e",
-      "length": 3,
+      "length": 4,
       "pluginMetadata": {
       },
       "symbol": "303418b9-cf0d-4d2f-ab7f-8ce8616048b2",
@@ -7385,7 +7419,7 @@
     },
     {
       "$id": "9e710e31-3b93-4688-a39b-415a1b928990",
-      "length": 9,
+      "length": 12,
       "pluginMetadata": {
       },
       "symbol": null,
@@ -7667,7 +7701,7 @@
     },
     {
       "$id": "2e97bf60-7cca-4457-9b1a-e3bed83567fe",
-      "code": "match.createProjectile(self.getResource().getContent(\"TemplateProjectile\"), self);\r\nself.setXSpeed(-5);",
+      "code": "match.createProjectile(self.getResource().getContent(\"TemplateProjectile\"), self);\r\nAudioClip.play(\"projshoot\");\r\nself.setXSpeed(-5);",
       "length": 1,
       "pluginMetadata": {
       },
@@ -7675,7 +7709,7 @@
     },
     {
       "$id": "d97eb641-ba2f-4f49-ab46-abfaac28ca2a",
-      "code": "match.createProjectile(self.getResource().getContent(\"TemplateProjectile\"), self);\r\nself.setXSpeed(-5);",
+      "code": "match.createProjectile(self.getResource().getContent(\"TemplateProjectile\"), self);\r\nAudioClip.play(\"projshoot\");\r\nself.setXSpeed(-5);",
       "length": 1,
       "pluginMetadata": {
       },
@@ -7683,7 +7717,7 @@
     },
     {
       "$id": "dc8bfd41-2f87-4386-9598-47abe7e7230b",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "e10b9297-cf84-4131-9dcd-99be48cf1a9a",
@@ -7693,7 +7727,7 @@
     },
     {
       "$id": "8c0e7612-7bed-4070-b015-653306357f73",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "1af68cfa-c5d7-48bb-948c-cec2508cde9f",
@@ -7703,7 +7737,7 @@
     },
     {
       "$id": "0c4d7cf6-626f-4644-92a4-55886e56bf84",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "cf748459-a851-4012-98c3-4a71d150c914",
@@ -7713,7 +7747,7 @@
     },
     {
       "$id": "2ef3b4f4-e241-499f-a519-8b0357c5b6b5",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "30454970-55ba-4a23-84b1-1d9ccb3c515f",
@@ -7723,7 +7757,7 @@
     },
     {
       "$id": "eac67021-b9af-4fb6-9d01-488cb26a0c84",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "e7dd7698-cdd5-49e4-af8f-42df34f77aa3",
@@ -7733,7 +7767,7 @@
     },
     {
       "$id": "f84d4e07-d2ab-4609-8936-68c942c6091c",
-      "length": 4,
+      "length": 6,
       "pluginMetadata": {
       },
       "symbol": "63b6c290-5503-4b7a-bad1-ca10df2cf8ff",
@@ -7743,7 +7777,7 @@
     },
     {
       "$id": "361d7202-f0fb-4668-aebb-f0943389cbc3",
-      "length": 33,
+      "length": 45,
       "pluginMetadata": {
       },
       "symbol": "ab0d2109-b98a-4c3f-a45a-23f9dc31286b",
@@ -7753,7 +7787,7 @@
     },
     {
       "$id": "9d4dc9de-ecab-479f-bfde-ac2e0590dd97",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "3ef15f2b-dfe9-4437-a994-ceae48e909b3",
@@ -7763,7 +7797,7 @@
     },
     {
       "$id": "568bf299-98be-4761-9e2f-853aa8c6b3ef",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "0bb93cd2-0d6f-440b-b0bb-7c2560856ae8",
@@ -7773,7 +7807,7 @@
     },
     {
       "$id": "51b06d70-fadf-46ae-9c74-888bf10adf7b",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "5a6a6f15-f0d1-42ee-92ec-0e6f855e8826",
@@ -7783,7 +7817,7 @@
     },
     {
       "$id": "b85f9e68-f845-472f-9312-7424ed112848",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "0531bc0c-7a7e-407f-a2a8-f6f08d1d3361",
@@ -7793,7 +7827,7 @@
     },
     {
       "$id": "2162eac7-4a5a-4cd3-b29a-5bab183d5bc2",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "246dcf05-39dd-4b2a-8e7a-b2f1a827b839",
@@ -7803,7 +7837,7 @@
     },
     {
       "$id": "46418f11-838f-4e6e-8922-6ffa9fa8c80a",
-      "length": 4,
+      "length": 6,
       "pluginMetadata": {
       },
       "symbol": "6b4fdfee-9fe6-464a-866d-d204358b137b",
@@ -8366,7 +8400,7 @@
     {
       "$id": "3ad1b983-2f64-4105-afdc-340305754849",
       "code": "self.setXSpeed(10);",
-      "length": 9,
+      "length": 12,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -8621,7 +8655,7 @@
     },
     {
       "$id": "b7f39bb0-c5d6-43a6-8169-a0109bd7287f",
-      "length": 57,
+      "length": 76,
       "pluginMetadata": {
       },
       "symbol": "188e0de2-ff91-4268-a9e2-b59f668e9f68",
@@ -9845,7 +9879,7 @@
     },
     {
       "$id": "472a53fd-affd-4427-aeb0-a1c1ef19e614",
-      "code": "self.setXSpeed(0);",
+      "code": "self.setXSpeed(0);\r\n//this is incredibly stupid but i'm too lazy to code it",
       "length": 1,
       "pluginMetadata": {
       },
@@ -10525,7 +10559,7 @@
     },
     {
       "$id": "d0ed229b-c870-475c-9c2f-b7d36c1176d3",
-      "length": 12,
+      "length": 18,
       "pluginMetadata": {
       },
       "symbol": "8a9dbd8b-7352-45c6-bb06-609a94741bb4",
@@ -11249,7 +11283,7 @@
     },
     {
       "$id": "11aca24d-0f17-445b-845f-19a7ec5a1abb",
-      "length": 3,
+      "length": 4,
       "pluginMetadata": {
       },
       "symbol": "69d674ac-966d-4fc9-992a-de8366501427",
@@ -11259,7 +11293,7 @@
     },
     {
       "$id": "5d5267ad-a3c6-4bd9-89c8-b846b7e57db1",
-      "length": 3,
+      "length": 4,
       "pluginMetadata": {
       },
       "symbol": "66f26c9a-2be1-46e1-969d-e4888217b5bb",
@@ -11269,7 +11303,7 @@
     },
     {
       "$id": "d98769ec-c913-4c97-8eca-0d87eb17c2ad",
-      "length": 3,
+      "length": 4,
       "pluginMetadata": {
       },
       "symbol": "ce6b970e-c4cd-46db-983b-ef4454e36eb2",
@@ -12443,7 +12477,7 @@
     },
     {
       "$id": "248b2477-b729-4f64-9e62-ffdb9d3aa6cd",
-      "length": 2,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "88ba388e-1e8f-4008-8fd2-bca6b74aab8c",
@@ -12483,7 +12517,7 @@
     },
     {
       "$id": "41818d07-2d93-44b3-8e43-425580a8ae75",
-      "length": 2,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "f4882927-5660-4f4a-b28e-b809cb84334f",
@@ -12503,7 +12537,7 @@
     },
     {
       "$id": "73f20cc5-d74a-4824-96ad-dacf9d43a17f",
-      "length": 5,
+      "length": 8,
       "pluginMetadata": {
       },
       "symbol": "538ea572-3f4b-4142-838c-9ef1082f3e42",
@@ -12513,7 +12547,7 @@
     },
     {
       "$id": "61ca1c74-7b5b-4cd1-bebf-b68ebc2897b4",
-      "length": 9,
+      "length": 12,
       "pluginMetadata": {
       },
       "symbol": "a8242172-86f1-4adc-8579-19d4b3fa7732",
@@ -12601,7 +12635,7 @@
     },
     {
       "$id": "ff3c110a-b3fa-46c4-8d19-cea83ed0decc",
-      "length": 2,
+      "length": 4,
       "pluginMetadata": {
       },
       "symbol": "13039816-ff52-4e65-860e-68a56c789cb7",
@@ -12621,7 +12655,7 @@
     },
     {
       "$id": "1f624394-f5cf-4a75-ac78-66f4a897b42e",
-      "length": 11,
+      "length": 13,
       "pluginMetadata": {
       },
       "symbol": "477f592d-91c6-45b8-ae8c-e3498588fe82",
@@ -12631,7 +12665,7 @@
     },
     {
       "$id": "2c09fd6f-e7b8-4438-a929-e781afe8cd20",
-      "length": 15,
+      "length": 17,
       "pluginMetadata": {
       },
       "symbol": "9aa0cbe9-20cc-4f82-802a-df0afc28f95e",
@@ -13158,6 +13192,414 @@
     {
       "$id": "5b231f99-ea3a-440b-8b3a-914eb66c925c",
       "code": "//as of 0.4.5 taunts have been disabled",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "2b16b2d6-5e18-42ed-8ab8-3dd60016583c",
+      "code": "",
+      "length": 5,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "1ed0b910-05d2-40db-ae52-23c5b7dd3a29",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_1);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "5c99e2b0-23be-4003-a022-6a5e90cf2f98",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_2);",
+      "length": 6,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "4dc95aba-0440-4d1c-a710-a4543c4424cd",
+      "code": "AudioClip.play(GlobalSfx.LAND);\r\nAudioClip.play(GlobalSfx.WHOOSH_3);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "93e51576-9d04-432b-902c-d049feb597ac",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_2);",
+      "length": 6,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "d424a9e9-4cf6-4a91-9175-d2b95dfb0755",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_3);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "c164250d-4c5b-461a-be82-5a86e155c6e8",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_3);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "a7fbddec-0e43-4694-990e-83fcbeb658bf",
+      "code": "",
+      "length": 5,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "e807377a-2b18-4f49-a8f2-c628c7bf0b5c",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_1);",
+      "length": 4,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "db713453-d59a-4798-9a89-418335b815d8",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_2);",
+      "length": 4,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "721a4e54-0efd-4ea1-9f79-38e70b98f9d4",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_3);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "1465a853-2b1a-417b-af14-3f343fdad1a8",
+      "code": "",
+      "length": 9,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "88a37c6f-8bad-4e78-9c37-dc8a4bc127d3",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_2);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "e243ffd9-af24-4b4e-9cd3-76d2a56054e7",
+      "code": "",
+      "length": 5,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "4d8c13ce-7dcf-48db-8368-ddbe2b79bccf",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_2);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "15e4e6cc-199f-4bab-8e72-3b3413de4179",
+      "code": "",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "311d7028-5d47-4024-acdd-98283917d681",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_2);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "84411530-1e9e-4d32-86d9-a47b2c77087a",
+      "code": "",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "47642351-d758-4148-abd0-e9acee35e9f6",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_1);",
+      "length": 8,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "a1015e4d-30b4-43a2-a8ff-4a85212fbb55",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_1);",
+      "length": 6,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "3960002c-a5e7-4c92-9243-f0221204e0a0",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_1);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "5f3e42c4-168e-40e2-92d8-ab7d7633494d",
+      "code": "",
+      "length": 8,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "98252129-d068-4e48-a5b6-1766c14823d6",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_2);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "b54109fd-0f33-471d-a9fb-c30fb45b8a18",
+      "code": "",
+      "length": 9,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "c2d15628-3797-4ec7-8697-48dece529e68",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_3);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "03fb7284-c639-464e-bc2e-91a27b97920d",
+      "code": "",
+      "length": 7,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "d57724cb-a2f2-4c34-a7da-f1e24592880d",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_3);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "c6d4fefd-7177-4a42-b63f-4c5c25fd80bc",
+      "code": "",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "614e4323-624f-4251-b585-bb2f674c545a",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_1);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "b3795a90-1ec0-428d-9e5f-7a6c7ebf0d4c",
+      "code": "AudioClip.play(GlobalSfx.AIRDASH);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "1c5c200f-1390-4739-8e22-6fe4fea3d1e1",
+      "code": "AudioClip.play(GlobalSfx.AIRDASH);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "85cbed35-5fd1-43ae-9a29-def935acb545",
+      "code": "//you would think this would play without a script but there's probably a reason why it doesn't (welltaro)\r\nAudioClip.play(GlobalSfx.DOUBLE_JUMP);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "f8a4fe4d-780b-4464-b72b-aa046eb4bb54",
+      "code": "AudioClip.play(GlobalSfx.AIRDASH);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "1e34dea2-d2d1-4ce2-afff-e7042651ae8f",
+      "code": "AudioClip.play(GlobalSfx.AIRDASH);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "fc2a21be-840c-41ed-b71c-4cce28e969d2",
+      "code": "AudioClip.play(GlobalSfx.AIRDASH);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "10b30b8c-72a1-4841-ab6f-43ae9d119a05",
+      "code": "AudioClip.play(GlobalSfx.AIRDASH);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "68bd8515-9b2c-4313-b501-f46255d89040",
+      "code": "AudioClip.play(GlobalSfx.AIRDASH);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "c561bb8a-0c7a-4f22-8ba1-54d737a083f3",
+      "code": "AudioClip.play(GlobalSfx.AIRDASH);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "ed0f5d26-fe2b-4743-8941-e4265812c6ed",
+      "code": "AudioClip.play(GlobalSfx.AIRDASH);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "a8493385-77e0-4c1f-84eb-43cbb82a752b",
+      "code": "AudioClip.play(GlobalSfx.AIRDASH);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "d6c780b4-c062-4369-9f7f-089dccfe13e9",
+      "code": "AudioClip.play(GlobalSfx.LAND);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "6b00ff1e-4a97-4217-ab0a-5310662795f7",
+      "code": "AudioClip.play(GlobalSfx.LAND);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "b1bc03ad-490d-466a-9d63-ddd5177a2140",
+      "code": "AudioClip.play(GlobalSfx.LAND);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "138eb73c-c614-4dfe-af57-841803205fff",
+      "code": "AudioClip.play(GlobalSfx.LAND);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "d3d38e0d-33a3-4016-b6b1-2903c1d7dd42",
+      "code": "AudioClip.play(GlobalSfx.LAND);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "1869b2dc-7a2e-4265-93b8-5a665adf5355",
+      "code": "AudioClip.play(GlobalSfx.SPOT_DODGE);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "85b1f43e-29df-4d40-aaaf-cc00b9f9e768",
+      "code": "AudioClip.play(GlobalSfx.ROLL);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "9e1fa3f7-28c3-4ae6-b9fd-181815a40924",
+      "code": "AudioClip.play(GlobalSfx.ROLL);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "81ec1d85-e58c-4bfc-ba78-f7c2647bc2a2",
+      "code": "AudioClip.play(GlobalSfx.ROLL);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "169be494-b6e8-4424-93ff-35a8799f28b2",
+      "code": "",
+      "length": 10,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "600b8c94-b49e-4fe4-93c1-db5b9abba11c",
+      "code": "AudioClip.play(GlobalSfx.WHOOSH_2);",
       "length": 1,
       "pluginMetadata": {
       },
@@ -24080,6 +24522,465 @@
       "language": "hscript",
       "locked": false,
       "name": "Notice",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "b42a5444-4876-493b-be67-4192e7478ecc",
+      "hidden": false,
+      "keyframes": [
+        "2b16b2d6-5e18-42ed-8ab8-3dd60016583c",
+        "1ed0b910-05d2-40db-ae52-23c5b7dd3a29"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "21052bdb-d704-464e-81da-2cc61305e1dd",
+      "hidden": false,
+      "keyframes": [
+        "5c99e2b0-23be-4003-a022-6a5e90cf2f98",
+        "93e51576-9d04-432b-902c-d049feb597ac",
+        "4dc95aba-0440-4d1c-a710-a4543c4424cd"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "d0653e45-63a7-44ff-8243-684387dff4ac",
+      "hidden": false,
+      "keyframes": [
+        "d424a9e9-4cf6-4a91-9175-d2b95dfb0755"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "8e1981bc-db4d-42ef-a85d-09aa5e692449",
+      "hidden": false,
+      "keyframes": [
+        "c164250d-4c5b-461a-be82-5a86e155c6e8"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "7b6aea41-90c7-47ac-9cbe-ef42377efe01",
+      "hidden": false,
+      "keyframes": [
+        "a7fbddec-0e43-4694-990e-83fcbeb658bf",
+        "e807377a-2b18-4f49-a8f2-c628c7bf0b5c",
+        "db713453-d59a-4798-9a89-418335b815d8",
+        "721a4e54-0efd-4ea1-9f79-38e70b98f9d4"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "3a5a4ef8-2352-454f-a128-b32f5d67e1f1",
+      "hidden": false,
+      "keyframes": [
+        "1465a853-2b1a-417b-af14-3f343fdad1a8",
+        "88a37c6f-8bad-4e78-9c37-dc8a4bc127d3"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "bc77427e-a253-45ae-baab-073c66d57728",
+      "hidden": false,
+      "keyframes": [
+        "e243ffd9-af24-4b4e-9cd3-76d2a56054e7",
+        "4d8c13ce-7dcf-48db-8368-ddbe2b79bccf"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "bb590a20-cb88-4061-8567-f484476543b5",
+      "hidden": false,
+      "keyframes": [
+        "15e4e6cc-199f-4bab-8e72-3b3413de4179",
+        "311d7028-5d47-4024-acdd-98283917d681"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "040ceba7-c899-49ed-bf2b-377c5d77c3bf",
+      "hidden": false,
+      "keyframes": [
+        "84411530-1e9e-4d32-86d9-a47b2c77087a",
+        "47642351-d758-4148-abd0-e9acee35e9f6",
+        "a1015e4d-30b4-43a2-a8ff-4a85212fbb55",
+        "3960002c-a5e7-4c92-9243-f0221204e0a0"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "5ed67e8f-41e4-4196-acac-edee7a03bd2c",
+      "hidden": false,
+      "keyframes": [
+        "5f3e42c4-168e-40e2-92d8-ab7d7633494d",
+        "98252129-d068-4e48-a5b6-1766c14823d6"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "4faa3972-374f-4d66-9880-61250feb3dec",
+      "hidden": false,
+      "keyframes": [
+        "b54109fd-0f33-471d-a9fb-c30fb45b8a18",
+        "c2d15628-3797-4ec7-8697-48dece529e68"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "cf18ce08-f22e-472d-a234-0d6436978b3b",
+      "hidden": false,
+      "keyframes": [
+        "03fb7284-c639-464e-bc2e-91a27b97920d",
+        "d57724cb-a2f2-4c34-a7da-f1e24592880d"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "d82c660a-0bd8-4bdd-a5f4-971a62249604",
+      "hidden": false,
+      "keyframes": [
+        "c6d4fefd-7177-4a42-b63f-4c5c25fd80bc",
+        "614e4323-624f-4251-b585-bb2f674c545a"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "86717bd5-ec62-4bf9-acf8-27e9a87a25df",
+      "hidden": false,
+      "keyframes": [
+        "b3795a90-1ec0-428d-9e5f-7a6c7ebf0d4c"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "6150ff16-bf93-4397-a656-9f34daceefd5",
+      "hidden": false,
+      "keyframes": [
+        "1c5c200f-1390-4739-8e22-6fe4fea3d1e1"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "e66ed17f-bee5-4ba1-a4f5-54981dfa4acd",
+      "hidden": false,
+      "keyframes": [
+        "85cbed35-5fd1-43ae-9a29-def935acb545"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "ff2882d6-76db-4d43-beba-675f8ee1390c",
+      "hidden": false,
+      "keyframes": [
+        "f8a4fe4d-780b-4464-b72b-aa046eb4bb54"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "f7fb7846-e2d4-4b94-b0fe-63990069ff1c",
+      "hidden": false,
+      "keyframes": [
+        "1e34dea2-d2d1-4ce2-afff-e7042651ae8f"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "62895c3f-f780-4509-87ed-f93a1e5c1a2a",
+      "hidden": false,
+      "keyframes": [
+        "fc2a21be-840c-41ed-b71c-4cce28e969d2"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "877b410a-9dc5-4d44-ae6e-3bb5fc3e6fe6",
+      "hidden": false,
+      "keyframes": [
+        "10b30b8c-72a1-4841-ab6f-43ae9d119a05"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "93bccca7-f802-471f-a9af-53545c07ef89",
+      "hidden": false,
+      "keyframes": [
+        "68bd8515-9b2c-4313-b501-f46255d89040"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "23bea52a-1b23-4a6c-af2d-8cbb9ee10a80",
+      "hidden": false,
+      "keyframes": [
+        "c561bb8a-0c7a-4f22-8ba1-54d737a083f3"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "66ede45e-5f9d-49b7-ba45-667dff740bf1",
+      "hidden": false,
+      "keyframes": [
+        "ed0f5d26-fe2b-4743-8941-e4265812c6ed"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "f8f4750d-5e87-4c76-b946-279d724ce8bb",
+      "hidden": false,
+      "keyframes": [
+        "a8493385-77e0-4c1f-84eb-43cbb82a752b"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "a7879b38-5639-4f97-8bed-cd7276015001",
+      "hidden": false,
+      "keyframes": [
+        "d6c780b4-c062-4369-9f7f-089dccfe13e9"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "e470c4f9-b13e-4bec-92d5-fb5172eecfeb",
+      "hidden": false,
+      "keyframes": [
+        "6b00ff1e-4a97-4217-ab0a-5310662795f7"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "0b068e97-05f7-41b1-bfac-e5680250ac00",
+      "hidden": false,
+      "keyframes": [
+        "b1bc03ad-490d-466a-9d63-ddd5177a2140"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "c40331bd-3eac-421c-ad5a-9d5c1257bfb8",
+      "hidden": false,
+      "keyframes": [
+        "138eb73c-c614-4dfe-af57-841803205fff"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "39373a9f-5ebc-4e86-87e9-5550ccd218a8",
+      "hidden": false,
+      "keyframes": [
+        "d3d38e0d-33a3-4016-b6b1-2903c1d7dd42"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "fa357c32-b312-4d5a-92c2-369948dd291a",
+      "hidden": false,
+      "keyframes": [
+        "1869b2dc-7a2e-4265-93b8-5a665adf5355"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "3beccdb5-e79b-4b5b-9623-2acceed1a54d",
+      "hidden": false,
+      "keyframes": [
+        "85b1f43e-29df-4d40-aaaf-cc00b9f9e768"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "5ae5d60b-910f-4baa-ac48-87b2c26afcf9",
+      "hidden": false,
+      "keyframes": [
+        "9e1fa3f7-28c3-4ae6-b9fd-181815a40924"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "12af6d60-65c4-415c-b7e5-92820dbc6f90",
+      "hidden": false,
+      "keyframes": [
+        "81ec1d85-e58c-4bfc-ba78-f7c2647bc2a2"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "cb074328-f19e-46fc-ab0d-033b99c7c8f3",
+      "hidden": false,
+      "keyframes": [
+        "169be494-b6e8-4424-93ff-35a8799f28b2",
+        "600b8c94-b49e-4fe4-93c1-db5b9abba11c"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "SFX Layer",
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"

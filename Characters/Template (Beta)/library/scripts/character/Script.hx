@@ -46,6 +46,7 @@ function update() {//every frame after match start
             //match.createProjectile("TemplateProjectile", self());
             //match.createProjectile("Aura", self()); //note to self, do not code at 2 am, i typed self with () without noticing
             match.createProjectile(self.getResource().getContent("Aura"), self);
+            AudioClip.play("auraburst");
             auracooldown.set(1500); ////60 frames = 1 second //lasts for 25 seconds
         }
     }

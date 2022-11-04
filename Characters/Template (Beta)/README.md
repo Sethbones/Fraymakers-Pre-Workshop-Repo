@@ -16,6 +16,16 @@ Screenshots:
 
 patch notes:
 
+0.9.2 Sound effects
+
+sound effects added for all attacks, hopefully now everything is done except for vfx
+
+i know i said 0.9 was the final update but the workshop launched and i had to be there, so development "resumed", i.e less frequent updates.
+
+0.9.1 Steam Workshop Release
+
+code updated to latest update
+
 0.9 final pre-character template
 
 general code cleanup

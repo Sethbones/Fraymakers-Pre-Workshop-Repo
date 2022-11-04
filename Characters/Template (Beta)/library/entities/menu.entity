@@ -232,7 +232,7 @@
   "pluginMetadata": {
     "com.fraymakers.FraymakersMetadata": {
       "spritesheetGroup": "menu",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   },
   "plugins": [
@@ -257,7 +257,7 @@
     {
       "$id": "8e4aa0ed-cf68-4558-938a-1d65dfd909a7",
       "alpha": 1,
-      "imageAsset": "654f6ae2-138e-4530-acad-b48072c79a2a",
+      "imageAsset": "5d3d006c-87e2-4a9d-bf41-84fd70ecd1b6",
       "pivotX": 20,
       "pivotY": 8.5,
       "pluginMetadata": {
@@ -266,8 +266,8 @@
       "scaleX": 1,
       "scaleY": 1,
       "type": "IMAGE",
-      "x": -27,
-      "y": -34
+      "x": -20,
+      "y": -21
     },
     {
       "$id": "542e1e8c-ee76-47f0-babb-364dcad56c89",
