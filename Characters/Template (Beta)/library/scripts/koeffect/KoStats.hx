@@ -24,6 +24,7 @@
 	aerialHipXOffset: 0,
 	aerialHipYOffset: 0,
 	aerialFootPosition: 0,
+	deathBoundsDestroy: false, //required unless shit goes boom
 	ghost: true,
 	inheritPalette: true,
 	resizable: true

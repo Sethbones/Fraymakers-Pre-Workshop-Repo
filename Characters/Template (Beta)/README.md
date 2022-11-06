@@ -16,6 +16,13 @@ Screenshots:
 
 patch notes:
 
+0.9.3 did too many things and simultaneously did nothing
+
+jab combos
+ko effect (it looks like shit but it works)
+projectiles are now colored with the costume
+minor code cleanup (removed lines that had no use)
+
 0.9.2 Sound effects
 
 sound effects added for all attacks, hopefully now everything is done except for vfx

@@ -2,9 +2,14 @@
 //this creates 8 projectiles each going in seperate directions
 
 function initialize(){
+    //required for projectile colors because inheritPalette is broken or too undocumented to be useful
+	self.setCostumeIndex(self.getOwner().getCostumeIndex());
 }
 
-function update() { //okay this isn't working it seems to reset itself to one because each projectile has its own script attached to it would create a controller script, if only that was possible but as it stands the scripts are local to themselves
+function update() {
+    if (self.finalFramePlayed(PState.ACTIVE)){ //checks if the final frame of the current animation has played
+        self.destroy(); //destroys object
+    }
 }
 
 function onTeardown(){

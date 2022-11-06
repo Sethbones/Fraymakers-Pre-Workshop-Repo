@@ -3,7 +3,7 @@
   "content": [{
     "id": "Template",
     "name": "Bloxxy",
-    "description": "bloxxy also refered to as the unofficial character template, is a character that was made before an official character template was released, but now that it did its time to for it to become more of an ''advanced'' character template. this character template is specifically designed to use as many things fraytools can allow as possible showing the player anything that can possibly be done with any given scenario (from hacky to less), also has built in documentation and pointers for every needed scenario",
+    "description": "bloxxy also refered to as the unofficial character template, is a character that was made before an official character template was released, but now that it did its time to for it to become more of an ''advanced'' character template. this character template is specifically designed to use as many things fraytools can allow as possible showing the player anything that can possibly be done with any given scenario (from hacky to less), also has built in documentation and pointers for every needed scenario // i think this description part was supposed to be for steam workshop descriptions, either that or description in the custom menu",
     "type": "character",
     "objectStatsId": "TemplateObjectStats",
     "animationStatsId": "TemplateAnimationStats",
@@ -26,7 +26,7 @@
         },
         "css":{
           "info": {
-            "game":"Fraymakers (Unofficial) | v0.9.2",
+            "game":"Fraymakers (Unofficial) | v0.9.3",
             "description":"Bloxxy the unofficial character template, is a character that was made before an official character template released, as it now did its time to for it to become more of an ''advanced'' character template. this character template is designed to use as many things fraytools can do as possible showing the player as much as possible with any given scenario (from hacky to less), has built in documentation and pointers for every needed scenario."
           }
         }
@@ -38,7 +38,8 @@
     "objectStatsId": "TemplateProjectileObjectStats",
     "animationStatsId": "TemplateProjectileAnimationStats",
     "hitboxStatsId": "TemplateProjectileHitboxStats",
-    "scriptId": "TemplateProjectileScript"
+    "scriptId": "TemplateProjectileScript",
+    "costumesId": "TemplateCostumes"
   },{
     "id": "Explosion",
     "type": "projectile",
@@ -52,14 +53,16 @@
     "objectStatsId": "AuraObjectStats",
     "animationStatsId": "AuraAnimationStats",
     "hitboxStatsId": "AuraHitboxStats",
-    "scriptId": "AuraScript"
+    "scriptId": "AuraScript",
+    "costumesId": "TemplateCostumes"
   },{
-    "id": "koEffect",
+    "id": "koeffect",
     "type": "projectile",
     "objectStatsId": "KoObjectStats",
     "animationStatsId": "KoAnimationStats",
     "hitboxStatsId": "KoHitboxStats",
-    "scriptId": "KoScript"
+    "scriptId": "KoScript",
+    "costumesId": "TemplateCostumes"
   },{
     "id": "goldpSparkles",
     "type": "projectile",

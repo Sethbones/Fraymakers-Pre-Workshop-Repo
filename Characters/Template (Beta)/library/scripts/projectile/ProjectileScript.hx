@@ -1,5 +1,5 @@
 // API Script for Assist Template Projectile
-//this creates a missile like projectile, basically accelerating from 0 to 15
+//this creates a missile like projectile, basically accelerating from 0 to 15, doesn't really make much sense considering the recoil, but it looks cool
 
 var LIFE_TIMER = 60 * 4; // max life of projectile
 var PROJECTILE_SPEED = 0; //starts at 0
@@ -10,6 +10,10 @@ var projectile_speed = self.makeInt(PROJECTILE_SPEED);
 var max_speed = self.makeInt(MAX_SPEED);
 
 function initialize(){ //on projectile spawn
+
+	//required for projectile colors because inheritPalette is broken or too undocumented to be useful
+	self.setCostumeIndex(self.getOwner().getCostumeIndex());
+
 	// Set up wall hit event
 	self.addEventListener(EntityEvent.COLLIDE_WALL, onWallHit, { persistent: true });
 
@@ -40,7 +44,7 @@ function update() {//check every frame after it has spawned
 
 		// Subtract 1 from life counter
 		life.dec();
-		projectile_speed.inc(0.1); //supposed to increase speed by 0.1 but it doesn't work
+		projectile_speed.inc(0.1); //supposed to increase speed by 0.1 but that doesn't work cause i'm doing this incorrectly 
 
 		//if (projectile_speed.get() >= max_speed.get()) {
 			//projectile_speed.set(max_speed);

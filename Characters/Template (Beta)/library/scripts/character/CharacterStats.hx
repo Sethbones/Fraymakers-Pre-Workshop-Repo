@@ -15,8 +15,7 @@
 
 	//---------Character Stats---------\\
 	//the following mess still needs organizing
-	//Character Stats
-	//These Variables control the character's stats and specific abilites
+	//These Variables control the character's stats and specific abilites such as crawling, gliding, air grabbing and floating
 
 	gravity: 0.8, //Fall acceleration.
 

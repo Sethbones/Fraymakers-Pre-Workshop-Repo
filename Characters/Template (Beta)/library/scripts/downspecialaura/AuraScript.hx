@@ -7,6 +7,9 @@ var projcontainer = self.getViewRootContainer();
 
 
 function initialize(){
+	//required for projectile colors because inheritPalette is broken or too undocumented to be useful
+	self.setCostumeIndex(self.getOwner().getCostumeIndex());
+
 	self.getOwner().addEventListener(GameObjectEvent.HIT_DEALT, ondamage, { persistent: true }); //checks for when an entity is hit
 	stage.getCharactersBackContainer().addChild(projcontainer); //sets aura behind the character
 	self.getOwner().addStatusEffect(6, 2); //applies damage boost

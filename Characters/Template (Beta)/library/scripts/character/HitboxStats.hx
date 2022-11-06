@@ -20,6 +20,15 @@
 	jab1: {
 		hitbox0: { damage: 4, angle: 60, baseKnockback: 30, knockbackGrowth: 40, hitstop: 10, limb: AttackLimb.BODY }
 	},
+	jab2: {
+		hitbox0: { damage: 4, angle: 60, baseKnockback: 30, knockbackGrowth: 40, hitstop: 10, limb: AttackLimb.BODY }
+	},
+	jab_rapid: {
+		hitbox0: { damage: 4, angle: 60, baseKnockback: 30, knockbackGrowth: 40, hitstop: 10, limb: AttackLimb.BODY }
+	},
+	jab3: {
+		hitbox0: { damage: 4, angle: 60, baseKnockback: 30, knockbackGrowth: 40, hitstop: 10, limb: AttackLimb.BODY }
+	},
 	strong_down_attack: {
 		hitbox0: { damage: 20, angle: 25, baseKnockback: 40, knockbackGrowth: 50, hitstop: 20, limb: AttackLimb.BODY } //needs direction based/two hitboxes i.e TODO
 	},
@@ -62,12 +71,14 @@
 	},
 	crash_attack:{
 		hitbox0:{ damage: 12, angle: 30, baseKnockback: 55, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
+	},
+	ledge_attack: {
+		hitbox0: { damage: 8, angle: 30, baseKnockback: 25, knockbackGrowth: 30, hitstop: 10, limb: AttackLimb.BODY }
 	}
 }
 //---------Angle Referance---------\\
-//for hitbox angles here's a referance
 //things to note:
-// if an attack has the character turn around (specifically Back air and Back throw) then the hitbox angles are reversed (180 becoming 0, and vice versa)
+// if an attack has the character turn around (specifically Back air and Back throw) then the hitbox angles are reversed (180 becoming 0, and vice versa, you'll see what i mean when you get there)
 //
 //                        90
 //                -----------------
@@ -142,7 +153,7 @@
 
 //forceTumbleFall: (type:Bool, default:false) When true, the attack will always cause foes to go into their tumble state when hit.
 
-//hitEffectOverride: (type:String, default:null) Use a custom hit Vfx. By default, the engine assumes this is an animation name from from the GlobalVfx sprite (See GlobalVfx constnats). You can however use other Vfx animations by specifying the full content id of the Vfx sprite followed by a hash “#” specifying the animation you want to play. (e.g. “namespace::resource.spriteId#animationId”)
+//hitEffectOverride: (type:String, default:null) Use a custom hit Vfx. By default, the engine assumes this is an animation name from from the GlobalVfx sprite (See GlobalVfx constants). You can however use other Vfx animations by specifying the full content id of the Vfx sprite followed by a hash “#” specifying the animation you want to play. (e.g. “namespace::resource.spriteId#animationId”) //if not using anything special then GlobalVfx can be used
 
 //hitSoundOverride: (type:String, default:null) How long the foe will be held in place before knockback is applied.
 

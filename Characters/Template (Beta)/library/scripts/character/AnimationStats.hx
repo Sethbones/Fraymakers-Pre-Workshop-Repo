@@ -66,7 +66,7 @@
 
 //immovable (type:Bool, default:false) Immovable animations do not take knockback from windboxes and cannot be pushed by other solid objects, but may still push other movable solid objects.
 
-//interruptible (type:Bool, default:false) Not to be set directly - call self.allow(type:Interrupt() in the timeline. Allows the animation to be counted as a free state.
+//interruptible (type:Bool, default:false) Not to be set directly - call self.allowInterrupt() in the timeline. Allows the animation to be counted as a free state.
 
 //landAnimation (type:String, default:null) If non-null, the name of the animation that will be jumped to when the object transitions from air to ground, regardless of landType. If null, the engine will use a land animation based on the landType
 
