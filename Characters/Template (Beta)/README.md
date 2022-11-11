@@ -16,6 +16,10 @@ Screenshots:
 
 patch notes:
 
+0.9.4 Meter Gimmick
+
+it's a mess currently but it does work, will remake in the future if an official character template still isn't released
+
 0.9.3 did too many things and simultaneously did nothing
 
 jab combos

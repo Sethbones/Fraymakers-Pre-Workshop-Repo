@@ -2,10 +2,10 @@
 	spriteContent: self.getResource().getContent("Template"),
 	stateTransitionMapOverrides: [
 		PState.ACTIVE => {
-			animation: "aura_loop"
+			animation: "meter_start"
 		},
 		PState.DESTROYING => {
-			animation: "aura_loop"
+			animation: "meter_start"
 		}
 	],
 	gravity: 0,
@@ -24,6 +24,8 @@
 	aerialHipXOffset: 0,
 	aerialHipYOffset: 0,
 	aerialFootPosition: 0,
+	deathBoundsDestroy: false, //required unless it deletes itself immediately on spawn
+	ghost: true,
 	inheritPalette: true,
 	resizable: true
 }

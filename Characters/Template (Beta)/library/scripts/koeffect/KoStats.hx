@@ -24,7 +24,7 @@
 	aerialHipXOffset: 0,
 	aerialHipYOffset: 0,
 	aerialFootPosition: 0,
-	deathBoundsDestroy: false, //required unless shit goes boom
+	deathBoundsDestroy: false, //required unless it deletes itself immediately on spawn
 	ghost: true,
 	inheritPalette: true,
 	resizable: true

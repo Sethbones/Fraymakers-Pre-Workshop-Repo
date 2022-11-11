@@ -1,4 +1,7 @@
 //this script is for the effect itself of the down special, if you want the spawn code of it go to character -> Script.hx
+//so basically any variable created outside of functions is only usable within the current object, so basically for now putting variables in update and variables outside of functions basically do the same thing
+//what this means for this is that the effect has to act seperately with it's own timer instead of everything being connected to a single timed variable in the player script. i love this game, it hates every good idea i throw at it and forces me to create hacky workarounds for hacky workarounds.
+
 var AURACOOLDOWN = 750; //60 frames = 1 second //lasts for 12.5 seconds
 
 var auracooldown = self.makeInt(AURACOOLDOWN);
