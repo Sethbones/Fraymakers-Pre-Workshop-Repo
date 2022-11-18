@@ -21,10 +21,11 @@ function initialize(){//on match start
     if (self.getCostumeIndex() == 9){
         match.createProjectile(self.getResource().getContent("goldpSparkles"), self);
     }
+    //Engine.log(performLedgeJump(CState.JUMP_IN));
 }
 
 function update() {//every frame after match start
-    //Engine.log(auracooldown.get()); //enable this if you need a "visual indicator" in the console for aura cooldown, this is for now til i figure out a proper meter gimmick
+    //applyLedgeJumpSpeed(true); //specifying does cause the character to start in jump_loop
     if (self.inState(CState.REVIVAL)){ //things to reset on respawn
         Engine.log("undeads your character");
         canspawndeatheffect = true;
@@ -50,7 +51,7 @@ function update() {//every frame after match start
     //gold alt stuff, there's probably a better way to do this
     if (self.getCostumeIndex() == 9){ //checks costume id
         if (self.inState(CState.STAND)){ //checks state
-            self.playAnimation("stand_gold"); //plays the animation when everything matches //if you have more than one frame playing you might need a bool to check if the animation is playing or not but my character's idle is currently one frame
+            self.playAnimation("stand_gold"); //plays the animation when everything matches //if you have more than one frame playing you might need a bool to check if the animation is playing or not but my character's idle is currently one frame so there's no need
         }
     }
 

@@ -171,7 +171,7 @@
       "colors": [
         {
           "paletteColorId": "2fd0f0e1-b8fc-4dcb-b420-4d105da279d8",
-          "targetColor": "0xFF979797"
+          "targetColor": "0xFF575757"
         },
         {
           "paletteColorId": "7d6c9d67-b224-4018-89b6-75e24b2e52af",
@@ -179,7 +179,7 @@
         },
         {
           "paletteColorId": "190b6f1f-94d1-487e-94e0-a0a7d43760f6",
-          "targetColor": "0xFF343434"
+          "targetColor": "0xFF979797"
         },
         {
           "paletteColorId": "517bf2f9-19b2-4df2-ac7c-2ee063edd18c",
@@ -190,7 +190,7 @@
           "targetColor": "0xFF003AFF"
         }
       ],
-      "name": "Inverted",
+      "name": "Classic",
       "pluginMetadata": {
       }
     },

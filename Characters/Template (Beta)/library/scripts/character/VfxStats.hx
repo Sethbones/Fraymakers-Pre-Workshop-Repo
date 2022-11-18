@@ -1,7 +1,8 @@
 //ignore this file, if you need vfx wait for the official character template so this gets updated
 //things here are just here for them to be there untill it's actually done
 
-//supposed usage instruction wil all things
+//supposed usage instruction with all things //supposably meant to be used in the animations themselves since createVfx is a match function
+//also important to note as there's also a function called createVFX, which is different than createVfx and crashes the game on use. it is only ever mentioned in the hlboot file
 //match.createVfx( {animation: null, chain: null, fadeOut: false, flipWith: true, forceVisible: false, layer: "front", loop: false, physics: false, relativeWith: true, resizeWith: true, rotation: 0, scaleX: 1, scaleY: 1, shrink: false, smoothing: false, spriteContent: null, timeout: -1, x: 0, y: 0 } , self);
 
 //supposed documentation, as vfx ccurrently does not work and will probably keep not working untill the official character template is out

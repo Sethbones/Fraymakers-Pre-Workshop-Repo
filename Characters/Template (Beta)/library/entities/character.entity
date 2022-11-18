@@ -436,6 +436,7 @@
         "914f8457-aad8-45df-b9bc-50249686bba2",
         "a2685896-ead8-4349-ae38-6363dbb44249",
         "ff2882d6-76db-4d43-beba-675f8ee1390c",
+        "28de84e0-798b-466c-a902-dbb28accbb44",
         "3be5a914-a285-4896-93b4-6f07b92e0938"
       ],
       "name": "airdash_forward",
@@ -450,6 +451,7 @@
         "70c259bd-e444-43a8-81c1-1a9c31ba9e45",
         "4535678a-226b-4d42-b0f9-8f936f0f445a",
         "f7fb7846-e2d4-4b94-b0fe-63990069ff1c",
+        "194e83c7-d39d-41b3-9375-955398517373",
         "b3330a3b-1fbf-4790-bdb8-64de1aa313c0"
       ],
       "name": "airdash_forward_down",
@@ -464,6 +466,7 @@
         "7059dca9-9d8d-41ce-8ab8-183a1efa422e",
         "bf2982f4-0307-4018-a0e6-d9b375c9fff9",
         "62895c3f-f780-4509-87ed-f93a1e5c1a2a",
+        "3d010729-bf64-46a0-b03b-b9e7bbe38926",
         "1396884b-e50b-4a19-988e-f3c5109ba66f"
       ],
       "name": "airdash_forward_up",
@@ -478,6 +481,7 @@
         "6f7011a1-198a-401f-a0c8-17d1781e05f2",
         "5915f038-50b3-498d-8b2d-fe37ca53184a",
         "877b410a-9dc5-4d44-ae6e-3bb5fc3e6fe6",
+        "ab998268-6f25-4a4b-8961-f0495a38a103",
         "6b47132d-270c-48e8-b52b-4372b9c051f5"
       ],
       "name": "airdash_back",
@@ -492,6 +496,7 @@
         "257f4f1f-d99b-4a37-ab62-f401bbd9fd51",
         "a81f08aa-b802-4656-b8a2-9d1ea1079deb",
         "93bccca7-f802-471f-a9af-53545c07ef89",
+        "fa40600c-01fb-4840-86cb-08a7a79a9d2b",
         "dd53b983-e918-4f90-9706-076ad55826d0"
       ],
       "name": "airdash_back_down",
@@ -506,6 +511,7 @@
         "2a7ef4de-605c-402e-a465-a8650b008396",
         "9c43d46b-645f-4163-9f03-6e940be40205",
         "23bea52a-1b23-4a6c-af2d-8cbb9ee10a80",
+        "4ef9afdc-0fb8-4152-8141-2415a30af877",
         "db3362a1-0d1a-4109-a504-750b063f0f69"
       ],
       "name": "airdash_back_up",
@@ -520,6 +526,7 @@
         "e3b40ce3-f827-4b63-9054-f42223b36b34",
         "b8acfc3e-3b1a-46e8-ae99-924d07a1ce5b",
         "66ede45e-5f9d-49b7-ba45-667dff740bf1",
+        "7854f4c0-604a-4b00-b56c-c7b769f16855",
         "6847b165-20b5-4f60-93d9-14cb66dd2eed"
       ],
       "name": "airdash_down",
@@ -534,6 +541,7 @@
         "0cea4fce-4ac5-4c63-affd-d52489b6fc8a",
         "6e6c7fc2-a756-4556-b48f-ce8342dca4fb",
         "f8f4750d-5e87-4c76-b946-279d724ce8bb",
+        "5fc882b8-1f4b-492b-a51d-1176e22c52b9",
         "7aad1d43-1112-4529-b66a-73f0ecd0472a"
       ],
       "name": "airdash_up",
@@ -1259,6 +1267,7 @@
         "21052bdb-d704-464e-81da-2cc61305e1dd",
         "0c4f597b-4d6a-4060-8553-bf417bb541c1",
         "8c8b8461-ab57-4bd3-9327-2339ef883a0c",
+        "61d4c9bb-8228-4868-a4a2-bb5080680cbf",
         "25140d48-1568-425b-91bc-7b147ced5475",
         "d7bac074-6b4a-4c24-92a7-4bc6d31397b6"
       ],
@@ -7939,14 +7948,6 @@
       "type": "COLLISION_BOX"
     },
     {
-      "$id": "11e56c0b-82b9-4f16-b1b9-214e0853d96e",
-      "length": 1,
-      "name": "",
-      "pluginMetadata": {
-      },
-      "type": "LABEL"
-    },
-    {
       "$id": "b4efd888-59f5-452f-a731-338884905a03",
       "length": 30,
       "pluginMetadata": {
@@ -10541,14 +10542,6 @@
       "type": "COLLISION_BOX"
     },
     {
-      "$id": "3dd1335b-a000-41f6-94f7-66b6c34e3230",
-      "code": "",
-      "length": 1,
-      "pluginMetadata": {
-      },
-      "type": "FRAME_SCRIPT"
-    },
-    {
       "$id": "27d6ac39-52c3-452b-bbbe-52e4f7a4dfff",
       "length": 4,
       "pluginMetadata": {
@@ -10577,14 +10570,6 @@
       "tweenType": "LINEAR",
       "tweened": false,
       "type": "COLLISION_BODY"
-    },
-    {
-      "$id": "5028b200-60aa-4563-81d4-407e2c9af796",
-      "code": "//the many attempts of trying to vfx\r\n//attempt 1\r\n//match.createVfx(\"global::vfx.vfx_shield_front\", self);\r\n//attempt 2\r\n//match.createVfx(VfxStats(\"global::vfx.vfx_shield_front\"), self);\r\n//attempt 3\r\n//match.createProjectile(\"global::vfx.vfx_shield_front\", self);\r\n//match.createVFX({animation: GlobalVfx.DUST_POOF, spriteContent: GlobalVfx, }, self);\r\n//spriteContent: self.getResource().getContent(\"Template\") //for referance\r\n//match.createVfx(\"vfx_revival\", self);\r\n//match.createVfx(GlobalVfx.AIRDASH_BACK, self);\r\n//match.createVfx({\r\n//    animation: \"vfx_revival\",\r\n//    spriteContent: \"vfx_global\"\r\n//}, self);\r\n//match.createVfx({animation: GlobalVfx.KO_BLAST}, self); //in a good future this would've worked but it doesn't",
-      "length": 20,
-      "pluginMetadata": {
-      },
-      "type": "FRAME_SCRIPT"
     },
     {
       "$id": "7513667e-8c19-4e22-b927-5aa9e7b4f3ca",
@@ -10854,7 +10839,7 @@
     },
     {
       "$id": "22231a3e-fc43-416a-a6d9-140505f2daef",
-      "code": "//this category includes everything that is considered legacy that by their technicality have no use, but still have code relating to them,\r\n//do not make anything in here\r\n//everything here purely exists because there's a state for them\r\n//if you can delete the animations in here",
+      "code": "//this category includes everything that is considered legacy that by their technicality have no use, but still have code relating to them,\r\n//do not make anything in here\r\n//everything here purely exists because there's a state for them\r\n//if you want to you can delete the animations in here as they serve no purpose other than curiousity",
       "length": 1,
       "pluginMetadata": {
       },
@@ -14387,6 +14372,110 @@
     {
       "$id": "d03376f6-56cf-469c-b16a-b0e6e294b53a",
       "code": "",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "7615079c-00fd-4982-8eb4-038fa1ae59d6",
+      "code": "generateDashDust(); //in hlboot\r\n//generateAirdashVfx //also in hlboot",
+      "length": 20,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "4829299c-fa07-4365-84e3-f68d0d5cca6a",
+      "code": "generateAirdashVfx(0); //spawns airdash vfx",
+      "length": 20,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "642ea909-bdb9-4bbf-bfec-5668b023e3fe",
+      "code": "generateAirdashVfx(315); //spawns airdash vfx",
+      "length": 20,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "5b0696cf-ca57-424c-8107-24bdfbd81a81",
+      "length": 1,
+      "name": "",
+      "pluginMetadata": {
+      },
+      "type": "LABEL"
+    },
+    {
+      "$id": "e24add19-17ea-492d-a296-bc0e0febf639",
+      "code": "generateAirdashVfx(45); //spawns airdash vfx",
+      "length": 20,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "4c464178-0b8a-4e50-8ce8-a02d875b29e0",
+      "code": "generateAirdashVfx(180); //spawns airdash vfx",
+      "length": 20,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "9634c99e-0d06-47c3-aec5-903a314d6606",
+      "code": "generateAirdashVfx(225); //spawns airdash vfx",
+      "length": 20,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "f23db505-8f10-4133-b8fe-04c535fa66e0",
+      "code": "generateAirdashVfx(135); //spawns airdash vfx",
+      "length": 20,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "03c49e64-0941-4fe1-a946-dd0e8fe5a000",
+      "code": "generateAirdashVfx(270); //spawns airdash vfx",
+      "length": 20,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "046dca6a-80a4-4c7b-a455-9638d899551e",
+      "code": "generateAirdashVfx(90); //spawns airdash vfx",
+      "length": 20,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "2eb067db-4a7c-4912-abba-086356e35661",
+      "code": "",
+      "length": 3,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "3a68607c-4cc6-4175-a7fd-ca979dcd4f5f",
+      "code": "//performLedgeJump(CState.JUMP_IN); \r\n//applyLedgeJumpSpeed(-10); //how does this even work\r\n//self.releaseLedge();",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "e27b5120-2914-4173-b24d-13988e44403b",
+      "code": "generateDashDust();",
       "length": 1,
       "pluginMetadata": {
       },
@@ -19539,7 +19628,7 @@
       "$id": "1396884b-e50b-4a19-988e-f3c5109ba66f",
       "hidden": false,
       "keyframes": [
-        "11e56c0b-82b9-4f16-b1b9-214e0853d96e"
+        "5b0696cf-ca57-424c-8107-24bdfbd81a81"
       ],
       "locked": false,
       "name": "011-AIRDASH_FULL_SPEED",
@@ -22633,7 +22722,8 @@
       "$id": "fa02bf93-43bd-4eed-990b-e7e189701f02",
       "hidden": false,
       "keyframes": [
-        "3dd1335b-a000-41f6-94f7-66b6c34e3230"
+        "2eb067db-4a7c-4912-abba-086356e35661",
+        "3a68607c-4cc6-4175-a7fd-ca979dcd4f5f"
       ],
       "language": "hscript",
       "locked": false,
@@ -22696,11 +22786,11 @@
       "$id": "bf9db801-666b-4166-a222-f82a7e294239",
       "hidden": false,
       "keyframes": [
-        "5028b200-60aa-4563-81d4-407e2c9af796"
+        "7615079c-00fd-4982-8eb4-038fa1ae59d6"
       ],
       "language": "hscript",
       "locked": false,
-      "name": "Frame Script Layer",
+      "name": "VFX Layer",
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -26089,6 +26179,123 @@
       "language": "hscript",
       "locked": false,
       "name": "Frame Script Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "28de84e0-798b-466c-a902-dbb28accbb44",
+      "hidden": false,
+      "keyframes": [
+        "4829299c-fa07-4365-84e3-f68d0d5cca6a"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "194e83c7-d39d-41b3-9375-955398517373",
+      "hidden": false,
+      "keyframes": [
+        "642ea909-bdb9-4bbf-bfec-5668b023e3fe"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "3d010729-bf64-46a0-b03b-b9e7bbe38926",
+      "hidden": false,
+      "keyframes": [
+        "e24add19-17ea-492d-a296-bc0e0febf639"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "ab998268-6f25-4a4b-8961-f0495a38a103",
+      "hidden": false,
+      "keyframes": [
+        "4c464178-0b8a-4e50-8ce8-a02d875b29e0"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "fa40600c-01fb-4840-86cb-08a7a79a9d2b",
+      "hidden": false,
+      "keyframes": [
+        "9634c99e-0d06-47c3-aec5-903a314d6606"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "4ef9afdc-0fb8-4152-8141-2415a30af877",
+      "hidden": false,
+      "keyframes": [
+        "f23db505-8f10-4133-b8fe-04c535fa66e0"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "7854f4c0-604a-4b00-b56c-c7b769f16855",
+      "hidden": false,
+      "keyframes": [
+        "03c49e64-0941-4fe1-a946-dd0e8fe5a000"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "5fc882b8-1f4b-492b-a51d-1176e22c52b9",
+      "hidden": false,
+      "keyframes": [
+        "046dca6a-80a4-4c7b-a455-9638d899551e"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "61d4c9bb-8228-4868-a4a2-bb5080680cbf",
+      "hidden": false,
+      "keyframes": [
+        "e27b5120-2914-4173-b24d-13988e44403b"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"

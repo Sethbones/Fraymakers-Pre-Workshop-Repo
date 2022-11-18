@@ -2,7 +2,7 @@ Name: Bloxxy, the unofficial character template
 
 Description: a Template for making characters
 
-Version: 0.9.3
+Version: 0.9.5
 
 Created by: BoneManSeth#5582 
 
@@ -14,7 +14,21 @@ Screenshots:
 
 ![Templatescreenshot](https://github.com/Sethbones/Fraymakers-Pre-Workshop-Repo/blob/main/Characters/Template%20(Beta)/golden.gif)
 
+currently unimplemented:
+Proper Ledge Jumps once that gets figured out (so i can get rid of the hacky workaround solution currently used)
+Code Polish
+Folder Cleanup
+vfx for attack animations for extra game feel
+
+
+
 patch notes:
+
+0.9.5 fancy vfx
+
+vfx for dash and airdash added, hooray for datamining the hlboot file
+
+getting close to 1.0.0, fun
 
 0.9.4 Meter Gimmick
 
