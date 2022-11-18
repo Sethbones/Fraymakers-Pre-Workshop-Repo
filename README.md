@@ -1,10 +1,11 @@
-# Fraymakers-Pre-Workshop-Repo 
+# Fraymakers-Workshop-Source-Repo
 
 ![logo](/simple%20logo.png)
 
-Note: Everything that is published here will be uploaded to the actual workshop when that happens. 
+welcome to the workshop source repo
+in here currently is source code for my projects and anyone else that wants to upload their's
 
-bare in mind this very much a W.I.P but will also like always stay a work in progress
+bare in mind this very much a W.I.P but will also probably always stay a work in progress
 
 Usage instructions
 
@@ -34,6 +35,8 @@ Version: 1
 Created by: *discord username*
 
 type: character\assist\stage\misc
+
+Workshop Link: if any
 
 Preview Image:
 
