@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "f609204e-451b-44ee-9e19-7454faa1bc46",
+  "id": "emotestats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

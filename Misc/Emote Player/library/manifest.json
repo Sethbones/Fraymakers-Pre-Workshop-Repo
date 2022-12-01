@@ -1,0 +1,28 @@
+{
+  "resourceId": "EmoteForcer",
+  "content": [{
+    "id": "EmoteForcer",
+    "name": "Emote Player",
+    "type": "assist",
+    "objectStatsId": "emotestats",
+    "metadata": {
+      "ui":{
+        "entityId":"menu",
+        "render":{
+          "animation":"assist_hud",
+          "animation_icon_no_palette":"assist_hud"
+        },
+        "hud":{
+          "animation":"assist_hud"
+        },
+        "css":{
+          "animation":"assist_hud",
+          "info":{
+            "game":"",
+            "description":"Plays Emote Animation"
+          }
+        }
+      }
+    }
+  }]
+}

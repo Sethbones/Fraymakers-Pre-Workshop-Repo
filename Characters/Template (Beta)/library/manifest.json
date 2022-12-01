@@ -78,5 +78,12 @@
     "hitboxStatsId": "meterHitboxStats",
     "scriptId": "meterScript",
     "costumesId": "TemplateCostumes"
+  },{
+    "id": "fakevfx",
+    "type": "projectile",
+    "objectStatsId": "fakevfxObjectStats",
+    "animationStatsId": "fakevfxAnimationStats",
+    "hitboxStatsId": "fakevfxHitboxStats",
+    "scriptId": "fakevfxScript"
   }]
 }

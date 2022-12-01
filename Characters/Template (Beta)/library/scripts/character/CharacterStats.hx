@@ -2,7 +2,7 @@
 	//---------Important Stats---------\\
 	//spriteContent: "public::commandervideo.commandervideo",
 	spriteContent: self.getResource().getContent("Template"), //Content id path of the sprite to load for this. Character id derived from manifest //required or crash
-	name: "Bloxxy", //The unique name of the character. Used for finding the object. //as it stands this does nothing, base cast characters have it set to null
+	name: "Bloxxy", //The unique name of the character. Used for finding the object. //as it stands this does nothing, base cast characters have it as null. might do something soon
 	//initialState: CState.INTRO, //The initial state the object should be set to. //use other CStates with caution
 	//spriteContent public (i.e base cast characters) options //only use when the other oppnonent is one of them //FOR TESTING ONLY
 	//public::octodad.octodad
@@ -15,7 +15,7 @@
 
 	//---------Character Stats---------\\
 	//the following mess still needs organizing
-	//These Variables control the character's stats and specific abilites such as crawling, gliding, air grabbing and floating
+	//These Variables control the character's stats and specific abilites such as crawling, gliding, air grabbing and floating, granted half of them don't work properly yet
 
 	gravity: 0.8, //Fall acceleration.
 
@@ -81,7 +81,7 @@
 	//GRAB //The engine will jump to the grab_air animation, if it exists. If no animation is found, acts like NONE
 	//NONE //The engine will do nothing, and essentially ignore the input //the default
 
-	//holdToJump: FALSE, //If set to true, jumps after the second can be performed by holding jump.
+	//holdToJump: false, //If set to true, jumps after the second can be performed by holding jump. 
 
 	//hurtHeavySilenceRate: 0.5, //The rate at which calls to playHurtHeavyVoice() should result in silence.
 
@@ -107,9 +107,9 @@
 
 	//koVoiceSilenceRate: 0.5, //The rate at which calls to playKoVoice() should result in silence.
 
-	ledgeJumpXSpeed: 2.5, //2.5 //Horizontal speed boost the character gets when performing a ledge jump //until ledge jumps are figured out this does nothing
+	ledgeJumpXSpeed: 2.5, //2.5 //Horizontal speed boost the character gets when performing a ledge jump
 
-	ledgeJumpYSpeed: -10, // -10 //Vertical speed boost the character gets when performing a ledge jump //until ledge jumps are figured out this does nothing
+	ledgeJumpYSpeed: -10, // -10 //Vertical speed boost the character gets when performing a ledge jump
 
 	ledgeRollSpeed: 10, //Speed the character’s ledge roll begins at.
 
@@ -185,6 +185,7 @@
 	//aerialHipYOffset: 0, //Vertically displaces the wall collision detection area on the object relative to the foot when the object is grounded. At zero, the hip is placed vertically halfway between the object’s head and foot. This is the base value which is used when no collision body data is available. Game Objects can override this value on specific animation frames by containing an ECB baked into the animation.
 
 	//attackRatio: 1, //Multiplier that is applied to knockback which gets assigned to HitboxStats on attack hit. This is similar to damageRatio but is instead applied to outgoing attacks from this object. This is especially useful for scaling up difficulty during single player matches.
+
 	//baseScaleX: 1, //Multiplies the base horizontal scale of the GameObject by the specified amount. The object will render by default at a multiple of baseScaleX and baseScaleY.
 	
 	//baseScaleY: 1, //Multiplies the base vertical   scale of the GameObject by the specified amount. The object will render by default at a multiple of baseScaleX and baseScaleY.
@@ -215,16 +216,17 @@
 
 	//groundSpeedCap: 15, //Max horizontal speed when in the air. //typo in the official docs, funny //Basically keep this as is unless you're making a character that's main gimmick is having no speed cap 
 
-	//immovable: FALSE, //Immovable objects are immune to windboxes and cannot be pushed by other solid entities. They will still push other solid objects if both the object and animation’s SOLID flag is true.
+	//immovable: false, //Immovable objects are immune to windboxes and cannot be pushed by other solid entities. They will still push other solid objects if both the object and animation’s SOLID flag is true.
 
 	//metadata: null, //Additional Metadata //what does even mean?, where?
 
-	//shadows: TRUE, //Whether or not to enable shadows globally on the game object. //good for vampire characters or cursors
+	//shadows: true, //Whether or not to enable shadows globally on the game object. //good for non characters, like meters
 
-	//solid: TRUE, //Solid entities’ animations push other solid objects away unless their PUSH flag is false, and can be pushed by other solid objects unless their IMMOVABLE flag is true.
+	//solid: true, //Solid entities’ animations push other solid objects away unless their PUSH flag is false, and can be pushed by other solid objects unless their IMMOVABLE flag is true.
 
 	//stateTransitionMapOverrides: //Map of states to animations/callbacks[ 
 		//This is pretty much useless unless you have a very particular reason to use this like naming some animations differently. Note some states are broken at the moment
+		//was used during pre-bloxxy times by desperate modders- i mean used by pre workshop characters like officeversus or older versions of annie, this was before anyone knew any animation names
 		//CState.ACTION => { animation: "action"}, //crashes game
 		//CState.AERIAL_BACK => { animation: "aerial_back"},
 		//CState.AERIAL_DOWN => { animation: "aerial_down"},

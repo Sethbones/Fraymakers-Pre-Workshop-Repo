@@ -21,11 +21,19 @@ function initialize(){//on match start
     if (self.getCostumeIndex() == 9){
         match.createProjectile(self.getResource().getContent("goldpSparkles"), self);
     }
-    //Engine.log(performLedgeJump(CState.JUMP_IN));
+    //Engine.log(dustVfx); //specifying does cause the character to start in jump_loop
 }
 
 function update() {//every frame after match start
-    //applyLedgeJumpSpeed(true); //specifying does cause the character to start in jump_loop
+    //generateDashDust(GlobalVfx.KO_BLAST);
+    //self.updateCharacterStats({ledgeJumpXSpeed, ledgeJumpYSpeed})
+    //applyLedgeJumpSpeed(true);
+    //applyLedgeJumpSpeed(-10);
+    //applyLedgeJumpSpeed([-10, 2]);
+    //applyLedgeJumpSpeed();
+    //applyLedgeJumpSpeed({ledgeJumpXSpeed, ledgeJumpYSpeed}); //crashes script
+    //applyLedgeJumpSpeed(self.setYSpeed(-30), self.setXSpeed(15));
+    //applyLedgeJumpSpeed(self.getCharacterStat("ledgeJumpXSpeed"), self.getCharacterStat("ledgeJumpYSpeed"));
     if (self.inState(CState.REVIVAL)){ //things to reset on respawn
         Engine.log("undeads your character");
         canspawndeatheffect = true;

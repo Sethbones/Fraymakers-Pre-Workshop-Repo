@@ -1227,6 +1227,7 @@
         "6f63346c-5839-4727-becd-a2c45a2a9739",
         "eb6ebc86-9149-4060-8712-abb85839b586",
         "bb590a20-cb88-4061-8567-f484476543b5",
+        "fccaf28d-95cb-4423-9977-87b367dd3b7a",
         "f23f168f-b916-44a5-b282-2b82f8a6005c",
         "517f71b1-27b3-4047-b380-c9359ab82baf"
       ],
@@ -1518,6 +1519,7 @@
         "bb76828a-4ce7-4e62-9a44-e0aedf9950a9",
         "1cb4fbf7-e99d-4831-874e-6d7219561c79",
         "86717bd5-ec62-4bf9-acf8-27e9a87a25df",
+        "3ce7d96e-c4da-4e26-80f7-ac0c687b3021",
         "e8802f6e-4c98-48e4-9189-5d32947db42d",
         "6c1770ab-fb6f-4fea-b750-1c47543b68d9"
       ],
@@ -1534,6 +1536,7 @@
         "19381804-2801-4b55-86e0-61d6b549fe0a",
         "d468bf51-19a8-40ff-a9ac-876491fce161",
         "6150ff16-bf93-4397-a656-9f34daceefd5",
+        "51eb20a1-67ba-4282-aef5-02ef800f2d85",
         "df606b3c-d38f-4184-9a3f-b1540532f258",
         "1ffa0cbf-8023-40f9-ad6d-f5e825e77157"
       ],
@@ -2113,6 +2116,26 @@
         "6afe7038-2082-4108-a606-ee6e2b5b5e1e"
       ],
       "name": "meter_empty",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "ace73c19-cbc8-4b23-9865-6c2f72ee766a",
+      "layers": [
+        "d1ca44bb-8f66-445c-b6f9-1b6cfe2659d5",
+        "50fca9c7-d86d-4bd2-b3db-3aa6242e1a37"
+      ],
+      "name": "-----------------FAKE VFX------------------",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "e090bed1-e708-48f3-87a1-399a2f38208f",
+      "layers": [
+        "98c5f065-dfc7-43d9-a8a4-faa058aa79ea",
+        "1bdac099-434b-4224-b24b-2d26a59591bb"
+      ],
+      "name": "dust_small",
       "pluginMetadata": {
       }
     }
@@ -12969,7 +12992,7 @@
     },
     {
       "$id": "c89d3571-2e2c-43f2-8b7e-c5687bfc5b22",
-      "code": "//bullshirt\r\n\r\n\r\nmatch.createVfx(VfxStats, self);\r\n\r\n\r\n\r\n\r\n\r\n\r\nVfxStats\r\nStageStats\r\nGameObjectStats\r\nStructureStats\r\nAnimationStats\r\nCollisionAreaStats\r\nAssistStats\r\nStatsFile\r\n\r\n",
+      "code": "//i just noticed this, what happend here, i don't even remember writing this\r\n//bullshirt\r\n\r\n\r\nmatch.createVfx(VfxStats, self);\r\n\r\n\r\n\r\n\r\n\r\n\r\nVfxStats\r\nStageStats\r\nGameObjectStats\r\nStructureStats\r\nAnimationStats\r\nCollisionAreaStats\r\nAssistStats\r\nStatsFile\r\n\r\n",
       "length": 1,
       "pluginMetadata": {
       },
@@ -14467,7 +14490,7 @@
     },
     {
       "$id": "3a68607c-4cc6-4175-a7fd-ca979dcd4f5f",
-      "code": "//performLedgeJump(CState.JUMP_IN); \r\n//applyLedgeJumpSpeed(-10); //how does this even work\r\n//self.releaseLedge();",
+      "code": "performLedgeJump(CState.JUMP_IN); \r\napplyLedgeJumpSpeed(self.setXSpeed(self.getCharacterStat(\"ledgeJumpXSpeed\")), self.setYSpeed(self.getCharacterStat(\"ledgeJumpYSpeed\"))); //there's no way this is how you do it, it's way too long but it does work",
       "length": 1,
       "pluginMetadata": {
       },
@@ -14480,6 +14503,174 @@
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "1b383a04-e414-46f5-813d-0260f229ed95",
+      "code": "",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "f59b72e1-309f-4c0c-b511-57a65edb1bd4",
+      "code": "generateDashDust(); //in hlboot",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "f7a5f5b5-cc51-4ce2-9c49-68c500e79594",
+      "code": "generateDashDust(); //in hlboot",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "e8b31ac9-63a4-44ce-84ce-22ecf0debc7b",
+      "code": "generateDashDust(); //in hlboot",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "99e40d6e-1d5d-43e1-a22b-a2bb19140189",
+      "code": "//the following features hacky workaround vfx recreations as an attempt to do vfx. as it stands, vfx is too undocumented to be useful and the official character template is still not out, it's been 2 months devs, what the fuck",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "cb82d926-9f08-4b62-9c99-69efda26bbcf",
+      "length": 50,
+      "pluginMetadata": {
+      },
+      "symbol": "a782c06d-47f6-4533-a9ec-c14b95019414",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "7a946e4b-f6b4-4245-9187-a82db2f9f406",
+      "code": "",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "1c93421e-51b3-4b31-9c0b-1ff3dc7f6b44",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "7451714a-e459-4448-b83d-3c8679624449",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "00ac7cbb-b225-4e12-9db5-34574d493dfe",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "57b4db0d-f9e0-483f-9a1a-6efc2087de8c",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "de1bbac2-edc7-467d-9e2f-149c69c2a301",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "c0e68db4-b1de-496a-85cf-8d506a331d67",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "6b20caa2-fecb-433f-8139-50abf5a9eca9",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "f7cb1388-491a-4d68-86c7-f1ad8d40892f",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "19a24107-e893-4ebd-86d3-367487d3dd64",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "3fc883e9-2da1-435b-8a28-e9f989910572",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "4d6a54a0-b132-41ed-b5a9-73153c312421",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "7019b75f-5f2c-4b2a-901d-6516183a6713",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "99140673-bc82-46cd-b57e-c158e96ffc10",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "5cc8a1f0-9abe-4aa8-9e1b-ea5e881441af",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "b895ec63-1a2f-4997-aea8-b36abc745d69",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "e90a0f95-1809-4fea-b843-6f7f99eec8dd",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "d21fbb02-e4a3-428a-9e49-ec568a2f3463",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "0ac945c2-c6d0-45e0-846a-f64dd1ff8a89",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "63ac5f2a-c42a-4f77-abf9-0b14663e8e9d",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "149bfdc5-e7e7-4000-8fa1-f3607756774f",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "fd2cf0b2-c582-4ec6-a204-7b00fec8b906",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "601875d7-3e55-418f-92f6-8e82e57d235f",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
     }
   ],
   "layers": [
@@ -24047,7 +24238,7 @@
         "492362b4-8885-4be4-b604-f4deee03150a"
       ],
       "locked": false,
-      "name": "plays for 1 frame",
+      "name": "plays for 1 frame on respawn",
       "pluginMetadata": {
       },
       "type": "LABEL"
@@ -26299,6 +26490,106 @@
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "fccaf28d-95cb-4423-9977-87b367dd3b7a",
+      "hidden": false,
+      "keyframes": [
+        "1b383a04-e414-46f5-813d-0260f229ed95",
+        "f59b72e1-309f-4c0c-b511-57a65edb1bd4"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "3ce7d96e-c4da-4e26-80f7-ac0c687b3021",
+      "hidden": false,
+      "keyframes": [
+        "f7a5f5b5-cc51-4ce2-9c49-68c500e79594"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "51eb20a1-67ba-4282-aef5-02ef800f2d85",
+      "hidden": false,
+      "keyframes": [
+        "e8b31ac9-63a4-44ce-84ce-22ecf0debc7b"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "VFX Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "50fca9c7-d86d-4bd2-b3db-3aa6242e1a37",
+      "hidden": false,
+      "keyframes": [
+        "99e40d6e-1d5d-43e1-a22b-a2bb19140189"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "Frame Script Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "d1ca44bb-8f66-445c-b6f9-1b6cfe2659d5",
+      "hidden": false,
+      "keyframes": [
+        "cb82d926-9f08-4b62-9c99-69efda26bbcf"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    },
+    {
+      "$id": "1bdac099-434b-4224-b24b-2d26a59591bb",
+      "hidden": false,
+      "keyframes": [
+        "7a946e4b-f6b4-4245-9187-a82db2f9f406"
+      ],
+      "language": "hscript",
+      "locked": false,
+      "name": "Frame Script Layer",
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "98c5f065-dfc7-43d9-a8a4-faa058aa79ea",
+      "hidden": false,
+      "keyframes": [
+        "1c93421e-51b3-4b31-9c0b-1ff3dc7f6b44",
+        "00ac7cbb-b225-4e12-9db5-34574d493dfe",
+        "de1bbac2-edc7-467d-9e2f-149c69c2a301",
+        "6b20caa2-fecb-433f-8139-50abf5a9eca9",
+        "19a24107-e893-4ebd-86d3-367487d3dd64",
+        "4d6a54a0-b132-41ed-b5a9-73153c312421",
+        "99140673-bc82-46cd-b57e-c158e96ffc10",
+        "b895ec63-1a2f-4997-aea8-b36abc745d69",
+        "d21fbb02-e4a3-428a-9e49-ec568a2f3463",
+        "63ac5f2a-c42a-4f77-abf9-0b14663e8e9d",
+        "fd2cf0b2-c582-4ec6-a204-7b00fec8b906"
+      ],
+      "locked": false,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
     }
   ],
   "paletteMap": {
@@ -39891,6 +40182,186 @@
       "type": "IMAGE",
       "x": -44,
       "y": -4
+    },
+    {
+      "$id": "a782c06d-47f6-4533-a9ec-c14b95019414",
+      "alpha": 1,
+      "imageAsset": "affa0c5f-a55e-43c0-87b2-96d76e77ca61",
+      "pivotX": 32,
+      "pivotY": 40,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -40
+    },
+    {
+      "$id": "7451714a-e459-4448-b83d-3c8679624449",
+      "alpha": 1,
+      "imageAsset": "20adba6c-5b57-4275-91e1-f59f4870b746",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
+    },
+    {
+      "$id": "57b4db0d-f9e0-483f-9a1a-6efc2087de8c",
+      "alpha": 1,
+      "imageAsset": "70df135f-cc44-4303-99b7-8d18270d2834",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
+    },
+    {
+      "$id": "c0e68db4-b1de-496a-85cf-8d506a331d67",
+      "alpha": 1,
+      "imageAsset": "0d3af717-c511-4030-b6e5-328f14f82892",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
+    },
+    {
+      "$id": "f7cb1388-491a-4d68-86c7-f1ad8d40892f",
+      "alpha": 1,
+      "imageAsset": "7ee2775e-3228-43ef-88f0-aa28fe9ea410",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
+    },
+    {
+      "$id": "3fc883e9-2da1-435b-8a28-e9f989910572",
+      "alpha": 1,
+      "imageAsset": "b86884c4-52ff-421c-bef7-a2f6b7b4a2de",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
+    },
+    {
+      "$id": "7019b75f-5f2c-4b2a-901d-6516183a6713",
+      "alpha": 1,
+      "imageAsset": "23622a45-c061-4071-9bc6-111ef4caf069",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
+    },
+    {
+      "$id": "5cc8a1f0-9abe-4aa8-9e1b-ea5e881441af",
+      "alpha": 1,
+      "imageAsset": "96480cfc-14c7-41d0-8afa-411406d6778b",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
+    },
+    {
+      "$id": "e90a0f95-1809-4fea-b843-6f7f99eec8dd",
+      "alpha": 1,
+      "imageAsset": "b848f735-878e-439e-a275-b0f82d2d05c7",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
+    },
+    {
+      "$id": "0ac945c2-c6d0-45e0-846a-f64dd1ff8a89",
+      "alpha": 1,
+      "imageAsset": "a6acaf93-547f-4393-8c6d-faa21efb6e66",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
+    },
+    {
+      "$id": "149bfdc5-e7e7-4000-8fa1-f3607756774f",
+      "alpha": 1,
+      "imageAsset": "f7a31641-4f15-47d7-a299-130424e49f29",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
+    },
+    {
+      "$id": "601875d7-3e55-418f-92f6-8e82e57d235f",
+      "alpha": 1,
+      "imageAsset": "e08a32e3-c530-4da3-8dad-ee1b443252c6",
+      "pivotX": 16,
+      "pivotY": 16,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -32,
+      "y": -32
     }
   ],
   "tags": [

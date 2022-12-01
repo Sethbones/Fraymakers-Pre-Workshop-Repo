@@ -1,0 +1,96 @@
+{
+  "animations": [
+    {
+      "$id": "cc0a792f-eb4c-40c6-9952-103b8321e840",
+      "layers": [
+      ],
+      "name": "assist_css",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "093b8942-9762-445e-8f12-a39b0dc11231",
+      "layers": [
+      ],
+      "name": "assist_full",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "caf19fce-f411-4383-8b23-e0854e3cfc1e",
+      "layers": [
+        "3dd0b5af-8621-4829-a2d3-b8923d68e06e"
+      ],
+      "name": "assist_hud",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "export": true,
+  "guid": "bbf70ec9-57d4-407a-9a05-3794abb927f5",
+  "id": "menu",
+  "keyframes": [
+    {
+      "$id": "7c53ab8f-fdd1-429b-8f7f-5b569c2ee93b",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": "bff4882e-5276-4c10-8012-442ef8f7a418",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    }
+  ],
+  "layers": [
+    {
+      "$id": "3dd0b5af-8621-4829-a2d3-b8923d68e06e",
+      "hidden": false,
+      "keyframes": [
+        "7c53ab8f-fdd1-429b-8f7f-5b569c2ee93b"
+      ],
+      "locked": false,
+      "name": "0",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
+    }
+  ],
+  "paletteMap": {
+    "paletteCollection": null,
+    "paletteMap": null
+  },
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "spritesheetGroup": "menu",
+      "version": "0.1.1"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "symbols": [
+    {
+      "$id": "bff4882e-5276-4c10-8012-442ef8f7a418",
+      "alpha": 1,
+      "imageAsset": "9cb73693-c413-4f4c-af7a-2caa8ec1982b",
+      "pivotX": 0,
+      "pivotY": 0,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "tags": [
+    "menu"
+  ],
+  "terrains": [
+  ],
+  "tilesets": [
+  ],
+  "version": 14
+}

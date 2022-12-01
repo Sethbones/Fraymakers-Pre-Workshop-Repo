@@ -17,12 +17,25 @@
 	special_down_air: { singleUse: true },
 	//strong_forward_attack: { leaveGroundCancel: false },
 	ledge_jump_in: { influenceMultiplier: 1 },
-	ledge_jump: { influenceMultiplier: 1, nextState: CState.JUMP_IN }, //required for ledge jumps to work
+	//ledge_jump: { influenceMultiplier: 1, nextState: CState.JUMP_IN }, //old //used to be required for ledge jumps to work
 	aerial_neutral: { landAnimation:"aerial_neutral_land" },
 	aerial_forward: { landAnimation:"aerial_forward_land" },
 	aerial_back: { landAnimation:"aerial_back_land" },
 	aerial_down: { landAnimation:"aerial_down_land" },
-	aerial_up: { landAnimation:"aerial_up_land" }
+	aerial_up: { landAnimation:"aerial_up_land" },
+	roll: {bodyStatus: BodyStatus.INTANGIBLE },
+	spot_dodge: {bodyStatus: BodyStatus.INTANGIBLE },
+	ledge_climb: {bodyStatus: BodyStatus.INTANGIBLE },
+	ledge_roll_in: {bodyStatus: BodyStatus.INTANGIBLE },
+	ledge_roll: {bodyStatus: BodyStatus.INTANGIBLE },
+	ledge_in: {bodyStatus: BodyStatus.INTANGIBLE },
+	tech: {bodyStatus: BodyStatus.INTANGIBLE },
+	tech_roll: {bodyStatus: BodyStatus.INTANGIBLE },
+	tech_ceiling: {bodyStatus: BodyStatus.INTANGIBLE },
+	tech_wall: {bodyStatus: BodyStatus.INTANGIBLE },
+	crash_get_up: {bodyStatus: BodyStatus.INTANGIBLE },
+	crash_roll: {bodyStatus: BodyStatus.INTANGIBLE },
+	crash_attack: {bodyStatus: BodyStatus.INTANGIBLE }	
 }
 
 //example of a stat with everything
@@ -41,8 +54,8 @@
 //bodyStatus (type:BodyStatus, default:BodyStatus.NONE) Override’s the BodyStatus of the Entity for the duration of the animation.
 //BodyStatus options:
 //HEAVY_ARMOR - TODO
-//INTANGIBLE - TODO
-//INVINCIBLE - makes the player invincible
+//INTANGIBLE - makes the player completely invincible
+//INVINCIBLE - makes the player invincible to knockback but can still take damage
 //INVINCIBLE_GRABBABLE - same as above but can be grabbed through it, not sure when you'll ever use this
 //LAUNCH_RESISTANCE - TODO
 //NONE - default, does nothing
@@ -89,7 +102,7 @@
 //nextState (type:Int/Cstate, default:-1/-1) Used in conjunction with AnimationEndType.AUTO. If provided, when the animation ends, the entity’s state will be changed to this value
 // you can use integers and CStates, use whatever you think makes more sense
 //nextstate integer maps: //TODO //116 states total //this is here because the docs don't have these
-	//-1 - goes to stand
+	//-1 -failsafe, goes to stand
 	//0 - does nothing
 	//1 - ??? //causes character to freeze 
 	//2 - STAND
@@ -208,6 +221,7 @@
 	//115 - ASSIST_CALL
 	//116 - ??? //freezes character
 	//117 - there's only 116 states so anything beyond this point either does nothing or freezes the character
+
 //pause (type:Bool, default:false) When set to true, animation playback is halted on the current frame.
 
 //resetId (type:Bool, default:true) When true, the current AnimationStats attackId will be reset on the first frame.
@@ -255,3 +269,4 @@
 
 //--Assist Specific Animation Stats---\\
 //what do you mean there's nothing?
+//this has a page in the docs... an empty page

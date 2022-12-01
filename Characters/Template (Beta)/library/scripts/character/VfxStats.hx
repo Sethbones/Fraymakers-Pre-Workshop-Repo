@@ -1,8 +1,8 @@
 //ignore this file, if you need vfx wait for the official character template so this gets updated
-//things here are just here for them to be there untill it's actually done
+//things here are just here for them to be there untill it's actually possible
 
-//supposed usage instruction with all things //supposably meant to be used in the animations themselves since createVfx is a match function
-//also important to note as there's also a function called createVFX, which is different than createVfx and crashes the game on use. it is only ever mentioned in the hlboot file
+//supposed usage instruction with all things //supposably meant to be used in the animations themselves since createVfx is a match function that uses vfxStats
+//also important to note as there's also a function called createVFX, which is different than createVfx and crashes the game on use. it is only ever mentioned in the hlboot file and is presumably a legacy thing
 //match.createVfx( {animation: null, chain: null, fadeOut: false, flipWith: true, forceVisible: false, layer: "front", loop: false, physics: false, relativeWith: true, resizeWith: true, rotation: 0, scaleX: 1, scaleY: 1, shrink: false, smoothing: false, spriteContent: null, timeout: -1, x: 0, y: 0 } , self);
 
 //supposed documentation, as vfx ccurrently does not work and will probably keep not working untill the official character template is out
@@ -56,11 +56,11 @@
     //SPIKE
     //SPIKE_BACK
 
-//chain (type:VfxStatsProps, default:null) Stats for a child Vfx to generate, inheriting all of the properties of its parent by default
+//chain (type:VfxStatsProps, default:null) Stats for a child Vfx to generate, inheriting all of the properties of its parent by default //VfxStatsProps has no documentation currently
 
 //fadeOut (type:Bool, default:false) When true, the Vfx animation will fade out linearly from initial spawn to timeout.
 
-//flipWith (type:Bool, default:TRUE) Whether or not to flip the effect based on the calling GameObject’s horizontal scale
+//flipWith (type:Bool, default:true) Whether or not to flip the effect based on the calling GameObject’s horizontal scale
 
 //forceVisible (type:Bool, default:false) When true, The Vfx will be shown regardless of any optimization settings/configs
 

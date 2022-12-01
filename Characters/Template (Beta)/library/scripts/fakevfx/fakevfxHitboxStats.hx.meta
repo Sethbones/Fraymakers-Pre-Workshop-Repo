@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "a4548599-c427-4eed-9366-dafa2b3cd4e5",
+  "id": "fakevfxHitboxStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

@@ -406,7 +406,7 @@
     {
       "$id": "f0fdfcf5-ab8b-4713-9f90-371046226ceb",
       "defaultAlpha": 0.5,
-      "defaultColor": "0x000000",
+      "defaultColor": "0xff0000",
       "hidden": false,
       "keyframes": [
         "a557a099-00e9-4e98-be7d-b898ce968edc",
@@ -417,6 +417,10 @@
       "locked": false,
       "name": "hitbox0",
       "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "collisionBoxType": "HIT_BOX",
+          "index": 0
+        }
       },
       "type": "COLLISION_BOX"
     },
@@ -529,7 +533,7 @@
     {
       "$id": "7b74b165-471f-4ac3-868c-745909cafa01",
       "defaultAlpha": 0.5,
-      "defaultColor": "0x000000",
+      "defaultColor": "0xff0000",
       "hidden": false,
       "keyframes": [
         "0c8b2b42-1294-45f2-94d9-b30dd61c4b9c",
@@ -540,6 +544,10 @@
       "locked": false,
       "name": "hitbox1",
       "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "collisionBoxType": "HIT_BOX",
+          "index": 1
+        }
       },
       "type": "COLLISION_BOX"
     }
