@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "8983f35d-f6a2-4d29-babd-505a756f3339",
+  "id": "hurt1",
+  "pluginMetadata": {
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

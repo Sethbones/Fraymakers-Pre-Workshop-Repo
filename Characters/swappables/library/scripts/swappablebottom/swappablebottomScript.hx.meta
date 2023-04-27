@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "b58abe73-9998-499a-8e30-278c3a4d966f",
+  "id": "swappablebottomScript",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "PROJECTILE",
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "85e2664b-31b9-45ec-bea8-0c7210c7048d",
+  "id": "BallHitboxStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

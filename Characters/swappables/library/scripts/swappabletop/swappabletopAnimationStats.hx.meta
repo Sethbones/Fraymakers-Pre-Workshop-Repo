@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "3315bfe2-9f94-4be8-a254-f949e30aafec",
+  "id": "swappabletopAnimationStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

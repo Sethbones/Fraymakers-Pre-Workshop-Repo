@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "2690d814-c6ec-49bb-b187-207417d3b740",
+  "id": "jump2",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.1"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

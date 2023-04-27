@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "61ea8b41-21e6-4952-8b74-86f1363d3582",
+  "id": "CubeyAnimationStats",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.0"
+    }
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

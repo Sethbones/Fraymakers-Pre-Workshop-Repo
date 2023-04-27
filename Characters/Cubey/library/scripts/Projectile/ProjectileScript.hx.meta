@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "aab8c357-206a-4145-9518-53d7674daaca",
+  "id": "CubeyBouncyBallScript",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "PROJECTILE",
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

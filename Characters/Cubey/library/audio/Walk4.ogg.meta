@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "b9f89e9a-746e-4f9d-aca5-6d9ab9bc0a92",
+  "id": "Walk4",
+  "pluginMetadata": {
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "66e37c85-c2f8-4062-bd86-1d66be6792e4",
+  "id": "swappabletopStats",
+  "language": "",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

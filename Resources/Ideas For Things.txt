@@ -1,0 +1,7 @@
+reference for hitbox angles
+guide on good hitboxes
+explanation on polygons when that becomes a thing
+making palettes
+guides for hud elements and portraits
+guidelines for a solid character
+sound effect websites that are of note

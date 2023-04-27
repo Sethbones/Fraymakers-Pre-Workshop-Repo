@@ -1,0 +1,301 @@
+{
+  "colors": [
+    {
+      "$id": "52f91d0e-8d86-4f22-a78d-08e285205025",
+      "color": "0xFFFFFFFF",
+      "name": "Main",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+      "color": "0xFFB2A1BE",
+      "name": "Shading",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+      "color": "0xFF000000",
+      "name": "Outline",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "export": true,
+  "guid": "a86017cb-f3d0-43f0-b21c-5a19553e0fec",
+  "id": "CubeyCostumes",
+  "imageAsset": "ea96aaf3-cce8-4dab-9df1-1e8745ee998d",
+  "maps": [
+    {
+      "$id": "08954231-a459-49d3-8cdf-b57795a5399f",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFFFFFFFF"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFFB2A1BE"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "Base",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": true
+        }
+      }
+    },
+    {
+      "$id": "c768746b-65ce-4f0b-919b-cbb3cfaee5a8",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFFFFE4C2"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFFDCA456"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF422936"
+        }
+      ],
+      "name": "Bread",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": false
+        }
+      }
+    },
+    {
+      "$id": "811d259c-9f75-42cd-b8c6-11be01e4abcf",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFFDCA456"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFFA9604C"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF422936"
+        }
+      ],
+      "name": "Toast",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": false
+        }
+      }
+    },
+    {
+      "$id": "d2129056-2ee2-4bcd-a32a-13a26a3fa667",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFFD52B2B"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFF580426"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "Mage Red",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "teamColor": "RED"
+        }
+      }
+    },
+    {
+      "$id": "95fa2b48-05e9-430c-9b72-a99a2fbaaf04",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFFCCE091"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFF979F1E"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "Goblin Green",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "teamColor": "GREEN"
+        }
+      }
+    },
+    {
+      "$id": "21d0c9c0-a80e-4baa-be16-529bbf525ee8",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFF234975"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFF002859"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "Jeans Blue",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": false,
+          "teamColor": "BLUE"
+        }
+      }
+    },
+    {
+      "$id": "e5e295a9-8a62-475d-a6af-339b2d75d85a",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFFE9E9F3"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFF676767"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "Old Colors",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "689b4252-feaf-496e-aed4-cf20ad54a780",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFF000000"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFF676767"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFFFFFFFF"
+        }
+      ],
+      "name": "Inverted",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "e5515eed-daa7-4085-ad19-8dca3c4ed536",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFF0F573E"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFF15073B"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "Cool Color",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "e8fe7d85-a447-40be-9368-f7205c5f6054",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFFFF7500"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFFC24F17"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "Dragon Orange",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "15289863-a701-47fe-b169-02169c1e28c3",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFFFF77EB"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFFC73298"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "Dragon Pink",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "e7e69548-b9f6-4110-96c4-7b04b685b555",
+      "colors": [
+        {
+          "paletteColorId": "52f91d0e-8d86-4f22-a78d-08e285205025",
+          "targetColor": "0xFFE7BD2D"
+        },
+        {
+          "paletteColorId": "3b5b7027-951d-40e8-aa8a-bd86758f585d",
+          "targetColor": "0xFF683D0F"
+        },
+        {
+          "paletteColorId": "900f1ddf-4e9e-4860-af39-8c861b69ac34",
+          "targetColor": "0xFF2C1903"
+        }
+      ],
+      "name": "Gold",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

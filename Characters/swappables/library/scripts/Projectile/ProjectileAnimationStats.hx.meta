@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "b146c9f3-2367-4ce4-af23-7a6bf4c5a3e8",
+  "id": "charactertemplateNspecProjectileAnimationStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

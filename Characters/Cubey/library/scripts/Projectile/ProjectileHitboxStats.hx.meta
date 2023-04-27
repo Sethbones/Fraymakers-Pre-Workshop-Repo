@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "be4b015e-4ee2-4a81-8539-f3703748901d",
+  "id": "CubeyBouncyBallHitboxStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

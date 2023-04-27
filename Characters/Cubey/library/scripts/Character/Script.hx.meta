@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "799f2e12-64f8-4e79-ad5f-d68da2195a24",
+  "id": "CubeyScript",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "CHARACTER",
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

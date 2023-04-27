@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "64f93128-9b71-4605-acdb-3c20bc7a5ce7",
+  "id": "CubeyHitboxStats",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.0"
+    }
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

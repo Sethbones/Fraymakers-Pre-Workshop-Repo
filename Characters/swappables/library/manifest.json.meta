@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "bbcbab64-d736-40eb-9cac-bdf302516bd0",
+  "id": "manifest",
+  "language": "json",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.0"
+    }
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

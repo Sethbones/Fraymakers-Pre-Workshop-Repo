@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "9ca28499-2000-4715-bee0-e82897a1d96b",
+  "id": "attack6",
+  "pluginMetadata": {
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

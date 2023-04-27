@@ -1,0 +1,61 @@
+{
+  "resourceId": "fastchar",
+  "content": [{
+    "id": "fastchar",
+    "name": "Cubey",
+    "description": "i still don't know if this is used anywhere",
+    "type": "character",
+    "objectStatsId": "CubeyCharacterStats",
+    "animationStatsId": "CubeyAnimationStats",
+    "hitboxStatsId": "CubeyHitboxStats",
+    "scriptId": "CubeyScript",
+    "costumesId": "CubeyCostumes",
+    "aiId": "CubeyAi",
+    "metadata": {
+      "ui":{
+        "entityId":"menu",
+        "render":{
+          "animation":"full",
+          "animation_icon":"icon",
+          "animation_icon_no_palette":"icon_no_palette",
+          "x_offset":-40,
+          "y_offset":50
+        },
+        "hud":{
+          "animation":"hud", 
+          "animation_happy":"hud_happy",
+          "animation_sad":"hud_sad",
+          "animation_angry":"hud_angry",
+          "animation_hurt":"hud_hurt"
+        },
+        "css":{
+          "animation":"css",
+          "info":{
+            "game":"No Game | OC",
+            "description":"this fella is the result of approximately 60 hours of hard work in attempt to finish a decently polished character as quickly as possible"
+          }
+        }
+      }
+    }
+  },{
+    "id": "CubeyCharacterAi",
+    "type": "characterAi",
+    "scriptId": "CubeyAi"
+  },{
+    "id": "CubeyBouncyBall",
+    "type": "projectile",
+    "objectStatsId": "CubeyBouncyBallStats",
+    "animationStatsId": "CubeyBouncyBallAnimationStats",
+    "hitboxStatsId": "CubeyBouncyBallHitboxStats",
+    "scriptId": "CubeyBouncyBallScript",
+    "costumesId": "CubeyCostumes"
+  },{
+    "id": "cubeyBallIndicator",
+    "type": "projectile",
+    "objectStatsId": "BallProjectileStats",
+    "animationStatsId": "BallAnimationStats",
+    "hitboxStatsId": "BallHitboxStats",
+    "scriptId": "BallScript",
+    "costumesId": "CubeyCostumes"
+  }]
+}

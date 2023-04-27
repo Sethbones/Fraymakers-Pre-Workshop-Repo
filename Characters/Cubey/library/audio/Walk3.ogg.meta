@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "7548117c-60bb-4888-9ad5-6029f3ae2f54",
+  "id": "Walk3",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

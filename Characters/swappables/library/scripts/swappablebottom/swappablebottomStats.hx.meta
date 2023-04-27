@@ -1,0 +1,16 @@
+{
+  "export": true,
+  "guid": "89ba7352-3caa-46f8-96db-b359c65f0741",
+  "id": "swappablebottomStats",
+  "language": "",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}
