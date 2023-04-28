@@ -3890,7 +3890,7 @@
     },
     {
       "$id": "a6f2e483-af3b-4acc-add6-44c82ed2abfb",
-      "length": 12,
+      "length": 17,
       "pluginMetadata": {
       },
       "symbol": "fe887e5b-6284-4d07-89df-dd75b81b6428",
@@ -5987,14 +5987,6 @@
       "type": "FRAME_SCRIPT"
     },
     {
-      "$id": "78a500cf-61cc-440e-b0d9-87e530f0b5f1",
-      "code": "//script which allows you to act out of the rest of the animation\r\nCommon.setIASA(true);\r\n",
-      "length": 1,
-      "pluginMetadata": {
-      },
-      "type": "FRAME_SCRIPT"
-    },
-    {
       "$id": "27393565-f27f-4985-a2fe-6b42d0ecbd1b",
       "code": "",
       "length": 6,
@@ -6900,7 +6892,7 @@
     },
     {
       "$id": "193c4024-4873-43a5-b5bb-9a111c8c75ee",
-      "code": "//tells the character to enter the \"land_heavy\" animation if landing passed this point in the animation\r\nself.updateHitboxStats(0,{damage: 14, angle:80, baseKnockback: 40, knockbackGrowth: 70, selfHitstop: -1, hitstop: -1, hitstun: -1, limb:AttackLimb.HEAD});self.updateAnimationStats({landType:LandType.NORMAL, landAnimation:\"land_heavy\"});\r\n//script which resets any previous momentum your character had\r\nself.resetMomentum();\r\n\r\n//gives the character a speed boost forward and up (to set backward speed put a negative number in the setXSpeed parenthesis, and to go up set a positive number in the setYSpeed parenthesis)\r\nself.setXSpeed(5);\r\nself.setYSpeed(-20);\r\n\r\n//removes your ability to influence your character's movement in the ground or air\r\nself.updateAnimationStats({allowMovement:false});\r\n\r\n//plays a generic whoosh sound\r\nAudioClip.play(GlobalSfx.WHOOSH_3);\r\n",
+      "code": "//tells the character to enter the \"land_heavy\" animation if landing passed this point in the animation\r\nself.updateHitboxStats(0,{damage: 12, angle:80, baseKnockback: 40, knockbackGrowth: 65, selfHitstop: -1, hitstop: -1, hitstun: -1, limb:AttackLimb.HEAD});self.updateAnimationStats({landType:LandType.NORMAL, landAnimation:\"land_heavy\"});\r\n//script which resets any previous momentum your character had\r\nself.resetMomentum();\r\n\r\n//gives the character a speed boost forward and up (to set backward speed put a negative number in the setXSpeed parenthesis, and to go up set a positive number in the setYSpeed parenthesis)\r\nself.setXSpeed(5);\r\nself.setYSpeed(-20);\r\n\r\n//removes your ability to influence your character's movement in the ground or air\r\nself.updateAnimationStats({allowMovement:false});\r\n\r\n//plays a generic whoosh sound\r\nAudioClip.play(GlobalSfx.WHOOSH_3);\r\n",
       "length": 1,
       "pluginMetadata": {
       },
@@ -11780,7 +11772,7 @@
     },
     {
       "$id": "a0f83dfa-d23c-4939-afb7-01c3eb45fde7",
-      "length": 49,
+      "length": 54,
       "pluginMetadata": {
       },
       "symbol": "df7e968d-ccb3-4a50-8609-ac3ad53749fb",
@@ -12374,7 +12366,7 @@
     },
     {
       "$id": "bc8e28af-f3a4-4a74-8503-b2f9e6bd81ae",
-      "code": "self.updateHitboxStats(0,{damage: 14, angle:80, baseKnockback: 40, knockbackGrowth: 70, selfHitstop: -1, hitstop: -1, hitstun: -1, limb:AttackLimb.HEAD});\r\n//script which resets any previous momentum your character had\r\nself.resetMomentum();\r\n\r\n//gives the character a speed boost forward and up (to set backward speed put a negative number in the setXSpeed parenthesis, and to go up set a positive number in the setYSpeed parenthesis)\r\nself.setXSpeed(5);\r\nself.setYSpeed(-15);\r\n\r\n//removes your ability to influence your character's movement in the ground or air\r\nself.updateAnimationStats({allowMovement:false});\r\n\r\n//plays a generic whoosh sound\r\nAudioClip.play(GlobalSfx.WHOOSH_3);\r\n\r\n//tells the character to enter the \"land_heavy\" animation if landing passed this point in the animation\r\nself.updateAnimationStats({landType:LandType.NORMAL, landAnimation:\"land_heavy\"});\r\n",
+      "code": "self.updateHitboxStats(0,{damage: 12, angle:80, baseKnockback: 40, knockbackGrowth: 65, selfHitstop: -1, hitstop: -1, hitstun: -1, limb:AttackLimb.HEAD});\r\n//script which resets any previous momentum your character had\r\nself.resetMomentum();\r\n\r\n//gives the character a speed boost forward and up (to set backward speed put a negative number in the setXSpeed parenthesis, and to go up set a positive number in the setYSpeed parenthesis)\r\nself.setXSpeed(5);\r\nself.setYSpeed(-15);\r\n\r\n//removes your ability to influence your character's movement in the ground or air\r\nself.updateAnimationStats({allowMovement:false});\r\n\r\n//plays a generic whoosh sound\r\nAudioClip.play(GlobalSfx.WHOOSH_3);\r\n\r\n//tells the character to enter the \"land_heavy\" animation if landing passed this point in the animation\r\nself.updateAnimationStats({landType:LandType.NORMAL, landAnimation:\"land_heavy\"});\r\n",
       "length": 3,
       "pluginMetadata": {
       },
@@ -12708,6 +12700,30 @@
       "$id": "0011c932-fe4c-4be3-bf13-7b5bb6f2aa00",
       "code": "",
       "length": 5,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "d5bbcb1d-2251-4597-9e65-0df520115fb4",
+      "code": "",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "eac128f5-ed50-4032-98c5-a19b7d384c5d",
+      "code": "",
+      "length": 4,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "a056d3e0-ad0c-4615-b658-79951ea170a2",
+      "code": "//script which allows you to act out of the rest of the animation\r\nCommon.setIASA(true);\r\n",
+      "length": 1,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -13687,8 +13703,10 @@
         "d84807c1-19e4-4942-98c0-5ce0e01ea8bc",
         "7aeb5068-6b8c-4147-9140-1ce8e8720217",
         "e445a92f-9733-4bb7-9fa1-6d5d65a4ea3a",
-        "78a500cf-61cc-440e-b0d9-87e530f0b5f1",
-        "27393565-f27f-4985-a2fe-6b42d0ecbd1b"
+        "d5bbcb1d-2251-4597-9e65-0df520115fb4",
+        "27393565-f27f-4985-a2fe-6b42d0ecbd1b",
+        "eac128f5-ed50-4032-98c5-a19b7d384c5d",
+        "a056d3e0-ad0c-4615-b658-79951ea170a2"
       ],
       "language": "hscript",
       "locked": false,
