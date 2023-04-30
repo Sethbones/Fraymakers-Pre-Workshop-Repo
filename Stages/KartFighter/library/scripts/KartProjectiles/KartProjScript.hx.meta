@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "79b18b65-2a5d-4fb4-b072-a6c04bca816c",
+  "id": "KartProjScript",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "PROJECTILE",
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

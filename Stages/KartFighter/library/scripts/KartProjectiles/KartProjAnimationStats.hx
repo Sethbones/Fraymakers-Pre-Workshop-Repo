@@ -1,0 +1,3 @@
+{
+    mehriprojectile: {endType: AnimationEndType.LOOP}
+}

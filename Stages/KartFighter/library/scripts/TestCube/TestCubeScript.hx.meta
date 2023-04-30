@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "dced53d9-77ab-48c4-8057-3367f6fe9474",
+  "id": "TestCubeScript",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "PROJECTILE",
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

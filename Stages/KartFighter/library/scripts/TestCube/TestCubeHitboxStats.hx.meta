@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "eb89b949-d216-463a-bec5-64a821dfb10f",
+  "id": "TestCubeHitboxStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

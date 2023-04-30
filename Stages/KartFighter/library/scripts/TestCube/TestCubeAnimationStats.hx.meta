@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "bec015c3-41d0-4ca5-b8c8-5039c457aaf8",
+  "id": "TestCubeAnimationStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}
