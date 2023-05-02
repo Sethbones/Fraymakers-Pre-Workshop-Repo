@@ -1,0 +1,295 @@
+{
+  "colors": [
+    {
+      "$id": "7f220c0d-5280-44bf-bad1-b8a7bab3b35d",
+      "color": "0xFF000000",
+      "name": "Outline",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "77bd27d8-2d8e-475c-80e5-888c8f4f3491",
+      "color": "0xFFFFFFFF",
+      "name": "Highlight",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "bded0e3c-32f7-44c8-800f-0635d7232071",
+      "color": "0xFFFFDBA2",
+      "name": "Skin",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "9dd81cb5-3a17-4122-8b2b-7b4310c37f08",
+      "color": "0xFFFF7930",
+      "name": "DarkSkin",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "a242294f-4495-4e41-935e-45c92d4188f9",
+      "color": "0xFFA23000",
+      "name": "MariRed",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "c61ed4c5-1922-4795-b366-f0a0a4d84b9a",
+      "color": "0xFF49AA10",
+      "name": "LuigiGreen",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "1592997a-0b59-4897-81b4-38579ce9a74d",
+      "color": "0xFF71F341",
+      "name": "YossyGreen",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "12f121dd-7c00-4a4c-a9a9-7a81b029b46b",
+      "color": "0xFF306141",
+      "name": "KoopaGreen",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "6d1f73f7-10ff-45e7-af5e-8227a1076bc6",
+      "color": "0xFFF361FF",
+      "name": "PeachPink",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "6bc57d06-af14-47dd-b8d2-0ad6c7f3563b",
+      "color": "0xFFFF61B2",
+      "name": "PeachBoot",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "0df7c21e-2634-45f4-9b51-948220941948",
+      "color": "0xFF794100",
+      "name": "DonkeyBrown",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "5f1f28e4-70a6-446f-a4df-4639c631b19c",
+      "color": "0xFFFFA200",
+      "name": "DonkeyFeet",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "5154828b-3e57-4090-8735-95db51e9e91a",
+      "color": "0xFFEBD320",
+      "name": "KinopioShoe",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "export": true,
+  "guid": "bd862f0e-52ee-43d6-bf72-b5656eda4d15",
+  "id": "",
+  "imageAsset": "44db2b1c-ac8e-4fcb-9d57-a04d0a3cfa9b",
+  "maps": [
+    {
+      "$id": "b0647e9c-1fc2-40c4-a37b-deccf9886dde",
+      "colors": [
+        {
+          "paletteColorId": "bded0e3c-32f7-44c8-800f-0635d7232071",
+          "targetColor": "0xFFFFDBA2"
+        },
+        {
+          "paletteColorId": "9dd81cb5-3a17-4122-8b2b-7b4310c37f08",
+          "targetColor": "0xFFFF7930"
+        },
+        {
+          "paletteColorId": "7f220c0d-5280-44bf-bad1-b8a7bab3b35d",
+          "targetColor": "0xFF000000"
+        },
+        {
+          "paletteColorId": "a242294f-4495-4e41-935e-45c92d4188f9",
+          "targetColor": "0xFFA23000"
+        },
+        {
+          "paletteColorId": "c61ed4c5-1922-4795-b366-f0a0a4d84b9a",
+          "targetColor": "0xFF49AA10"
+        },
+        {
+          "paletteColorId": "12f121dd-7c00-4a4c-a9a9-7a81b029b46b",
+          "targetColor": "0xFF306141"
+        },
+        {
+          "paletteColorId": "6d1f73f7-10ff-45e7-af5e-8227a1076bc6",
+          "targetColor": "0xFFF361FF"
+        },
+        {
+          "paletteColorId": "6bc57d06-af14-47dd-b8d2-0ad6c7f3563b",
+          "targetColor": "0xFFFF61B2"
+        },
+        {
+          "paletteColorId": "1592997a-0b59-4897-81b4-38579ce9a74d",
+          "targetColor": "0xFF71F341"
+        },
+        {
+          "paletteColorId": "77bd27d8-2d8e-475c-80e5-888c8f4f3491",
+          "targetColor": "0xFFFFFFFF"
+        },
+        {
+          "paletteColorId": "0df7c21e-2634-45f4-9b51-948220941948",
+          "targetColor": "0xFF794100"
+        },
+        {
+          "paletteColorId": "5f1f28e4-70a6-446f-a4df-4639c631b19c",
+          "targetColor": "0xFFFFA200"
+        },
+        {
+          "paletteColorId": "5154828b-3e57-4090-8735-95db51e9e91a",
+          "targetColor": "0xFFEBD320"
+        }
+      ],
+      "name": "Base",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": true
+        }
+      }
+    },
+    {
+      "$id": "cb45280b-ca30-49a4-9930-c1b24a587a3d",
+      "colors": [
+        {
+          "paletteColorId": "7f220c0d-5280-44bf-bad1-b8a7bab3b35d",
+          "targetColor": "0xFF2000B2"
+        },
+        {
+          "paletteColorId": "77bd27d8-2d8e-475c-80e5-888c8f4f3491",
+          "targetColor": "0xFFFFFFFF"
+        },
+        {
+          "paletteColorId": "bded0e3c-32f7-44c8-800f-0635d7232071",
+          "targetColor": "0xFFFFDBA2"
+        },
+        {
+          "paletteColorId": "9dd81cb5-3a17-4122-8b2b-7b4310c37f08",
+          "targetColor": "0xFFFF7930"
+        },
+        {
+          "paletteColorId": "a242294f-4495-4e41-935e-45c92d4188f9",
+          "targetColor": "0xFFA23000"
+        },
+        {
+          "paletteColorId": "c61ed4c5-1922-4795-b366-f0a0a4d84b9a",
+          "targetColor": "0xFF49AA10"
+        },
+        {
+          "paletteColorId": "1592997a-0b59-4897-81b4-38579ce9a74d",
+          "targetColor": "0xFF71F341"
+        },
+        {
+          "paletteColorId": "12f121dd-7c00-4a4c-a9a9-7a81b029b46b",
+          "targetColor": "0xFF306141"
+        },
+        {
+          "paletteColorId": "6d1f73f7-10ff-45e7-af5e-8227a1076bc6",
+          "targetColor": "0xFFF361FF"
+        },
+        {
+          "paletteColorId": "6bc57d06-af14-47dd-b8d2-0ad6c7f3563b",
+          "targetColor": "0xFFFF61B2"
+        },
+        {
+          "paletteColorId": "0df7c21e-2634-45f4-9b51-948220941948",
+          "targetColor": "0xFF794100"
+        },
+        {
+          "paletteColorId": "5f1f28e4-70a6-446f-a4df-4639c631b19c",
+          "targetColor": "0xFFFFA200"
+        },
+        {
+          "paletteColorId": "5154828b-3e57-4090-8735-95db51e9e91a",
+          "targetColor": "0xFFEBD320"
+        }
+      ],
+      "name": "MariNesStyle",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "07c377b8-df43-4bba-bb1a-62844481fffc",
+      "colors": [
+        {
+          "paletteColorId": "7f220c0d-5280-44bf-bad1-b8a7bab3b35d",
+          "targetColor": "0xFF000000"
+        },
+        {
+          "paletteColorId": "77bd27d8-2d8e-475c-80e5-888c8f4f3491",
+          "targetColor": "0xFFFFFFFF"
+        },
+        {
+          "paletteColorId": "bded0e3c-32f7-44c8-800f-0635d7232071",
+          "targetColor": "0xFFFFFFFF"
+        },
+        {
+          "paletteColorId": "9dd81cb5-3a17-4122-8b2b-7b4310c37f08",
+          "targetColor": "0xFFB2B2B2"
+        },
+        {
+          "paletteColorId": "a242294f-4495-4e41-935e-45c92d4188f9",
+          "targetColor": "0xFFB2B2B2"
+        },
+        {
+          "paletteColorId": "c61ed4c5-1922-4795-b366-f0a0a4d84b9a",
+          "targetColor": "0xFF797979"
+        },
+        {
+          "paletteColorId": "1592997a-0b59-4897-81b4-38579ce9a74d",
+          "targetColor": "0xFF797979"
+        },
+        {
+          "paletteColorId": "12f121dd-7c00-4a4c-a9a9-7a81b029b46b",
+          "targetColor": "0xFF797979"
+        },
+        {
+          "paletteColorId": "6d1f73f7-10ff-45e7-af5e-8227a1076bc6",
+          "targetColor": "0xFF797979"
+        },
+        {
+          "paletteColorId": "6bc57d06-af14-47dd-b8d2-0ad6c7f3563b",
+          "targetColor": "0xFFB2B2B2"
+        },
+        {
+          "paletteColorId": "0df7c21e-2634-45f4-9b51-948220941948",
+          "targetColor": "0xFF797979"
+        },
+        {
+          "paletteColorId": "5f1f28e4-70a6-446f-a4df-4639c631b19c",
+          "targetColor": "0xFFFFFFFF"
+        },
+        {
+          "paletteColorId": "5154828b-3e57-4090-8735-95db51e9e91a",
+          "targetColor": "0xFFFFFFFF"
+        }
+      ],
+      "name": "GB\\Unselected",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

@@ -3,6 +3,8 @@ self.exports = {
     player1Xcord: self.makeFloat(0),
 	player2Xcord: self.makeFloat(0)
 };
+//CONSTANTS
+var readDelay:Float = 50;
 
 var activeplayers = [];
 var movespeed:Float = 2.5;
@@ -20,7 +22,7 @@ var specialBinput:Array<string> = [];
 var specialCinput:Array<string> = [];
 var inputRead:Array<string> = [];
 var spawnprojectile = self.makeObject(null);
-var readDelay:Float = 50;
+var currentReadDelay = readDelay;
 var charID:Int = 0;
 //-1 - bloxxy
 //0 - mari
@@ -38,6 +40,14 @@ function initialize(){
 }
 
 function update(){
+    //hacky as fuck workaround to get rid of the offscreen indicator
+    //basically puts them in an unreachable spot, then hides them
+    self.exports.currentplayer.get().setX(0);
+    self.exports.currentplayer.get().setY(-150);
+    self.exports.currentplayer.get().getDamageCounterContainer().alpha = 0;
+    self.exports.currentplayer.get().setVisible(false);
+
+
     //SPECIAL MOVE INPUT UPDATE
     if (self.isFacingLeft()){
         specialAinput = ["DOWN","LEFT","ATTACK"];
@@ -52,14 +62,14 @@ function update(){
     }
     
     if (inputRead != []){
-        readDelay--;
-        if (readDelay <= 0){
+        currentReadDelay--;
+        if (currentReadDelay <= 0){
             inputRead = [];
-            readDelay = 50;
+            currentReadDelay = readDelay;
         }
     }
     else{
-        readDelay = 50;
+        currentReadDelay = readDelay;
     }
 
     //Engine.log(inputRead);
@@ -67,22 +77,17 @@ function update(){
 
     //CHARACTER DIRECTION FLIPPER
     if (self.exports.player1Xcord.get() < self.exports.player2Xcord.get()){
-        //Engine.log("is to the left of the sceond of player");
+        //Engine.log("is to the left of the second player");
         self.faceRight();
-        //self.setScaleX(-1);
-        //self.setScaleX(-1);
     }
     else{
-        //self.flip();
-        //self.setScaleX(1);
-        //Engine.log("is to the right of the sceond of player");
+        //Engine.log("is to the right of the second player");
         self.faceLeft();
-        //self.flip();
-        //self.setScaleX(1);
     }
 
     //ARRAY LIMITER
     if (inputRead.length > 6){//this is not an amazing way to do input buffers but i don't know any better way to be honest
+    //buffer might be too small but i really dont want it too big
         inputRead.shift();
     }
 
@@ -121,26 +126,8 @@ function update(){
     var specialAstr = specialAinput.join("");
     var specialBstr = specialBinput.join("");
     var specialCstr = specialCinput.join("");
-    Engine.log(inputstr);
-
-    if (inputstr.indexOf(specialAstr) != -1){
-        self.playAnimation("specialA");
-        Engine.log("hadooken or whatever");
-        isAttacking = true;
-        inputRead = [];
-    }
-    else if (inputstr.indexOf(specialBstr) != -1){
-        self.playAnimation("specialB");
-        Engine.log("flying kick or whatever");
-        isAttacking = true;
-        inputRead = [];
-    }
-    else if (inputstr.indexOf(specialCstr) != -1){
-        self.playAnimation("specialC");
-        Engine.log("hadooken or whatever");
-        isAttacking = true;
-        inputRead = [];
-    }
+    
+    //Engine.log(inputstr);
     //old special move code
     // if (inputstr == specialAstr){
     //     self.playAnimation("specialA");
@@ -152,18 +139,35 @@ function update(){
 
     //MOVEMENT CODE
     if (canMove){
+
+        //GROUNDSTATE CHANGER
+        if (self.isOnFloor() == false){
+            groundstate = 2; //set state to air
+        }
+        else if (groundstate != 0){
+            groundstate = 1;
+        }
+
         if (isAttacking == false) {
+
             if (groundstate == 1){//checks for when standing
                 if(self.isOnFloor() && self.exports.currentplayer.get().getHeldControls().DOWN){
-                groundstate = 0;
+                   groundstate = 0;
                 }
-                else if (self.exports.currentplayer.get().getPressedControls().ATTACK && isAttacking == false){
-                    isAttacking = true;
-                    playAnim("stand_punch");
+                else if (inputstr.indexOf(specialAstr) != -1){
+                    playAttack("specialA", true, true);
                 }
-                else if (self.exports.currentplayer.get().getPressedControls().SPECIAL && isAttacking == false){
-                    isAttacking = true;
-                    playAnim("stand_kick");
+                else if (inputstr.indexOf(specialBstr) != -1){
+                    playAttack("specialB", true, true);
+                }
+                else if (inputstr.indexOf(specialCstr) != -1){
+                    playAttack("specialC", true, true);
+                }
+                else if(getLastInput("ATTACK")){
+                    playAttack("stand_punch", true, true);
+                }
+                else if(getLastInput("SPECIAL")){
+                    playAttack("stand_kick", true, true);
                 }
                 else if (self.exports.currentplayer.get().getHeldControls().RIGHT){
                     if (self.isFacingLeft()){
@@ -190,45 +194,55 @@ function update(){
             }
 
             if (groundstate == 0){ //checks for when crouching
-                if (self.exports.currentplayer.get().getPressedControls().ATTACK && isAttacking == false){
-                    isAttacking = true;
-                    playAnim("crouch_punch");
-                }
-                else if (self.exports.currentplayer.get().getPressedControls().SPECIAL && isAttacking == false){
-                    isAttacking = true;
-                    playAnim("crouch_kick");
-                }
-                else if (self.isOnFloor() && self.exports.currentplayer.get().getHeldControls().DOWN){
-                    self.setXSpeed(0);
-                    playAnim("crouch");
+                if (self.isOnFloor() && self.exports.currentplayer.get().getHeldControls().DOWN){
+                    if(getLastInput("ATTACK")){
+                        playAttack("crouch_punch", true, true);
+                    }
+                    else if(getLastInput("SPECIAL")){
+                        playAttack("crouch_kick", true, true);
+                    }
+                    else{
+                        self.setXSpeed(0);
+                        playAnim("crouch");
+                    }
                 }
                 
                 else{
-                    groundstate = 1;
+                    if (self.isOnFloor() && self.exports.currentplayer.get().getHeldControls().UP && self.exports.currentplayer.get().getHeldControls().RIGHT){
+                        if (self.isFacingLeft()){
+                            self.setXSpeed(-movespeed);
+                        }
+                        else if (self.isFacingRight()){
+                            self.setXSpeed(movespeed); 
+                        }
+                    }
+                    else if (self.isOnFloor() && self.exports.currentplayer.get().getHeldControls().UP && self.exports.currentplayer.get().getHeldControls().LEFT){
+                        if (self.isFacingLeft()){
+                            self.setXSpeed(movespeed);
+                        }
+                        else if (self.isFacingRight()){
+                            self.setXSpeed(-movespeed); 
+                        }
+                    }
+                    else{
+                        groundstate = 1;
+                    }
                 }
             }
 
             if (groundstate == 2){//checks for when jumping
-                if (self.exports.currentplayer.get().getPressedControls().ATTACK && isAttacking == false){
-                    isAttacking = true;
-                    playAnim("jump_punch");
+                if(getLastInput("ATTACK")){
+                    playAttack("jump_punch", true, true);
                 }
-                else if (self.exports.currentplayer.get().getPressedControls().SPECIAL && isAttacking == false){
-                    isAttacking = true;
-                    playAnim("jump_kick");
+                else if(getLastInput("SPECIAL")){
+                    playAttack("jump_kick", true, true);
                 }
                 else {playAnim("jump");}
-            }
-            
-            if (self.isOnFloor() == false){
-                groundstate = 2; //set state to air
-            }
-            else if (groundstate != 0){
-                groundstate = 1;
             }
 
             if (self.isOnFloor() && self.exports.currentplayer.get().getHeldControls().UP){
                 self.setYSpeed(-jumpheight);
+                AudioClip.play(self.getResource().getContent("projectilesound"));
             }
     }
     //self.exports.currentplayer.get().getHeldControls();
@@ -236,11 +250,12 @@ function update(){
     }
 }
 
+//EVENTLISTENER FUNCTIONS
 function ongettingthesmackdown(event){
     //HURT ANIMATIONS
-    if (event.data.self.getDamage() > 10){
+    if (event.data.self.getDamage() >= 10){
         self.playAnimation("hurt_heavy");
-        event.data.self.setXSpeed(-7.5);
+        event.data.self.setXSpeed(-3);
         event.data.self.setYSpeed(-10);
     }
     else{
@@ -253,6 +268,19 @@ function ongettingthesmackdown(event){
     canMove = false;
 }
 
+//HELPER CLASSES?
+// class FightButton{ //it could be so awesome, it could be so cool, but unfortunately fraymakers doesn't allow custom classes, uh well.
+//     static RIGHT = "RIGHT";
+//     static LEFT = "LEFT";
+//     static UP = "UP";
+//     static DOWN = "DOWN";
+//     static ATTACK = "ATTACK";
+//     static SPECIAL = "SPECIAL";
+// }
+
+
+//HELPER FUNCTIONS
+//basically these functions exist to make the job easier
 function playAnim(animplayer:string){
     //this is so the animation doesn't repeat itself after being played
     //Engine.log(self.getAnimation());
@@ -262,6 +290,19 @@ function playAnim(animplayer:string){
 
 }
 
+function playAttack(animation:string, clearBuffer:boolean = false, isAttack:boolean = false){
+    //if isAttackFinished //plans for combos, and also for replacing or adding onto isAttacking 
+    //also considering baking everything into playAnim
+    playAnim(animation);
+    if (clearBuffer == true){
+        inputRead = [];
+    }
+    if (isAttack == true){
+        isAttacking = true;
+    }
+}
+
+// function spawnprojectile(ContentID:string = "KartProjectiles",Xoffset:Float = 0, Yoffset:Float = 0, Speed:Float = 5){
 function spawnprojectile(){
     //var spawnprojectile = self.makeObject(null);
     var projectileshot = match.createProjectile(self.getResource().getContent("KartProjectiles"), self);
@@ -273,15 +314,12 @@ function spawnprojectile(){
     //Engine.log("Kabom");
 }
 
-// function compareArrays(arr1:Array<string>, arr2:Array<string>) {
-//     if (arr1.length != arr2.length) {
-//         return false;
-//     }
-//     for (i = 0; i < arr1.length; i++) {
-//         if (arr1[i] != arr2[i]) {
-//         return false;
-//         }
-//     }
-
-//     return true;
-// }
+function getLastInput(input:string){ //test
+    //gets the last input done by the user and compares it to the function input string
+    if (inputRead.length != 0 && inputRead[inputRead.length - 1] == input){
+        return true;
+    }
+    else{
+        return false;
+    }
+}

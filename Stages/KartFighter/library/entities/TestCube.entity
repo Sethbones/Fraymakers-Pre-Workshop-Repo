@@ -409,7 +409,7 @@
     },
     {
       "$id": "2f81b5b4-12c1-4581-945e-4c0eebedd7a1",
-      "code": "",
+      "code": null,
       "length": 1,
       "pluginMetadata": {
       },
@@ -574,7 +574,7 @@
     {
       "$id": "dff8ef31-b34f-43ea-bafa-e2222494b715",
       "code": "",
-      "length": 43,
+      "length": 50,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -835,7 +835,7 @@
     },
     {
       "$id": "d2680a5e-cc96-4e38-bbc9-99bd8dd374c4",
-      "length": 15,
+      "length": 22,
       "pluginMetadata": {
       },
       "symbol": "cc016ca0-b2da-4e05-9b4c-44f3f04cff59",
@@ -1313,7 +1313,7 @@
     },
     {
       "$id": "070c432d-9251-40fc-ac52-959dd27354e1",
-      "length": 15,
+      "length": 22,
       "pluginMetadata": {
       },
       "symbol": "0504ec6a-c853-4626-881e-38f923ce5f81",
@@ -1740,14 +1740,6 @@
       "type": "FRAME_SCRIPT"
     },
     {
-      "$id": "613a3ab1-2375-4840-bbc3-f3c02e5c1066",
-      "code": "canMove = true;",
-      "length": 2,
-      "pluginMetadata": {
-      },
-      "type": "FRAME_SCRIPT"
-    },
-    {
       "$id": "bcb8a932-6629-4093-98b4-63150f577d9b",
       "code": "spawnprojectile();",
       "length": 14,
@@ -2120,6 +2112,22 @@
       "tweenType": "LINEAR",
       "tweened": false,
       "type": "COLLISION_BOX"
+    },
+    {
+      "$id": "2c8265be-6992-478a-9832-ce8ee44ff709",
+      "code": "",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "3e143261-b8ee-4763-be52-1d4ec6c12af7",
+      "code": "canMove = true;\r\nif (self.isOnFloor()){\r\n    AudioClip.play(self.getResource().getContent(\"crashsound\"));\r\n}",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
     }
   ],
   "layers": [
@@ -2725,7 +2733,8 @@
       "hidden": false,
       "keyframes": [
         "dff8ef31-b34f-43ea-bafa-e2222494b715",
-        "613a3ab1-2375-4840-bbc3-f3c02e5c1066"
+        "2c8265be-6992-478a-9832-ce8ee44ff709",
+        "3e143261-b8ee-4763-be52-1d4ec6c12af7"
       ],
       "language": "hscript",
       "locked": false,

@@ -15,11 +15,18 @@ var cloudBack2XOffset = self.makeFloat(0);
 var cloudBack1XOffset = self.makeFloat(0);
 //var tester = match.createProjectile(self.getResource().getContent("TestCube"));
 var isGameStarted:Bool = false;
-currentplayers = [];
+var currentplayers = match.getPlayers();
 var p1 = match.createProjectile(self.getResource().getContent("TestCube"));
 var p2 = match.createProjectile(self.getResource().getContent("TestCube"));
 
 function initialize(){
+	//currentplayers = match.getPlayers();
+	//currentplayers[0].getDamageCounterContainer().alpha = 1;
+	camera.setMode(2);
+	//1 - hyper zoom
+	//2 - static on camera bounds
+	//3 - static on middle?
+	//4+ - nothing
 	// Don't animate the stage itself (we'll pause on one version for hazards on, and another version for hazards off)
 	self.pause();
 	if (match.getMatchSettingsConfig().hazards) {
@@ -30,7 +37,21 @@ function initialize(){
 }
 
 function update(){
+	//camera.getBackgroundContainer().alpha = 0; //removes the background, go figure
+	//camera.getBackgroundContainers().alpha = 0;
+	//camera.getForegroundContainer().alpha = 0;
+	//self.getCharactersContainer().alpha = 0;
 	currentplayers = match.getPlayers();
+	// currentplayers[0].getDamageCounterContainer().alpha = 0;
+	// currentplayers[1].getDamageCounterContainer().alpha = 0;
+	// currentplayers[0].setVisible(false);
+	//currentplayers[0].setAlpha(0); //hides the character
+	//currentplayers[0].getOffscreenIndicator().getSpriteContainer().remove(); //colors the offscreen indicator purple, yeah i dont even know
+	//currentplayers[1].getOffscreenIndicator().removeShaderEffects;
+	//camera.deleteTarget(currentplayers[1]);
+	//hideOffscreenIndicators();
+	//currentplayers[0].getOffscreenIndicator().getSpriteContainer().alpha = 0;
+	//currentplayers[0].getOwner().getOwner().getOwner().getOwner().getOwner().getOwner().getOwner().getOwner().setAlpha(0); //cant say i didn't try
 	self.exports.player1.set(currentplayers[0]);
 	self.exports.player2.set(currentplayers[1]);
 	// Engine.log(self.exports.player1.get(currentplayers[0]));
