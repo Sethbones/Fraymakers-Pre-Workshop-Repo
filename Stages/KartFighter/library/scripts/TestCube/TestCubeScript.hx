@@ -3,20 +3,29 @@ self.exports = {
     player1Xcord: self.makeFloat(0),
 	player2Xcord: self.makeFloat(0)
 };
-//CONSTANTS
-var readDelay:Float = 50;
 
-var activeplayers = [];
+//CONSTANTS
+var readDelay:Float = 60; //assuming 60fps, that means every 60 means 1 second
 var movespeed:Float = 2.5;
 var jumpheight:Float = 10;
-var isAttacking:Bool = false;
+
+
+var FIGHTBUTTON = {//this is to get around accidentaly typing and being one letter off and or mistyping (in general the plan is to turn these all into integers) 
+    LEFT: "LEFT",
+    RIGHT: "RIGHT",
+    UP: "UP",
+    DOWN: "DOWN",
+    ATTACK: "ATTACK",
+    SPECIAL: "SPECIAL"
+};
+
 var groundstate:Int = 1;
 //0 - crouch
 //1 - ground
 //2 - air
-var inputdelay:Float = 0.01; //currently not implemented, this is a workaround for moves being able to be spammed causing states to mix, like if you hold crouch and punch you can still jump
-var currentInputDelay:Float = inputdelay;
-var canMove:Bool = true;
+var activeplayers = [];
+var isAttacking:Bool = false;
+var canMove:Bool = true; //a general use state for checking if any kind of movement is possible
 var specialAinput:Array<string> = ["DOWN","RIGHT","ATTACK"];
 var specialBinput:Array<string> = [];
 var specialCinput:Array<string> = [];
@@ -26,13 +35,13 @@ var currentReadDelay = readDelay;
 var charID:Int = 0;
 //-1 - bloxxy
 //0 - mari
-//1 - luig
+//1 - luigi
 //2 - yossy
 //3 - peach
 //4 - kinopio
 //5 - donkey
 //6 - nokonoko
-//7 - bowser
+//7 - koopa
 
 function initialize(){
     self.addEventListener(GameObjectEvent.HIT_RECEIVED, ongettingthesmackdown, {persistent: true});
@@ -268,16 +277,6 @@ function ongettingthesmackdown(event){
     canMove = false;
 }
 
-//HELPER CLASSES?
-// class FightButton{ //it could be so awesome, it could be so cool, but unfortunately fraymakers doesn't allow custom classes, uh well.
-//     static RIGHT = "RIGHT";
-//     static LEFT = "LEFT";
-//     static UP = "UP";
-//     static DOWN = "DOWN";
-//     static ATTACK = "ATTACK";
-//     static SPECIAL = "SPECIAL";
-// }
-
 
 //HELPER FUNCTIONS
 //basically these functions exist to make the job easier
@@ -291,6 +290,7 @@ function playAnim(animplayer:string){
 }
 
 function playAttack(animation:string, clearBuffer:boolean = false, isAttack:boolean = false){
+    //needs checks for overheads and combo cancels and guard ignore as well as a bunch of other shite the should probably be in options:{}
     //if isAttackFinished //plans for combos, and also for replacing or adding onto isAttacking 
     //also considering baking everything into playAnim
     playAnim(animation);

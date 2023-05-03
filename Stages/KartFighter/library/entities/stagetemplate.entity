@@ -5,16 +5,14 @@
       "layers": [
         "dc00467a-1547-4fbf-9fb3-614793a404ae",
         "bb096b19-2625-4bf3-81c1-bbfeb4f7bd27",
-        "0eafc464-7951-4a4e-a454-544871d25240",
+        "13e3c97e-3550-491c-bf85-2310e5c838a7",
         "87784fb5-b8a8-4384-8a3b-5f65e86e9b5e",
         "cc212dd9-1a7a-4b41-8b0f-6d817cef0dd1",
         "e5c791ef-5b21-446f-9c99-4dea765541d6",
         "cc35f8af-fe8f-4646-bb43-6e11e6eb49a3",
         "e37e9524-ed55-491d-a176-8e1f5d05f981",
-        "13e3c97e-3550-491c-bf85-2310e5c838a7",
         "db81ffb8-ee1c-4730-ae5a-bfc3f4cd0ac5",
         "3979e64c-8d67-4407-a36e-3cc7d7992e23",
-        "f6803816-4226-4521-8a6c-f285beacf523",
         "9ed5139c-fc7f-4fa0-a178-0cbf8888e357",
         "77b79de2-ff65-4432-b9a4-7b3c26d77a6f",
         "f4be07db-61bb-473a-809a-3c3472161d7b",
@@ -369,26 +367,6 @@
       "type": "CONTAINER"
     },
     {
-      "$id": "5775a321-281d-4c95-b680-c4080907b7a4",
-      "length": 2,
-      "pluginMetadata": {
-      },
-      "symbol": "c7077efa-18b6-4ea9-ba39-05558f59de17",
-      "tweenType": "LINEAR",
-      "tweened": false,
-      "type": "IMAGE"
-    },
-    {
-      "$id": "d673250e-b7ab-4b61-b5fb-eb343e62fabe",
-      "length": 2,
-      "pluginMetadata": {
-      },
-      "symbol": "3a642626-0433-415d-846a-cd0475a61f47",
-      "tweenType": "LINEAR",
-      "tweened": false,
-      "type": "IMAGE"
-    },
-    {
       "$id": "8a9fbc8e-9f24-4ca0-918a-7dc7726d9f65",
       "length": 1,
       "pluginMetadata": {
@@ -533,7 +511,7 @@
       "length": 2,
       "pluginMetadata": {
       },
-      "symbol": "1ec4b615-7dc8-4be2-8b07-003a6d1a9031",
+      "symbol": "063c3369-ce88-4ae4-a020-be1f8a12d491",
       "tweenType": "LINEAR",
       "tweened": false,
       "type": "IMAGE"
@@ -596,7 +574,7 @@
       "keyframes": [
         "0dde0e32-9ffc-4e60-9177-9a77f96c5eea"
       ],
-      "locked": false,
+      "locked": true,
       "name": "Camera Box",
       "pluginMetadata": {
         "com.fraymakers.FraymakersMetadata": {
@@ -986,30 +964,6 @@
       "type": "CONTAINER"
     },
     {
-      "$id": "0eafc464-7951-4a4e-a454-544871d25240",
-      "hidden": false,
-      "keyframes": [
-        "5775a321-281d-4c95-b680-c4080907b7a4"
-      ],
-      "locked": true,
-      "name": "Image Layer",
-      "pluginMetadata": {
-      },
-      "type": "IMAGE"
-    },
-    {
-      "$id": "f6803816-4226-4521-8a6c-f285beacf523",
-      "hidden": false,
-      "keyframes": [
-        "d673250e-b7ab-4b61-b5fb-eb343e62fabe"
-      ],
-      "locked": true,
-      "name": "Image Layer",
-      "pluginMetadata": {
-      },
-      "type": "IMAGE"
-    },
-    {
       "$id": "37aada8d-1d5b-4014-9806-e717b7a9a52c",
       "hidden": false,
       "keyframes": [
@@ -1054,7 +1008,7 @@
       "keyframes": [
         "5d661c17-23f0-49db-a2d7-de10d20aa3b6"
       ],
-      "locked": true,
+      "locked": false,
       "name": "Image Layer",
       "pluginMetadata": {
       },
@@ -1261,36 +1215,6 @@
       "y": -19
     },
     {
-      "$id": "c7077efa-18b6-4ea9-ba39-05558f59de17",
-      "alpha": 1,
-      "imageAsset": "02b43943-59b2-4353-b4dd-b0af10914660",
-      "pivotX": 340,
-      "pivotY": 226,
-      "pluginMetadata": {
-      },
-      "rotation": 0,
-      "scaleX": 2.32,
-      "scaleY": 1,
-      "type": "IMAGE",
-      "x": -809,
-      "y": -38
-    },
-    {
-      "$id": "3a642626-0433-415d-846a-cd0475a61f47",
-      "alpha": 1,
-      "imageAsset": "9b08da35-dab6-49e5-a6cd-218b9af15a37",
-      "pivotX": 340,
-      "pivotY": 226,
-      "pluginMetadata": {
-      },
-      "rotation": 0,
-      "scaleX": 2.32,
-      "scaleY": 1,
-      "type": "IMAGE",
-      "x": -809,
-      "y": -38
-    },
-    {
       "$id": "2a27e19a-21c7-4072-9474-8c2a37f96ca0",
       "alpha": 1,
       "imageAsset": "e39fa7ff-ece0-4f4d-80e8-5eeaedaed3a2",
@@ -1474,19 +1398,19 @@
       "y": 175
     },
     {
-      "$id": "1ec4b615-7dc8-4be2-8b07-003a6d1a9031",
+      "$id": "063c3369-ce88-4ae4-a020-be1f8a12d491",
       "alpha": 1,
-      "imageAsset": "6b4431f1-b4c9-49d6-87ce-2d7d8731c850",
-      "pivotX": 128,
-      "pivotY": 112,
+      "imageAsset": "2f9c88b5-06c2-4112-9724-959dc971bba8",
+      "pivotX": 320,
+      "pivotY": 180,
       "pluginMetadata": {
       },
       "rotation": 0,
       "scaleX": 2,
       "scaleY": 2,
       "type": "IMAGE",
-      "x": -274,
-      "y": -233
+      "x": -658,
+      "y": -505
     }
   ],
   "tags": [

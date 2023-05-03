@@ -23,17 +23,18 @@ function initialize(){
 	//currentplayers = match.getPlayers();
 	//currentplayers[0].getDamageCounterContainer().alpha = 1;
 	camera.setMode(2);
+	//0 - default
 	//1 - hyper zoom
 	//2 - static on camera bounds
-	//3 - static on middle?
+	//3 - static on death bounds
 	//4+ - nothing
 	// Don't animate the stage itself (we'll pause on one version for hazards on, and another version for hazards off)
-	self.pause();
-	if (match.getMatchSettingsConfig().hazards) {
-		// Hazards are on, enable the platform beneath the stage
-		match.createStructure(self.getResource().getContent("stagetemplateMovingPlatform"));
-		self.playLabel("hazardson");
-	}
+	//self.pause();
+	// if (match.getMatchSettingsConfig().hazards) {
+	// 	// Hazards are on, enable the platform beneath the stage
+	// 	match.createStructure(self.getResource().getContent("stagetemplateMovingPlatform"));
+	// 	self.playLabel("hazardson");
+	// }
 }
 
 function update(){
@@ -48,8 +49,9 @@ function update(){
 	//currentplayers[0].setAlpha(0); //hides the character
 	//currentplayers[0].getOffscreenIndicator().getSpriteContainer().remove(); //colors the offscreen indicator purple, yeah i dont even know
 	//currentplayers[1].getOffscreenIndicator().removeShaderEffects;
+	//well, you can get the offscreenindicator but you can't remove it, good no that's great.
 	//camera.deleteTarget(currentplayers[1]);
-	//hideOffscreenIndicators();
+	//hideOffscreenIndicators(); //this is in the hlboot file, likely not a variable accessed by the game but a variable accessed via a debugger
 	//currentplayers[0].getOffscreenIndicator().getSpriteContainer().alpha = 0;
 	//currentplayers[0].getOwner().getOwner().getOwner().getOwner().getOwner().getOwner().getOwner().getOwner().setAlpha(0); //cant say i didn't try
 	self.exports.player1.set(currentplayers[0]);
@@ -78,7 +80,7 @@ function update(){
 }
 
 function playerAss(){//comedy
-	
+	//also not used
 }
 
 function scrollBackgrounds() {

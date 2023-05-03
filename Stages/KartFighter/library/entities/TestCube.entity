@@ -815,7 +815,7 @@
     },
     {
       "$id": "964accbf-bc73-4fac-95f4-eb4d2e08cd98",
-      "length": 45,
+      "length": 30,
       "pluginMetadata": {
       },
       "symbol": "89f8b96f-c1cb-43d9-afda-213a0fc75513",
@@ -1273,7 +1273,7 @@
     },
     {
       "$id": "1f9b6e4e-6c10-4f9f-84ee-79325041d984",
-      "length": 45,
+      "length": 30,
       "pluginMetadata": {
       },
       "symbol": "a8edb5bf-2a17-4eb7-a4bb-19a6fab1cd5e",
@@ -1945,16 +1945,8 @@
     },
     {
       "$id": "1dd9fa87-d277-4149-b42a-86d7759d876a",
-      "code": "function keepinair(){\r\n    self.setYSpeed(0);\r\n    self.setXSpeed(5);\r\n}\r\nself.addTimer(1,45, keepinair);",
+      "code": "function keepinair(){\r\n    self.setYSpeed(0);\r\n    self.setXSpeed(5);\r\n}\r\nself.addTimer(1,30, keepinair);",
       "length": 14,
-      "pluginMetadata": {
-      },
-      "type": "FRAME_SCRIPT"
-    },
-    {
-      "$id": "a1c521f2-195a-4f46-a323-aa0e1972f397",
-      "code": "isAttacking = false;",
-      "length": 1,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -2125,6 +2117,30 @@
       "$id": "3e143261-b8ee-4763-be52-1d4ec6c12af7",
       "code": "canMove = true;\r\nif (self.isOnFloor()){\r\n    AudioClip.play(self.getResource().getContent(\"crashsound\"));\r\n}",
       "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "e470c005-cfb5-47ea-a1ac-44fbf9a0a3f0",
+      "code": "",
+      "length": 16,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "91ab26e1-63fd-48ad-80f6-e29972111f08",
+      "code": "isAttacking = false;",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "6562001e-17e1-42fd-b6ff-0ccd571a9daf",
+      "code": null,
+      "length": 14,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -2678,7 +2694,9 @@
         "f74f66b7-bdfe-4d25-bfc3-76009ba10917",
         "fde6aa1d-c887-4b7b-b964-5b9f59585f1c",
         "1dd9fa87-d277-4149-b42a-86d7759d876a",
-        "a1c521f2-195a-4f46-a323-aa0e1972f397"
+        "e470c005-cfb5-47ea-a1ac-44fbf9a0a3f0",
+        "6562001e-17e1-42fd-b6ff-0ccd571a9daf",
+        "91ab26e1-63fd-48ad-80f6-e29972111f08"
       ],
       "language": "hscript",
       "locked": false,
