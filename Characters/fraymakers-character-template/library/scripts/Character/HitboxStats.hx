@@ -51,7 +51,7 @@
 		hitbox1: { damage: 14, angle: 361, knockbackGrowth: 70, baseKnockback: 70, hitstop: -1, selfHitstop: -1, hitstopOffset:3, selfHitstopOffset:3, limb:AttackLimb.FOOT}
 	},
 	aerial_up: {
-		hitbox0: { damage: 1, knockbackGrowth: 15, baseKnockback: 15, hitstop: 4, selfHitstop:3, angle: SpecialAngle.AUTOLINK_STRONGER, limb:AttackLimb.FIST }
+		hitbox0: { damage: 1, knockbackGrowth: 100, baseKnockback: 15, hitstop: 4, selfHitstop:3, angle: SpecialAngle.AUTOLINK_STRONGER, limb:AttackLimb.FIST, knockbackCap:75 }
 	},
 	aerial_down: {
 		hitbox0: { damage: 9, angle: 280, baseKnockback: 45, knockbackGrowth: 40, hitstop:-1, selfHitstop:-1, hitstopOffset:3, selfHitstopOffset:3, limb:AttackLimb.FOOT },
@@ -66,18 +66,18 @@
 		hitbox0: {}
 	},
 	special_side: {
-		hitbox0: { damage: 1, knockbackGrowth: 0, baseKnockback: 80, hitstop: 2, selfHitstop:2, hitstun: -1, hitstopNudgeMultiplier:0, directionalInfluence: false, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, jabResetType:JabResetType.NEVER, limb:AttackLimb.FIST },
-		hitbox1: { damage: 1, knockbackGrowth: 0, baseKnockback: 80, hitstop: 2, selfHitstop:2, hitstun: -1, hitstopNudgeMultiplier:0, directionalInfluence: false, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, jabResetType:JabResetType.NEVER, limb:AttackLimb.FIST },
+		hitbox0: { damage: 1, knockbackGrowth: 0, baseKnockback: 80, hitstop: 2, selfHitstop:2, hitstun: -1, hitstopNudgeMultiplier:0, directionalInfluence: false, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, jabResetType:JabResetType.NEVER, limb:AttackLimb.FIST, knockbackCap:75 },
+		hitbox1: { damage: 1, knockbackGrowth: 0, baseKnockback: 80, hitstop: 2, selfHitstop:2, hitstun: -1, hitstopNudgeMultiplier:0, directionalInfluence: false, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, jabResetType:JabResetType.NEVER, limb:AttackLimb.FIST, knockbackCap:75 },
 	},
 	special_side_air: {
-		hitbox0: { damage: 1, knockbackGrowth: 0, baseKnockback: 80, hitstop: 2, selfHitstop:2, hitstun: -1, hitstopNudgeMultiplier:0, directionalInfluence: false, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, jabResetType:JabResetType.NEVER, limb:AttackLimb.FIST },
-		hitbox1: { damage: 1, knockbackGrowth: 0, baseKnockback: 80, hitstop: 2, selfHitstop:2, hitstun: -1, hitstopNudgeMultiplier:0, directionalInfluence: false, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, jabResetType:JabResetType.NEVER, limb:AttackLimb.FIST },
+		hitbox0: { damage: 1, knockbackGrowth: 50, baseKnockback: 80, hitstop: 2, selfHitstop:2, hitstun: -1, hitstopNudgeMultiplier:0, directionalInfluence: false, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, jabResetType:JabResetType.NEVER, limb:AttackLimb.FIST, knockbackCap:75 },
+		hitbox1: { damage: 1, knockbackGrowth: 50, baseKnockback: 80, hitstop: 2, selfHitstop:2, hitstun: -1, hitstopNudgeMultiplier:0, directionalInfluence: false, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, jabResetType:JabResetType.NEVER, limb:AttackLimb.FIST, knockbackCap:75 },
 	},
 	special_up: {
-		hitbox0: {damage: 2, knockbackGrowth: 0, baseKnockback: 120, hitstop: 2, selfHitstop: 2, hitstun: -1, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, limb:AttackLimb.FIST}
+		hitbox0: {damage: 2, knockbackGrowth: 100, baseKnockback: 140, hitstop: 2, selfHitstop: 2, hitstun: -1, hitstopNudgeMultiplier:0, directionalInfluence: false, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, limb:AttackLimb.FIST, knockbackCap:75}
 	}, 
 	special_up_air: {
-		hitbox0: {damage: 2, knockbackGrowth: 0, baseKnockback: 120, hitstop: 2, selfHitstop: 2, hitstun: -1, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, limb:AttackLimb.FIST}
+		hitbox0: {damage: 2, knockbackGrowth: 100, baseKnockback: 140, hitstop: 2, selfHitstop: 2, hitstun: -1, hitstopNudgeMultiplier:0, directionalInfluence: false, reversibleAngle: false, angle: SpecialAngle.AUTOLINK_STRONGER, limb:AttackLimb.FIST, knockbackCap:75}
 	}, 
 	special_down: {
 		hitbox0: { damage:4, angle:90, baseKnockback: 85, knockbackGrowth: 30, hitstop: -1, selfHitstop: -1}

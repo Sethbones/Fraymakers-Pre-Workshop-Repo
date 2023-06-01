@@ -11,6 +11,8 @@
 	gravity: 0.85,
 	shortHopSpeed: 8.75,
 	jumpSpeed: 15,
+	jumpSpeedBackwardInitialXSpeed: -3,
+	jumpSpeedForwardInitialXSpeed: 3,
 	//For multiple jumps define subsequent jump speeds within the brackets with commas in between (for example: [15.5, 13, 10]).
 	doubleJumpSpeeds: [15],
 	terminalVelocity: 9.25,
@@ -30,7 +32,7 @@
 	aerialFriction: 0.2,
 	
 	//ENVIRONMENTAL COLLISION BODY (ECB) STATS
-	floorHeadPosition: 86,
+	floorHeadPosition: 70,
 	floorHipWidth: 29,
 	floorHipXOffset: 0,
 	floorHipYOffset: 0,
@@ -48,7 +50,7 @@
 	cameraBoxHeight: 250,
 
 	//ROLL AND LEDGE JUMP STATS
-	techRollSpeed: 15.5,
+	techRollSpeed: 18,
 	techRollSpeedStartFrame: 7,
 	techRollSpeedLength: 1,
 	dodgeRollSpeed: 13,

@@ -1119,6 +1119,7 @@
       "layers": [
         "5664b8d7-098f-4aa1-b827-5891d4d74c21",
         "5eaa1625-7f0f-4884-9a1b-fafaca8093f1",
+        "67d21464-0914-4f8e-9359-02f3b45a4a8f",
         "95bdec1b-bb59-4b9f-85e0-a852a28fee72",
         "9be14be0-b95a-42f0-8e3a-ac9b019de205",
         "631a171b-4b24-409a-b547-6335f69640e7"
@@ -1308,6 +1309,7 @@
         "3744cc53-e263-4b66-a2da-e47139c6a147",
         "e99fb21e-7c7e-47da-b534-f5a4337661c7",
         "d18c2de0-3abc-485d-a12a-b2c1bab8a6af",
+        "51b52068-c6c2-49d8-bc37-ad7281f4a243",
         "3f638857-cd80-4428-9ed6-ce863e02940e",
         "03d3789e-9b8f-49e1-8a4f-dbbaae55d695",
         "e4453054-0b2e-454d-9e05-1f0405abdb40"
@@ -1323,6 +1325,7 @@
         "4614ac24-00e6-48cd-a618-70facbee3b5d",
         "80a688ff-99be-4f11-9c91-2ae47884125d",
         "37858cf7-cf4e-41cf-9982-5261c6a7dcfc",
+        "4df9da11-f0e2-412a-841a-7d0363b83f9c",
         "660f2d59-a316-4cf2-884e-57bbca401c28",
         "860bf8ce-c476-4526-914c-e715e9d2df61",
         "2bb9dc15-5204-4756-bebc-99b39f721437"
@@ -1693,7 +1696,7 @@
     },
     {
       "$id": "77b19add-ccb6-47dd-9fe3-66862b30876a",
-      "code": "AudioClip.play(GlobalSfx.DOUBLE_JUMP);\r\n//Plays a specific voice clip\r\nAudioClip.play(\"jump1\", { channel: \"voice\" });",
+      "code": "AudioClip.play(GlobalSfx.DOUBLE_JUMP);\r\n//Plays a specific voice clip\r\nAudioClip.play(self.getResource().getContent(\"jump1\"), { channel: \"voice\" });",
       "length": 1,
       "pluginMetadata": {
       },
@@ -2075,7 +2078,7 @@
     },
     {
       "$id": "13f9d709-3806-4974-b493-5781afb514ec",
-      "code": "//TEAM FRAY NOTE - animation which plays upon a successful parry.\r\n\r\n//calls parry effect\r\nmatch.createVfx(new VfxStats({spriteContent: \"global::vfx.vfx\", animation: \"vfx_parry\"}), self);",
+      "code": "//TEAM FRAY NOTE - animation which plays upon a successful parry.\r\n\r\n//calls parry effect\r\nmatch.createVfx(new VfxStats({spriteContent: \"global::vfx.vfx\", animation: \"vfx_parry_ring\", x:6, y:21}), self);\r\nmatch.createVfx(new VfxStats({spriteContent: \"global::vfx.vfx\", animation: \"vfx_parry_dust_front\", x:6, y:21}), self);\r\nmatch.createVfx(new VfxStats({spriteContent: \"global::vfx.vfx\", animation: \"vfx_parry\", layer:\"behind\", x:6, y:21}), self);\r\nmatch.createVfx(new VfxStats({spriteContent: \"global::vfx.vfx\", animation: \"vfx_parry_dust_back\", layer:\"behind\", x:6, y:21}), self);",
       "length": 1,
       "pluginMetadata": {
       },
@@ -2179,7 +2182,7 @@
     },
     {
       "$id": "37c1d8ff-e2bb-4a43-bd85-3f4c0eb23fc3",
-      "code": "//Plays a specific sound clip\r\nAudioClip.play(\"downspecial\");",
+      "code": "//Plays a specific sound clip\r\nAudioClip.play(self.getResource().getContent(\"downspecial\"));",
       "length": 1,
       "pluginMetadata": {
       },
@@ -9409,7 +9412,7 @@
     },
     {
       "$id": "3ff06a1a-bfca-4402-8f3e-965e76a72d3d",
-      "length": 1,
+      "length": 2,
       "pluginMetadata": {
       },
       "symbol": "d7b3d9ae-a972-4e75-9ffb-be017b0de2a0",
@@ -9419,7 +9422,7 @@
     },
     {
       "$id": "d2baa6e4-9344-4835-88e2-67ad8ebc2cff",
-      "length": 1,
+      "length": 2,
       "pluginMetadata": {
       },
       "symbol": "eef96ae8-810f-4d43-9933-046fd8d69af0",
@@ -9509,7 +9512,7 @@
     },
     {
       "$id": "b9601b1c-28d8-4a1a-a8e7-fe28b2f6ae8c",
-      "length": 1,
+      "length": 2,
       "pluginMetadata": {
       },
       "symbol": "9e149e8b-1758-4bb7-ab25-2d9819670b1f",
@@ -9519,7 +9522,7 @@
     },
     {
       "$id": "c72984b4-8254-4c36-ac1e-74c946d23939",
-      "length": 1,
+      "length": 2,
       "pluginMetadata": {
       },
       "symbol": "cdcdd6e2-9b51-40cf-bb38-4b487692b759",
@@ -9569,7 +9572,7 @@
     },
     {
       "$id": "882a7a64-7a18-4963-ae6c-7f11237c9f25",
-      "length": 30,
+      "length": 32,
       "pluginMetadata": {
       },
       "symbol": null,
@@ -9638,7 +9641,7 @@
     {
       "$id": "151cc039-e83b-4dde-a3b3-1de23df995ec",
       "code": "",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -10572,7 +10575,7 @@
     {
       "$id": "bad9660d-5e9f-46ca-9a74-f93e95c53dcd",
       "code": "",
-      "length": 1,
+      "length": 17,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -18613,7 +18616,7 @@
     },
     {
       "$id": "7453ef1b-12cb-4d3e-8b9c-96b099afb8ac",
-      "code": "//plays generic whoosh sound\r\nAudioClip.play(GlobalSfx.WHOOSH_1);\r\n//50% chance of playing a specific sound under the \"voice\" channel. Delete the \"//\"s from the front of the three lines below to activate.\r\n//if(Random.getValue() >= .50){ \r\n//  AudioClip.play(\"your_ID_here\", { channel: \"voice\" });\r\n//}",
+      "code": "//plays generic whoosh sound\r\nAudioClip.play(GlobalSfx.WHOOSH_1);\r\n//50% chance of playing a specific sound under the \"voice\" channel. Delete the \"//\"s from the front of the three lines below to activate.\r\n//if(Random.getValue() >= .50){ \r\n//  AudioClip.play(self.getResource().getContent(\"your_ID_here\"), { channel: \"voice\" });\r\n//}",
       "length": 1,
       "pluginMetadata": {
       },
@@ -20669,7 +20672,7 @@
     },
     {
       "$id": "c82d63e4-6790-42d3-9c0a-5fd9a95631f3",
-      "code": "//updates the hitbox stats for hitbox0 (indicated by the 0 at the start of the parenthesis)\r\nself.updateHitboxStats(0, {damage: 10, angle: 75, baseKnockback:75, knockbackGrowth:45, hitstop: -1, selfHitstop: -1});\r\n//refreshes the hitboxes on the animation, allowing for multi-hit behavior\r\nself.reactivateHitboxes();",
+      "code": "//updates the hitbox stats for hitbox0 (indicated by the 0 at the start of the parenthesis)\r\nself.updateHitboxStats(0, {damage: 10, angle: 75, baseKnockback:75, knockbackGrowth:45, hitstop: -1, selfHitstop: -1, hitstopNudgeMultiplier:1, directionalInfluence: true});\r\n//refreshes the hitboxes on the animation, allowing for multi-hit behavior\r\nself.reactivateHitboxes();",
       "length": 1,
       "pluginMetadata": {
       },
@@ -23639,7 +23642,7 @@
     },
     {
       "$id": "82009396-d21f-4502-892d-3b165653906a",
-      "length": 3,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "c2f5cc9a-242f-4506-8c45-bfcfd3f9c083",
@@ -23649,7 +23652,7 @@
     },
     {
       "$id": "84a5ce90-ad2f-4605-b8b2-62d9bd700135",
-      "length": 3,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "27ec0bd3-5d8e-436e-8055-b6a22cc6f24c",
@@ -23659,7 +23662,7 @@
     },
     {
       "$id": "04253d71-bb6d-44c3-a3d0-40b15fc24197",
-      "length": 3,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "65802538-bd53-4c70-95cd-632f3ed2147a",
@@ -23669,7 +23672,7 @@
     },
     {
       "$id": "8405498a-55f2-4eb4-9e2b-40155a13616b",
-      "length": 3,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "2f83579b-dc31-4eb9-b797-17fd51b484c3",
@@ -23679,7 +23682,7 @@
     },
     {
       "$id": "7aaea6c6-9316-4bd4-9a4e-bf2195a1bbbb",
-      "length": 3,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "ab25d5ff-9a06-4e17-b20e-7317eb034933",
@@ -23689,7 +23692,7 @@
     },
     {
       "$id": "0ad883bb-7da9-4bd5-ab0c-1fad44929a72",
-      "length": 3,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "1160a8c5-f03f-4a11-a8cf-5424680babd1",
@@ -23719,7 +23722,7 @@
     },
     {
       "$id": "b757bfa2-3bdd-4d80-bdf4-c71f46dcccee",
-      "length": 16,
+      "length": 1,
       "pluginMetadata": {
       },
       "symbol": "670c07e8-76eb-42d5-a743-bfc4262e653e",
@@ -23729,8 +23732,8 @@
     },
     {
       "$id": "9b5c4133-4fe1-4132-bce2-73a0067f85a0",
-      "code": "",
-      "length": 15,
+      "code": "//For Fraymakers visual parity, the characters recieve a darkened shading version of the parry success frame held on frames 2 and 11. Frame 1 and frames 12 - 16 are the regularly shaded parry success frame.",
+      "length": 1,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -23927,7 +23930,7 @@
     },
     {
       "$id": "63f31c69-f51e-4610-bf96-60480b6dd605",
-      "code": "//removes previously set heavy armor\r\nself.updateAnimationStats({bodyStatus:BodyStatus.NONE});",
+      "code": "//removes previously set damage armor\r\nself.updateAnimationStats({bodyStatus:BodyStatus.NONE});",
       "length": 1,
       "pluginMetadata": {
       },
@@ -30593,7 +30596,7 @@
     },
     {
       "$id": "7794f39c-4e40-4e23-b4c2-aac7c1d6b745",
-      "length": 1,
+      "length": 2,
       "pluginMetadata": {
       },
       "symbol": "7429cc59-2021-4783-a669-3e67133f7fbd",
@@ -30603,7 +30606,7 @@
     },
     {
       "$id": "7203e193-2388-4c72-945a-9f5f51930af7",
-      "length": 1,
+      "length": 2,
       "pluginMetadata": {
       },
       "symbol": "e7d6f235-d102-42a9-a700-8348395d7317",
@@ -33993,7 +33996,7 @@
     },
     {
       "$id": "4e1382fc-610f-47c1-91a7-60d374c76d99",
-      "length": 3,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "c4423bdb-3a88-463a-a8e5-851dc36d8788",
@@ -37057,7 +37060,7 @@
     },
     {
       "$id": "426736b7-a2e0-4dfa-95d7-69c84d25ba8f",
-      "code": "//plays generic whoosh sound\r\nAudioClip.play(GlobalSfx.WHOOSH_3);\r\n//plays a specific sound under the \"voice\" channel. Delete the \"//\"s from the line below to activate.\r\n//AudioClip.play(\"your_ID_here\", { channel: \"voice\" });",
+      "code": "//plays generic whoosh sound\r\nAudioClip.play(GlobalSfx.WHOOSH_3);\r\n//plays a specific sound under the \"voice\" channel. Delete the \"//\"s from the line below to activate.\r\n//AudioClip.play(self.getResource().getContent(\"your_ID_here\"), { channel: \"voice\" });",
       "length": 1,
       "pluginMetadata": {
       },
@@ -37223,7 +37226,7 @@
     },
     {
       "$id": "4ead1ba1-32af-4bf9-bce1-968049238d00",
-      "code": "//Plays a specific sound clip\r\nAudioClip.play(\"downspecial\");",
+      "code": "//Plays a specific sound clip\r\nAudioClip.play(self.getResource().getContent(\"downspecial\"));",
       "length": 1,
       "pluginMetadata": {
       },
@@ -41881,7 +41884,7 @@
     },
     {
       "$id": "ae43d826-74c6-486f-8987-40fa55e252b8",
-      "code": "//TEAM FRAY NOTE - for Fraymakers parity, parry is a 3 frame window, so this animation should be 3 frames long.",
+      "code": "//TEAM FRAY NOTE - for Fraymakers parity, parry is a 3 frame window, so this animation should be 3 frames long.\r\n\r\n//plays an effect that indicates how long the parry window is.\r\nmatch.createVfx(new VfxStats({spriteContent: \"global::vfx.vfx\", animation: \"vfx_parry_in\", layer:\"behind\", x:6, y:21}), self);",
       "length": 1,
       "pluginMetadata": {
       },
@@ -42025,7 +42028,7 @@
     },
     {
       "$id": "207351fd-cc3e-4f33-bca4-bdc1bb62bb59",
-      "code": "//updates the hitbox stats for hitbox0 (indicated by the 0 at the start of the parenthesis)\r\nself.updateHitboxStats(0, {damage: 10, angle: 75, baseKnockback:75, knockbackGrowth:45, hitstop: -1, selfHitstop: -1});\r\n//refreshes the hitboxes on the animation, allowing for multi-hit behavior\r\nself.reactivateHitboxes();",
+      "code": "//updates the hitbox stats for hitbox0 (indicated by the 0 at the start of the parenthesis)\r\nself.updateHitboxStats(0, {damage: 10, angle: 75, baseKnockback:75, knockbackGrowth:45, hitstop: -1, selfHitstop: -1, hitstopNudgeMultiplier:1, directionalInfluence: true});\r\n//refreshes the hitboxes on the animation, allowing for multi-hit behavior\r\nself.reactivateHitboxes();",
       "length": 1,
       "pluginMetadata": {
       },
@@ -42089,7 +42092,7 @@
     },
     {
       "$id": "4df0d8cf-dbb1-4ba1-a413-50655ed25ecc",
-      "code": "//removes previously set heavy armor\r\nself.updateAnimationStats({bodyStatus:BodyStatus.NONE});",
+      "code": "//removes previously set damage armor\r\nself.updateAnimationStats({bodyStatus:BodyStatus.NONE});",
       "length": 1,
       "pluginMetadata": {
       },
@@ -42607,7 +42610,7 @@
     },
     {
       "$id": "c83d362a-6817-4268-a618-f991b45f2a77",
-      "code": "//adds heavy armor to the character\r\nself.updateAnimationStats({bodyStatus:BodyStatus.HEAVY_ARMOR, bodyStatusStrength:15});\r\n//plays a randomized attack voice sound from the character's attackVoiceIds character stat.\r\nself.playAttackVoice();",
+      "code": "//adds damage armor to the character\r\nself.updateAnimationStats({bodyStatus:BodyStatus.DAMAGE_ARMOR, bodyStatusStrength:15});\r\n//plays a randomized attack voice sound from the character's attackVoiceIds character stat.\r\nself.playAttackVoice();",
       "length": 1,
       "pluginMetadata": {
       },
@@ -42623,7 +42626,7 @@
     },
     {
       "$id": "17beb86a-b6bc-42dc-946a-79ce72334543",
-      "code": "//adds heavy armor to the character\r\nself.updateAnimationStats({bodyStatus:BodyStatus.HEAVY_ARMOR, bodyStatusStrength:15});\r\n//plays a randomized attack voice sound from the character's attackVoiceIds character stat.\r\nself.playAttackVoice();",
+      "code": "//adds damage armor to the character\r\nself.updateAnimationStats({bodyStatus:BodyStatus.DAMAGE_ARMOR, bodyStatusStrength:15});\r\n//plays a randomized attack voice sound from the character's attackVoiceIds character stat.\r\nself.playAttackVoice();",
       "length": 1,
       "pluginMetadata": {
       },
@@ -42733,7 +42736,7 @@
     },
     {
       "$id": "239315ea-d73b-4a18-b84d-0122988440d0",
-      "code": "//refreshes the hitboxes on the animation, allowing for multi-hit behavior\r\nself.reactivateHitboxes();",
+      "code": "//refreshes the hitboxes on the animation, allowing for multi-hit behavior\r\nself.reactivateHitboxes();\r\n\r\nself.updateHitboxStats(0, {baseKnockback: 100});",
       "length": 1,
       "pluginMetadata": {
       },
@@ -42741,7 +42744,7 @@
     },
     {
       "$id": "aa67a20a-0175-4008-8b4e-e5a11e9991d8",
-      "code": "//refreshes the hitboxes on the animation, allowing for multi-hit behavior\r\nself.reactivateHitboxes();",
+      "code": "//refreshes the hitboxes on the animation, allowing for multi-hit behavior\r\nself.reactivateHitboxes();\r\n\r\nself.updateHitboxStats(0, {baseKnockback: 100});",
       "length": 1,
       "pluginMetadata": {
       },
@@ -42919,7 +42922,7 @@
     },
     {
       "$id": "525aae82-92e3-4b59-8648-1268661e71b4",
-      "code": "//Plays a specific voice clip with a 50% probability of playing\r\nif(Random.getValue() >= .50){ \r\n  AudioClip.play(\"heavyattack1\", { channel: \"voice\" });\r\n}",
+      "code": "//Plays a specific voice clip with a 50% probability of playing\r\nif(Random.getValue() >= .50){ \r\n  AudioClip.play(self.getResource().getContent(\"heavyattack1\"), { channel: \"voice\" });\r\n}",
       "length": 1,
       "pluginMetadata": {
       },
@@ -42970,6 +42973,218 @@
       "tweenType": "LINEAR",
       "tweened": false,
       "type": "IMAGE"
+    },
+    {
+      "$id": "0d16ebf9-402a-4a7f-844f-ecdce1321b51",
+      "length": 6,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "b7ac1a6f-f1d7-44dc-b58f-fa03e64599b7",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "e5ace31d-6ea3-4690-a43d-e25198c73a4e",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "2f3185e5-9aee-4d66-8a20-ba5664a12ba3",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "91f57d66-0101-4c0a-bf3e-1aba84c47a8b",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "511e649d-fbae-47d7-b23f-652d278cae55",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "58334dbe-36b4-4742-8191-b3b3348871fa",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "a11d9c66-0688-46af-9f30-b55c5930403c",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "9f69a6d4-3d0c-4bf7-873f-41f0ab1ce284",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "d71e28ed-6573-4d39-a901-0251baa4957b",
+      "length": 3,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "da53683b-df3a-4508-ad42-e3715b8d0da5",
+      "length": 6,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "9e1ff223-eb91-4bac-8439-d4aa9ed9f27f",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "82d68c1d-381a-42e6-9718-b90e6f75ef9d",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "1e8b0cd2-8456-4e4e-ab8d-a944e2a9cf79",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "821e5c9c-dc39-4e5b-925e-a551300b4894",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "8f395018-a799-47c4-9acf-0b0c1b200a4e",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "5ad765d0-7a16-421c-a5f8-52645efc7f26",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "c7f15884-ef3b-4eba-a4f8-13309402f729",
+      "length": 2,
+      "pluginMetadata": {
+      },
+      "symbol": "c623dbb4-8fd3-4786-8c28-557f60eef70b",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "d8691ff8-7bcf-4920-85ca-df07e104b75d",
+      "length": 3,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "POINT"
+    },
+    {
+      "$id": "4815b018-299c-4947-9d8a-23619ab33d85",
+      "code": "",
+      "length": 14,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "6e591021-5c19-4381-961b-4f40b886a039",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "symbol": null,
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "d9808cf6-b6cd-45b0-83e0-ebd14e584116",
+      "length": 10,
+      "pluginMetadata": {
+      },
+      "symbol": "b52b2345-cf2c-44ab-83ea-12e73d4f6ec1",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "4615af98-bf1f-4a07-9ae9-015fce66a774",
+      "length": 5,
+      "pluginMetadata": {
+      },
+      "symbol": "3b45f556-4ccd-43c6-9269-1b8dc379f525",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "ad6b0515-16c5-4028-a6f2-d1b0d4ee4a44",
+      "length": 10,
+      "pluginMetadata": {
+      },
+      "symbol": "6452278c-267a-400f-b50f-f6094749896c",
+      "tweenType": "LINEAR",
+      "tweened": false,
+      "type": "IMAGE"
+    },
+    {
+      "$id": "bf41538e-a395-4d47-ad9a-83fa81acb1ca",
+      "code": "//script which allows you to act out of the rest of the animation\r\nCommon.setIASA(true);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "8d0f8b5c-f660-4165-90e9-af855d553796",
+      "code": "Common.setIASA(true);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "b323933d-0d17-4c06-9b95-20ed84035bec",
+      "code": "",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
     }
   ],
   "layers": [
@@ -44056,7 +44271,8 @@
         "d73c45a4-10ae-4ab2-a1b8-6c8fc3e7a8e7",
         "02979dac-e0b8-4011-b324-fef7539fb275",
         "ac8a000b-e9aa-40b8-b6f2-23a6f15a2516",
-        "151cc039-e83b-4dde-a3b3-1de23df995ec"
+        "151cc039-e83b-4dde-a3b3-1de23df995ec",
+        "bf41538e-a395-4d47-ad9a-83fa81acb1ca"
       ],
       "language": "hscript",
       "locked": false,
@@ -44178,7 +44394,9 @@
         "365d4bb2-367f-45b6-b213-ddf6f36e3c6b",
         "1137dce1-0cc7-4e12-aedd-72463bcad45b",
         "242010b2-5ffb-4faa-83f6-a09ea21b12d7",
-        "bad9660d-5e9f-46ca-9a74-f93e95c53dcd"
+        "bad9660d-5e9f-46ca-9a74-f93e95c53dcd",
+        "8d0f8b5c-f660-4165-90e9-af855d553796",
+        "b323933d-0d17-4c06-9b95-20ed84035bec"
       ],
       "language": "hscript",
       "locked": false,
@@ -45285,6 +45503,7 @@
       "keyframes": [
         "13f9d709-3806-4974-b493-5781afb514ec",
         "9b5c4133-4fe1-4132-bce2-73a0067f85a0",
+        "4815b018-299c-4947-9d8a-23619ab33d85",
         "97a96dc7-a1ec-429e-a541-4d3c415179e6",
         "275240ae-d7df-42bb-bb22-495f977cb564"
       ],
@@ -45745,7 +45964,7 @@
         "cae9e74a-7c39-4b3e-aa7a-f8773c6a3c6d",
         "1140f5e0-f91b-4eab-96c7-99d379f92280"
       ],
-      "locked": false,
+      "locked": true,
       "name": "Image Layer",
       "pluginMetadata": {
       },
@@ -50668,7 +50887,7 @@
         "cfda3138-91b4-4a3d-9737-9fa99e59b9d9",
         "a2a761f3-9108-4aef-8bee-7cdeb418d897"
       ],
-      "locked": false,
+      "locked": true,
       "name": "Image Layer",
       "pluginMetadata": {
       },
@@ -50692,6 +50911,8 @@
       "hidden": false,
       "keyframes": [
         "b757bfa2-3bdd-4d80-bdf4-c71f46dcccee",
+        "ad6b0515-16c5-4028-a6f2-d1b0d4ee4a44",
+        "4615af98-bf1f-4a07-9ae9-015fce66a774",
         "75ad4e10-363d-454a-97fb-f3f004d8a01a",
         "cff992cd-dc4c-459f-924b-d65be9a08e21"
       ],
@@ -53012,7 +53233,7 @@
         "44c508db-383e-47d7-b57f-46b7030beb9f",
         "9bf121f5-4055-41e1-bdd6-4d20198588b8"
       ],
-      "locked": false,
+      "locked": true,
       "name": "hurtbox0",
       "pluginMetadata": {
         "com.fraymakers.FraymakersMetadata": {
@@ -53270,7 +53491,7 @@
         "515f1c77-0fb1-4be2-886f-127c3848ddd8",
         "65dd42de-10c8-490d-9d91-99af8a940a75"
       ],
-      "locked": false,
+      "locked": true,
       "name": "hurtbox0",
       "pluginMetadata": {
         "com.fraymakers.FraymakersMetadata": {
@@ -53680,7 +53901,7 @@
         "297f7296-d1bb-4c16-8dd0-7a1b1101f257",
         "6977654c-0f06-445c-a465-accb207491cf"
       ],
-      "locked": false,
+      "locked": true,
       "name": "ledgegrabbox0",
       "pluginMetadata": {
         "com.fraymakers.FraymakersMetadata": {
@@ -55382,6 +55603,55 @@
         }
       },
       "type": "COLLISION_BOX"
+    },
+    {
+      "$id": "51b52068-c6c2-49d8-bc37-ad7281f4a243",
+      "hidden": false,
+      "keyframes": [
+        "0d16ebf9-402a-4a7f-844f-ecdce1321b51",
+        "b7ac1a6f-f1d7-44dc-b58f-fa03e64599b7",
+        "2f3185e5-9aee-4d66-8a20-ba5664a12ba3",
+        "91f57d66-0101-4c0a-bf3e-1aba84c47a8b",
+        "58334dbe-36b4-4742-8191-b3b3348871fa",
+        "a11d9c66-0688-46af-9f30-b55c5930403c",
+        "d71e28ed-6573-4d39-a901-0251baa4957b"
+      ],
+      "locked": false,
+      "name": "autolinkpoint0",
+      "pluginMetadata": {
+      },
+      "type": "POINT"
+    },
+    {
+      "$id": "4df9da11-f0e2-412a-841a-7d0363b83f9c",
+      "hidden": false,
+      "keyframes": [
+        "da53683b-df3a-4508-ad42-e3715b8d0da5",
+        "9e1ff223-eb91-4bac-8439-d4aa9ed9f27f",
+        "1e8b0cd2-8456-4e4e-ab8d-a944e2a9cf79",
+        "821e5c9c-dc39-4e5b-925e-a551300b4894",
+        "5ad765d0-7a16-421c-a5f8-52645efc7f26",
+        "c7f15884-ef3b-4eba-a4f8-13309402f729",
+        "d8691ff8-7bcf-4920-85ca-df07e104b75d"
+      ],
+      "locked": false,
+      "name": "autolinkpoint0",
+      "pluginMetadata": {
+      },
+      "type": "POINT"
+    },
+    {
+      "$id": "67d21464-0914-4f8e-9359-02f3b45a4a8f",
+      "hidden": false,
+      "keyframes": [
+        "6e591021-5c19-4381-961b-4f40b886a039",
+        "d9808cf6-b6cd-45b0-83e0-ebd14e584116"
+      ],
+      "locked": true,
+      "name": "Image Layer",
+      "pluginMetadata": {
+      },
+      "type": "IMAGE"
     }
   ],
   "paletteMap": {
@@ -55391,7 +55661,7 @@
   "pluginMetadata": {
     "com.fraymakers.FraymakersMetadata": {
       "objectType": "CHARACTER",
-      "version": "0.1.1"
+      "version": "0.1.2"
     }
   },
   "plugins": [
@@ -106435,6 +106705,117 @@
       "type": "IMAGE",
       "x": -39,
       "y": -82
+    },
+    {
+      "$id": "e5ace31d-6ea3-4690-a43d-e25198c73a4e",
+      "alpha": 1,
+      "color": "0xff0000",
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "type": "POINT",
+      "x": 22,
+      "y": -245
+    },
+    {
+      "$id": "511e649d-fbae-47d7-b23f-652d278cae55",
+      "alpha": 1,
+      "color": "0xff0000",
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "type": "POINT",
+      "x": 19,
+      "y": -151
+    },
+    {
+      "$id": "9f69a6d4-3d0c-4bf7-873f-41f0ab1ce284",
+      "alpha": 1,
+      "color": "0xff0000",
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "type": "POINT",
+      "x": 18,
+      "y": -131
+    },
+    {
+      "$id": "82d68c1d-381a-42e6-9718-b90e6f75ef9d",
+      "alpha": 1,
+      "color": "0xff0000",
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "type": "POINT",
+      "x": 22,
+      "y": -245
+    },
+    {
+      "$id": "8f395018-a799-47c4-9acf-0b0c1b200a4e",
+      "alpha": 1,
+      "color": "0xff0000",
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "type": "POINT",
+      "x": 19,
+      "y": -151
+    },
+    {
+      "$id": "c623dbb4-8fd3-4786-8c28-557f60eef70b",
+      "alpha": 1,
+      "color": "0xff0000",
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "type": "POINT",
+      "x": 18,
+      "y": -131
+    },
+    {
+      "$id": "b52b2345-cf2c-44ab-83ea-12e73d4f6ec1",
+      "alpha": 1,
+      "imageAsset": "aab65c27-b3f2-402f-8a6a-925cbdee8d87",
+      "pivotX": 50,
+      "pivotY": 86,
+      "pluginMetadata": {
+      },
+      "rotation": 0,
+      "scaleX": 0.92,
+      "scaleY": 0.97,
+      "type": "IMAGE",
+      "x": -58,
+      "y": -84
+    },
+    {
+      "$id": "3b45f556-4ccd-43c6-9269-1b8dc379f525",
+      "alpha": 1,
+      "imageAsset": "49c3f104-491f-46a6-82b8-62d336bd0663",
+      "pivotX": 25.5,
+      "pivotY": 43,
+      "pluginMetadata": {
+      },
+      "rotation": 357,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -19,
+      "y": -86
+    },
+    {
+      "$id": "6452278c-267a-400f-b50f-f6094749896c",
+      "alpha": 1,
+      "imageAsset": "b781113f-9cfd-4ae2-8711-4f3488d8f922",
+      "pivotX": 25.5,
+      "pivotY": 43,
+      "pluginMetadata": {
+      },
+      "rotation": 357,
+      "scaleX": 1,
+      "scaleY": 1,
+      "type": "IMAGE",
+      "x": -19,
+      "y": -86
     }
   ],
   "tags": [

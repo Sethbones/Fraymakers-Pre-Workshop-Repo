@@ -5,7 +5,7 @@
 			animation: "stand"
 		},
 		PState.DESTROYING => {
-			animation: "test"
+			animation: "stand"
 		}
 	],
 	baseScaleX: 2,

@@ -15,10 +15,7 @@ var lastDisabledDSpecStatusEffect = self.makeObject(null);
 
 var downSpecialLoopCheckTimer = self.makeInt(-1);
 
-//gold vfx variables
-var canSpawnSparkles:Bool = true;
-var timeBetweenSparkles:Int = 8;
-var currentTimeBetweenSparkles = timeBetweenSparkles;
+
 
 //offset projectile start position
 var NSPEC_PROJ_X_OFFSET = 40;
@@ -31,14 +28,8 @@ var getSelfOwner = self;
 //Runs on object init
 function initialize(){
     Engine.log(self.getCostumeIndex());
-    if (self.getCostumeIndex() == 11){
-        //Engine.log("in gold alt");
-        self.addEventListener(EntityEvent.STATE_CHANGE, goldAltLogic, {persistent:true});
-    }
     match.createProjectile(self.getResource().getContent("cubeyBallIndicator"), self);
     self.addEventListener(GameObjectEvent.LINK_FRAMES, handleLinkFrames, {persistent:true});
-    //spawnSparkles();
-    
 }
 
 function update(){
@@ -46,23 +37,37 @@ function update(){
         enableNeutralSpecial(); //spamming this every frame is not the most efficient thing ever but hey it works
     }
     if (self.getCostumeIndex() == 11){
-        spawnSparkles();
+        goldAltLogic();
     }
 }
 
-function spawnSparkles(){
-    if (canSpawnSparkles == true){
-        match.createVfx(new VfxStats({spriteContent: "global::vfx.vfx", animation: "vfx_gold_sparkle", x: Random.getFloat(-30,30), y: Random.getFloat(-70,0) }), self);
-        canSpawnSparkles = false;
-    }
+
+//gold vfx variables
+var timeBetweenSparkles:Int = 8;
+var currentTimeBetweenSparkles = timeBetweenSparkles;
+var currentAnim = self.getAnimation();
+function goldAltLogic(){
 
     if(currentTimeBetweenSparkles > 0){
         currentTimeBetweenSparkles--;
     }
 
     if (currentTimeBetweenSparkles == 0){
-        canSpawnSparkles = true;
+        match.createVfx(new VfxStats({spriteContent: "global::vfx.vfx", animation: "vfx_gold_sparkle", x: Random.getFloat(self.getCharacterStat("floorHipWidth") * (-1) ,self.getCharacterStat("floorHipWidth")), y: Random.getFloat(self.getCharacterStat("floorHeadPosition") * (-1),0) }), self);
         currentTimeBetweenSparkles = timeBetweenSparkles;
+    }
+
+    //custom gold alt animations playback
+    //optional for people that want to make gold alt specific animations
+    if (self.getAnimation() != currentAnim){
+        //Engine.log("animation changed");
+        currentAnim = self.getAnimation();
+        if (self.inState(CState.STAND)){
+            self.playAnimation("gold_stand");
+        }
+        //if you're crazy and want to make gold alt specific animations for each animation the character has then go ahead
+        //but if you're a normal person you can leave this part commented out
+        //self.playAnimation(self.getAnimation() + "_gold");
     }
 }
 
@@ -82,15 +87,6 @@ function handleLinkFrames(e){
 function onTeardown() {
 	
 }
-
-function goldAltLogic(){
-    //Engine.log(self.getState());
-    if (self.inState(CState.STAND)){
-        self.playAnimation("gold_stand");
-    }
-}
-
-// --- end general functions
 
 //-----------NEUTRAL SPECIAL-----------
 

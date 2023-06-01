@@ -230,7 +230,7 @@
       "length": 2,
       "pluginMetadata": {
       },
-      "symbol": "9e69f85b-2b02-48d8-8a98-8671c26635cf",
+      "symbol": null,
       "tweenType": "LINEAR",
       "tweened": false,
       "type": "POINT"
@@ -1187,17 +1187,6 @@
       "type": "POINT",
       "x": 58,
       "y": 179
-    },
-    {
-      "$id": "9e69f85b-2b02-48d8-8a98-8671c26635cf",
-      "alpha": 1,
-      "color": "0xff0000",
-      "pluginMetadata": {
-      },
-      "rotation": 0,
-      "type": "POINT",
-      "x": 441,
-      "y": -917
     },
     {
       "$id": "441f422b-4a6f-426b-8ef4-fa371dd909b4",

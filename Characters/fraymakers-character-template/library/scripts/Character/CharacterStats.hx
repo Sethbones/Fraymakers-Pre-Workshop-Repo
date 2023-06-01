@@ -12,6 +12,8 @@
 	shortHopSpeed: 8.25,
 	jumpSpeed: 15,
 	//For multiple jumps define subsequent jump speeds within the brackets with commas in between (for example: [15.5, 13, 10]).
+	jumpSpeedBackwardInitialXSpeed: -3,
+	jumpSpeedForwardInitialXSpeed: 3,
 	doubleJumpSpeeds: [15.5],
 	terminalVelocity: 9.25,
 	fastFallSpeed: 13.75,
@@ -48,7 +50,7 @@
 	cameraBoxHeight: 250,
 
 	//ROLL AND LEDGE JUMP STATS
-	techRollSpeed: 15.5,
+	techRollSpeed: 18,
 	techRollSpeedStartFrame: 7,
 	techRollSpeedLength: 1,
 	dodgeRollSpeed: 13,

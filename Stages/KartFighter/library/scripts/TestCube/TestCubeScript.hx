@@ -42,12 +42,40 @@ var charID:Int = 0;
 //5 - donkey
 //6 - nokonoko
 //7 - koopa
+//var FState:Int = 0;
+//var charResource = self.getResource().getContent("KartLuigi");
+//self.updateGameObjectStats({spriteContent: self.getResource().getContent("KartProjectiles")});
+var FState = {//not to be confused with CState, this is basically CStates but for FrayFighter
+    INTRO: 0,
+    IDLE: 1,
+    WALK_IN: 2,
+    WALK_LOOP: 3,
+    WALK_OUT: 4,
+    CROUCH_IN: 5,
+    CROUCH_LOOP: 6,
+    CROUCH_OUT: 7,
+    JUMP_IN: 8,
+    JUMP_LOOP: 9,
+    JUMP_OUT: 10,
+    FALL_IN: 11,
+    FALL_LOOP: 12,
+    LAND: 13
+};
+
+
 
 function initialize(){
     self.addEventListener(GameObjectEvent.HIT_RECEIVED, ongettingthesmackdown, {persistent: true});
+    Engine.log(self.getResource().getContent("TestCube"));
+    Engine.log(self.getGameObjectStat("spriteContent"));
+    //self.addEventListener(FState, onStateChange, {persistent: true});
     self.setState(PState.ACTIVE);
+    Engine.log(self.getTotalFrames());
 }
 
+function onStateChange(){
+
+}
 function update(){
     //hacky as fuck workaround to get rid of the offscreen indicator
     //basically puts them in an unreachable spot, then hides them
@@ -283,6 +311,7 @@ function ongettingthesmackdown(event){
 function playAnim(animplayer:string){
     //this is so the animation doesn't repeat itself after being played
     //Engine.log(self.getAnimation());
+
     if (self.getAnimation() != animplayer){
         self.playAnimation(animplayer);
     }
@@ -308,6 +337,7 @@ function spawnprojectile(){
     var projectileshot = match.createProjectile(self.getResource().getContent("KartProjectiles"), self);
     projectileshot.setXSpeed(5);
     projectileshot.setY(50);
+    
     //self.getViewRootContainer().addChild("KartProjectiles");
     //match.createProjectile(self.getResource().getContent("KartProjectiles"), self);
     //match.createProjectile(self.getResource().getContent("KartProjectiles"));

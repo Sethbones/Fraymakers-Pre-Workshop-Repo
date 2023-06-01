@@ -18,8 +18,14 @@ var isGameStarted:Bool = false;
 var currentplayers = match.getPlayers();
 var p1 = match.createProjectile(self.getResource().getContent("TestCube"));
 var p2 = match.createProjectile(self.getResource().getContent("TestCube"));
+var menuState:Int = 0;
+//0 - Title
+//1 - Options
+//2 - Character Select
+//3 - InGame 
 
 function initialize(){
+	self.addEventListener(menuState, onMenuChange, {persistent:true}); //strangely you can easily check a variable here if you need to watch a variable only when it changes, nifty
 	//currentplayers = match.getPlayers();
 	//currentplayers[0].getDamageCounterContainer().alpha = 1;
 	camera.setMode(2);
@@ -35,6 +41,13 @@ function initialize(){
 	// 	match.createStructure(self.getResource().getContent("stagetemplateMovingPlatform"));
 	// 	self.playLabel("hazardson");
 	// }
+}
+
+function onMenuChange(){ //this is a check for menu related stuff
+	if (menuState == 0){
+		Engine.log("Test");
+	}
+
 }
 
 function update(){

@@ -2690,7 +2690,7 @@
     },
     {
       "$id": "9eab2bd7-05ac-4aa4-ac27-656a2435e05b",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "f8ae4434-a77c-4197-bca7-f7428c2b4782",
@@ -2759,7 +2759,7 @@
     {
       "$id": "4e922ea0-09bd-4cbd-a700-2104b3d2affe",
       "code": "",
-      "length": 4,
+      "length": 3,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -6739,7 +6739,7 @@
     {
       "$id": "a9d66098-1dd5-4331-ac9e-80bbaf7b0ba4",
       "code": "",
-      "length": 2,
+      "length": 3,
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
@@ -11242,7 +11242,7 @@
     },
     {
       "$id": "8fdf485c-8c4d-433f-85e9-007875d8554e",
-      "length": 4,
+      "length": 5,
       "pluginMetadata": {
       },
       "symbol": "37b99424-644b-4d06-840b-cd00f137b36c",
@@ -12727,6 +12727,14 @@
       "pluginMetadata": {
       },
       "type": "FRAME_SCRIPT"
+    },
+    {
+      "$id": "a706afd2-e43d-49d0-9dee-16dadcb0e6f5",
+      "code": "Common.setIASA(true);",
+      "length": 1,
+      "pluginMetadata": {
+      },
+      "type": "FRAME_SCRIPT"
     }
   ],
   "layers": [
@@ -13203,7 +13211,8 @@
         "b9db9505-1155-4100-a877-81b356193100",
         "6e011776-4f8f-4a9a-b238-7f02ffe536b8",
         "d8edca74-3c89-4e4a-9729-89bfec7662a4",
-        "4e922ea0-09bd-4cbd-a700-2104b3d2affe"
+        "4e922ea0-09bd-4cbd-a700-2104b3d2affe",
+        "a706afd2-e43d-49d0-9dee-16dadcb0e6f5"
       ],
       "language": "hscript",
       "locked": false,

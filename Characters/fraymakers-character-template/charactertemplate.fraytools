@@ -10,7 +10,7 @@
   "defaultCollisionBodyLayerHipXOffset": 0,
   "defaultCollisionBodyLayerHipYOffset": 0,
   "frame_rate": 60,
-  "paletteShaderMode": "LIMIT_64",
+  "paletteShaderMode": "RG_MAP",
   "pluginMetadata": {
     "com.fraymakers.FraymakersMetadata": {
       "activeCollisionBoxLayerPreset": "a8cd388e-57ed-4127-ae92-0d4b3354ab7a",
@@ -61,6 +61,6 @@
   "snapToPixel": true,
   "templateDescription": "Sample character project for Fraymakers.",
   "templateName": "Fraymakers Character Template",
-  "templateVersion": "0.1.0",
+  "templateVersion": "0.1.4",
   "version": 12
 }

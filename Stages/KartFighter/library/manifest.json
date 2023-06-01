@@ -40,10 +40,10 @@
   },{
     "id": "TestCube",
     "type": "projectile",
+    "scriptId": "TestCubeScript",
     "objectStatsId": "TestCubeStats",
     "animationStatsId": "TestCubeAnimationStats",
-    "hitboxStatsId": "TestCubeHitboxStats",
-    "scriptId": "TestCubeScript"
+    "hitboxStatsId": "TestCubeHitboxStats"
   },{
     "id": "KartProjectiles",
     "type": "projectile",
