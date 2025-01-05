@@ -1,3 +1,5 @@
+# its been 3 years since fraymakers came out, and it still feels not ready for early access, i'm still waiting for it to be good
+
 # Fraymakers-Workshop-Source-Repo
 
 ![logo](/simple%20logo.png)
